@@ -1,0 +1,260 @@
+LOCUS       NM_017433               5597 bp    mRNA    linear   PRI 11-FEB-2007
+DEFINITION  Homo sapiens myosin IIIA (MYO3A), mRNA.
+ACCESSION   NM_017433
+VERSION     NM_017433.3
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 5597)
+  AUTHORS   Dose,A.C., Ananthanarayanan,S., Moore,J.E., Burnside,B. and
+            Yengo,C.M.
+  TITLE     Kinetic mechanism of human myosin IIIA
+  JOURNAL   J. Biol. Chem. 282 (1), 216-231 (2007)
+   PUBMED   17074769
+  REMARK    GeneRIF: the actomyosin-ADP state may be important for the ability
+            of myosin III to function as a cellular transporter and actin
+            cross-linker in the actin bundles of sensory cells
+REFERENCE   2  (bases 1 to 5597)
+  AUTHORS   Kambara,T., Komaba,S. and Ikebe,M.
+  TITLE     Human myosin III is a motor having an extremely high affinity for
+            actin
+  JOURNAL   J. Biol. Chem. 281 (49), 37291-37301 (2006)
+   PUBMED   17012748
+  REMARK    GeneRIF: myosin IIIA can spend a majority of its ATP hydrolysis
+            cycling time on actin
+REFERENCE   3  (bases 1 to 5597)
+  AUTHORS   Schneider,M.E., Dose,A.C., Salles,F.T., Chang,W., Erickson,F.L.,
+            Burnside,B. and Kachar,B.
+  TITLE     A new compartment at stereocilia tips defined by spatial and
+            temporal patterns of myosin IIIa expression
+  JOURNAL   J. Neurosci. 26 (40), 10243-10252 (2006)
+   PUBMED   17021180
+REFERENCE   4  (bases 1 to 5597)
+  AUTHORS   Barrios-Rodiles,M., Brown,K.R., Ozdamar,B., Bose,R., Liu,Z.,
+            Donovan,R.S., Shinjo,F., Liu,Y., Dembowy,J., Taylor,I.W., Luga,V.,
+            Przulj,N., Robinson,M., Suzuki,H., Hayashizaki,Y., Jurisica,I. and
+            Wrana,J.L.
+  TITLE     High-throughput mapping of a dynamic signaling network in mammalian
+            cells
+  JOURNAL   Science 307 (5715), 1621-1625 (2005)
+   PUBMED   15761153
+REFERENCE   5  (bases 1 to 5597)
+  AUTHORS   Beausoleil,S.A., Jedrychowski,M., Schwartz,D., Elias,J.E.,
+            Villen,J., Li,J., Cohn,M.A., Cantley,L.C. and Gygi,S.P.
+  TITLE     Large-scale characterization of HeLa cell nuclear phosphoproteins
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 101 (33), 12130-12135 (2004)
+   PUBMED   15302935
+REFERENCE   6  (bases 1 to 5597)
+  AUTHORS   Komaba,S., Inoue,A., Maruta,S., Hosoya,H. and Ikebe,M.
+  TITLE     Determination of human myosin III as a motor protein having a
+            protein kinase activity
+  JOURNAL   J. Biol. Chem. 278 (24), 21352-21360 (2003)
+   PUBMED   12672820
+  REMARK    GeneRIF: class III myosin is an actin-based motor protein having a
+            protein kinase activity
+REFERENCE   7  (bases 1 to 5597)
+  AUTHORS   Walsh,T., Walsh,V., Vreugde,S., Hertzano,R., Shahin,H., Haika,S.,
+            Lee,M.K., Kanaan,M., King,M.C. and Avraham,K.B.
+  TITLE     From flies' eyes to our ears: mutations in a human class III myosin
+            cause progressive nonsyndromic hearing loss DFNB30
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 99 (11), 7518-7523 (2002)
+   PUBMED   12032315
+  REMARK    GeneRIF: mutation in humans causes progressive nonsyndromic hearing
+            loss DFNB30
+REFERENCE   8  (bases 1 to 5597)
+  AUTHORS   Dose,A.C. and Burnside,B.
+  TITLE     Cloning and chromosomal localization of a human class III myosin
+  JOURNAL   Genomics 67 (3), 333-342 (2000)
+   PUBMED   10936054
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AY101367.1.
+            
+            [WARNING] On Apr 13, 2007 this sequence was replaced by
+            NM_017433.4.
+            
+            On Apr 4, 2003 this sequence version replaced NM_017433.2.
+            
+            Summary: The protein encoded by this gene belongs to the myosin
+            superfamily. Myosins are actin-dependent motor proteins and are
+            categorized into conventional myosins (class II) and unconventional
+            myosins (classes I and III through XV) based on their variable
+            C-terminal cargo-binding domains. Class III myosins, such as this
+            one, have a kinase domain N-terminal to the conserved N-terminal
+            motor domains and are expressed in photoreceptors. The protein
+            encoded by this gene plays an important role in hearing in humans.
+            3 different recessive, loss of function mutations in the encoded
+            protein have been shown to cause nonsyndromic progressive hearing
+            loss. Expression of this gene is highly restricted, with the
+            strongest expression in retina and cochlea.
+FEATURES             Location/Qualifiers
+     source          1..5597
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="10"
+                     /map="10p11.1"
+     gene            1..5597
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /note="myosin IIIA"
+                     /db_xref="GeneID:53904"
+                     /db_xref="HGNC:HGNC:7601"
+                     /db_xref="HPRD:06008"
+                     /db_xref="MIM:606808"
+     CDS             167..5017
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /GO_component="GO:0005856 - cytoskeleton [Evidence IEA];
+                     GO:0016459 - myosin [Evidence IEA]"
+                     /GO_function="GO:0003779 - actin binding [Evidence IEA];
+                     GO:0005524 - ATP binding [Evidence IEA]; GO:0003774 -
+                     motor activity [Evidence IEA]; GO:0000166 - nucleotide
+                     binding [Evidence IEA]; GO:0004674 - protein
+                     serine/threonine kinase activity [Evidence IEA];
+                     GO:0016740 - transferase activity [Evidence IEA]"
+                     /GO_process="GO:0006468 - protein amino acid
+                     phosphorylation [Evidence IEA]; GO:0050896 - response to
+                     stimulus [Evidence IEA]; GO:0007605 - sensory perception
+                     of sound [Evidence IEA]; GO:0007601 - visual perception
+                     [Evidence IEA]"
+                     /note="deafness, autosomal recessive 30"
+                     /codon_start=1
+                     /product="myosin IIIA"
+                     /protein_id="NP_059129.2"
+                     /db_xref="CCDS:CCDS7148.1"
+                     /db_xref="GeneID:53904"
+                     /db_xref="HGNC:HGNC:7601"
+                     /db_xref="HPRD:06008"
+                     /db_xref="MIM:606808"
+                     /translation="MFPLIGKTIIFDNFPDPSDTWEITETIGKGTYGKVFKVLNKKNG
+                     QKAAVKILDPIHDIDEEIEAEYNILKALSDHPNVVRFYGIYFKKDKVNGDKLWLVLEL
+                     CSGGSVTDLVKGFLKRGERMSEPLIAYILHEALMGLQHLHNNKTIHRDVKGNNILLTT
+                     EGGVKLVDFGVSAQLTSTRHRRNTSVGTPFWMAPEVIACEQQLDTTYDARCDTWSLGI
+                     TAIELGDGDPPLADLHPMRALFKIPRNPPPKLRQPELWSAEFNDFISKCLTKDYEKRP
+                     TVSELLQHKFITQIEGKDVMLQKQLTEFIGIHQCMGGTEKARRERIHTKKGNFNRPLI
+                     SNLKDVDDLATLEILDENTVSEQLEKCYSRDQIYVYVGDILIALNPFQSLGLYSTKHS
+                     KLYIGSKRTASPPHIFAMADLGYQSIITYNSDQCIVISGESGAGKTENAHLLVQQLTV
+                     LGKANNRTLQEKILQVNNLVEAFGNACTIINDNSSRFGKYLEMKFTSSGAVVGAQISE
+                     YLLEKSRVIHQAIGEKNFHIFYYIYAGLAEKKKLAHYKLPENKPPRYLQNDHLRTVQD
+                     IMNNSFYKSQYELIEQCFKVIGFTMEQLGSIYSILAAILNVGNIEFSSVATEHQIDKS
+                     HISNHTALENCVSLLCIRADELQEALTSHCVVTRGETIIRPNTVEKATDVRDAMAKTL
+                     YGRLFSWIVNCINSLLKHDSSPSGNGDELSIGILDIFGFENFKKNSFEQLCINIANEQ
+                     IQYYYNQHVFAWEQNEYLNEDVDARVIEYEDNWPLLDMFLQKPMGLLSLLDEESRFPK
+                     ATDQTLVEKFEGNLKSQYFWRPKRMELSFGIHHYAGKVLYNASGFLAKNRDTLPTDIV
+                     LLLRSSDNSVIRQLVNHPLTKTGNLPHSKTKNVINYQMRTSEKLINLAKGDTGEATRH
+                     ARETTNMKTQTVASYFRYSLMDLLSKMVVGQPHFVRCIKPNSERQARKYDKEKVLLQL
+                     RYTGILETARIRRLGFSHRILFANFIKRYYLLCYKSSEEPRMSPDTCATILEKAGLDN
+                     WALGKTKVFLKYYHVEQLNLMRKEAIDKLILIQACVRAFLCSRRYQKIQEKRKESAII
+                     IQSAARGHLVGKQRKEIVDMKNTAVTTIQTSDQEFDYKKNFENTRESFVKKQAENAIS
+                     ANERFISAPNNKGSVSVVKTSTFKPEEETTNAVESNNRVYQTPKKMNNVYEEEVKQEF
+                     YLVGPEVSPKQKFVKDLEENSNLRKVEKEEAMIQSYYQRYTEERNCEESKAAYLERKA
+                     ISERPSYPVPWLAENETSFKKTLEPTLSQRSIYQNANSMEKEKKTSVVTQSAPICSQE
+                     EGRGRLRHETVKERQVEPVTQAQEEEDKAAVFIQSKYRGYKRRQQLRKDKMSSFKHQK
+                     IVTTPTEVARNTHNLYSYPTKHEEINNIKKKDNKDSKATSEREACGLAIFSKQISKLS
+                     EEYFILQKKLNEMILSQQLKSLYLGVSHHKPINRRVSSQQCLSGVCKGEEPKILRPPR
+                     RPRKPKTLNNPEDSTYYYLLHKSIQEEKRRPRKDSQGKLLDLEDFYYKEFLPSRSGPK
+                     EHSPSLRERRPQQELQNQCIKANERCWAAESPEKEEEREPAANPYDFRRLLRKTSQRR
+                     RLVQQS"
+     polyA_site      5584
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+ORIGIN      
+        1 agggagcgcc cgtagccagc gcccccgtaa agaaataagg aggcgcccgg cttcccgccc
+       61 aggcccaggg ccccagtgca gcctggacac agtattcaaa gttttggcgt ctgagcattg
+      121 ttatgcgtta ttttcaagct ttgctaacgg tttttaaacc tttgagatgt ttccattaat
+      181 tggaaaaaca atcatctttg ataactttcc tgatccttct gatacatggg aaatcactga
+      241 gacaattggc aaaggaactt atgggaaagt ttttaaagta ttgaataaga aaaatggcca
+      301 aaaagcagca gtcaaaattc ttgatccaat tcacgatatt gacgaagaga ttgaagcaga
+      361 atataacatc ttaaaagcac tttctgacca ccctaatgtg gtcagattct atgggatata
+      421 ctttaagaag gataaagtaa atggagacaa gctgtggttg gttcttgagc tctgcagtgg
+      481 aggatcagtg actgaccttg tgaaaggatt tctgaagagg ggtgaaagaa tgagtgagcc
+      541 tctaattgcc tatattttac atgaagcact aatgggactt caacatttgc ataacaacaa
+      601 aactatccac agagatgtga aaggcaataa cattctattg accacggaag gtggagtgaa
+      661 actagtagat tttggtgtgt ctgcacagct caccagtacc cggcaccgtc ggaacacatc
+      721 cgtaggaaca ccgttttgga tggctcctga ggtgattgca tgtgaacagc aattggatac
+      781 cacttatgac gccagatgtg acacttggtc cctgggtatc acggccattg agctgggtga
+      841 tggagatcct ccactagctg accttcatcc catgagagca ctcttcaaaa taccaaggaa
+      901 tccaccccca aaactaaggc agcctgagct atggtcagca gaattcaatg acttcataag
+      961 caagtgcttg actaaagatt atgaaaagcg tccaacagtg tcagaacttt tacagcataa
+     1021 attcattact caaattgagg gcaaagatgt gatgctacaa aaacaactaa cggaattcat
+     1081 tggcatccat caatgcatgg gaggcacaga aaaggccaga cgtgaacgta ttcacacgaa
+     1141 gaaagggaac ttcaaccgac ctctaatatc caatctgaag gatgtagatg atttagcaac
+     1201 cctagaaatt ttggatgaga atacagtctc agagcaactt gagaagtgtt attccagaga
+     1261 tcagatctac gtctatgtgg gagacatact cattgctctt aacccttttc agagtctggg
+     1321 tctttactcc acaaagcatt ccaaactata tattggatca aagagaactg ccagtcctcc
+     1381 tcacattttt gcaatggctg acttaggata tcaatctata ataacatata attcagatca
+     1441 gtgcattgtt atttctggag aaagtggtgc tggaaagact gaaaatgctc atcttttagt
+     1501 tcagcagctg acagtgcttg gaaaggctaa taacagaacc ttgcaagaga agattttaca
+     1561 agtgaacaat ttggtagaag cctttggcaa tgcctgcact attataaatg acaattctag
+     1621 cagatttgga aaatacttag aaatgaaatt cacctcttct ggagcggtag tgggagcaca
+     1681 gatttctgaa tatctcctgg aaaaatcccg agttatccac caagctattg gagaaaaaaa
+     1741 ttttcatatt ttttactaca tttatgctgg tttggctgaa aagaagaaac tagcccatta
+     1801 caaactgcct gaaaataagc ctcccaggta cctacaaaat gaccacctca gaacagtaca
+     1861 agacatcatg aataatagtt tctataaatc ccagtatgaa ttaattgagc aatgtttcaa
+     1921 agtcataggt tttacaatgg agcaacttgg tagtatatac agcatactcg ctgcaatctt
+     1981 gaatgttggc aacattgaat tttcttctgt ggcaactgaa caccagattg acaagagcca
+     2041 catttctaat catacagccc tggagaactg tgtttctttg ctttgcattc gggcagatga
+     2101 gctacaagaa gctctcacct cccactgtgt ggtcactaga ggagaaacaa ttatacgacc
+     2161 caatactgta gaaaaagcta ccgatgtcag ggatgccatg gctaaaactt tatatggacg
+     2221 tctctttagt tggatagtca attgcattaa cagtttgttg aagcatgact catcaccaag
+     2281 tgggaatggt gatgagctga gcattggcat tcttgatata tttggttttg aaaatttcaa
+     2341 aaaaaattcc ttcgagcagc tgtgcattaa cattgcaaat gaacaaattc agtattatta
+     2401 taatcaacat gtgtttgcat gggaacagaa tgaataccta aatgaagatg tggatgctag
+     2461 agttattgaa tatgaggata actggcccct cttagatatg tttctgcaaa agccaatggg
+     2521 tttactttcc ctacttgatg aagaaagtag atttcccaag gccactgacc agactcttgt
+     2581 agaaaaattt gaaggtaacc tgaaatcaca atacttctgg agacccaaaa gaatggaact
+     2641 tagttttgga attcaccatt atgcaggaaa ggtcctctat aatgcaagtg gattcttagc
+     2701 caaaaacaga gacactcttc ctactgacat tgtgctactt ttgaggtcat ccgacaacag
+     2761 tgtaattagg caactagtca accaccctct gaccaaaaca ggtaatctgc cacattctaa
+     2821 aactaaaaat gttataaact atcaaatgag gacttcagaa aaattaatca acctggcaaa
+     2881 gggcgacact ggagaagcca cacgtcatgc cagagagaca accaacatga aaacacaaac
+     2941 ggttgcatca tattttagat attccctgat ggatttgttg tctaaaatgg tggtgggcca
+     3001 acctcatttt gtccgttgca tcaaaccaaa tagtgagcgt caggcaagaa aatatgacaa
+     3061 agagaaagtt ctgctacagc ttcggtacac aggaattctg gaaacagcaa gaattcgaag
+     3121 actaggattc tcccatcgga tactttttgc taactttata aagcggtact accttctctg
+     3181 ctacaagtcg agcgaggagc cccgcatgag ccctgacacc tgtgccacca ttttggaaaa
+     3241 agctggtctc gataactggg ctcttggaaa aacaaaagtg ttccttaagt attatcacgt
+     3301 ggagcagtta aatctaatgc gaaaggaagc tattgacaag cttattttga ttcaagcttg
+     3361 tgtcagagca ttcttgtgtt caagaagata ccaaaaaata caggagaaaa ggaaagaaag
+     3421 cgctataata atacagtcag ctgcaagagg acaccttgtc gggaaacaaa gaaaagaaat
+     3481 tgttgacatg aaaaacacag cagtaacaac cattcaaact tctgatcagg aattcgacta
+     3541 caagaaaaac tttgaaaata caagggaatc tttcgtgaag aaacaagcag aaaatgcaat
+     3601 ctctgctaat gaaagattca tttcagctcc aaataataaa ggaagtgtat ctgtagtgaa
+     3661 gacttccact ttcaaacctg aagaggaaac caccaatgct gtggagagta acaacagagt
+     3721 gtatcagact ccaaaaaaaa tgaataatgt gtatgaggaa gaggttaagc aagaatttta
+     3781 ccttgtaggg ccagaagtaa gccccaaaca gaagtttgtc aaagacctgg aagagaacag
+     3841 caatctaagg aaagtggaga aagaggaagc tatgatccag agttactatc agaggtacac
+     3901 agaggagagg aattgtgaag agtcaaaagc agcatatcta gaaaggaagg ccatatcaga
+     3961 aaggccaagc tacccagtgc cttggttagc tgaaaatgag acttccttta aaaaaacttt
+     4021 ggaacctaca cttagccaaa ggtcaattta tcaaaatgca aacagcatgg aaaaagaaaa
+     4081 gaagacatct gtagttaccc agagtgcacc gatatgcagc caggaggaag gcagaggccg
+     4141 tctgaggcat gagacagtca aagagaggca agttgaacca gtgacacagg cccaggagga
+     4201 agaagataaa gcagcggtat tcattcagag caaataccgg ggttacaaga gaaggcagca
+     4261 gttgaggaag gacaagatgt cttcttttaa gcatcagaag attgtcacaa caccaacaga
+     4321 agtagcaaga aacactcata atttgtattc ctatcccaca aaacatgagg aaatcaataa
+     4381 catcaagaag aaggataaca aagactcgaa agcaacttca gaaagagaag catgtggttt
+     4441 ggcaattttt tcaaaacaga tatcaaagtt atctgaagaa tatttcattc tgcagaaaaa
+     4501 attgaatgaa atgattttgt cacagcaact gaagtcactt tatctgggtg tctcgcacca
+     4561 taagccaatt aatagacgag tttcttctca gcagtgcctc tcaggtgtct gtaaaggaga
+     4621 ggagccaaaa atattgagac ccccaagacg accccggaaa cccaaaacat taaataaccc
+     4681 tgaagactcc acatactatt atctacttca taagtcaatc caagaagaaa aacgaagacc
+     4741 aaggaaagac agtcagggaa aattattaga tttggaagat ttctattata aggaattttt
+     4801 gcccagtcgt tctggaccaa aggaacatag ccctagttta agagaacgaa gaccacagca
+     4861 agaactccag aatcaatgta ttaaggctaa tgaaaggtgc tgggcggcgg agagccccga
+     4921 gaaggaggag gagagagagc cagcagccaa cccctacgac ttcaggaggc tcctgcgcaa
+     4981 aacctcccag cgccggcgcc tcgtccagca gtcctaaccg ttcaacgagg cagtcaccgc
+     5041 cgtcggaagg cgctggagcc tgcggggcag caggggccaa gcaggcactc tggggctggc
+     5101 accagcaggc actgaagctg cggccctgat ctccgcagag gctgcctgct gcgctcggcc
+     5161 ctcaagtgcc cgggccggcc ttcgtgctcc gaaacaagag acctgggagc cctcgggaaa
+     5221 cctcccccga cgctctctct cggaactccc gcaccctcct ttctcaccag cccgccagtt
+     5281 gtggcaaccc tgtccttgtt cccctaatct atcactttgt tctttttttt tgtgactcct
+     5341 gtggactcca ctgcgcctgg gatctcgcca acccctctct catttggggt gactgaattc
+     5401 acagattttt ttttttattg gaaacggctt ttcttggcca acagaacact tgctagcggt
+     5461 tgaatcttag agaaaaaagc ccgggagggg tggggagaat ttcgaagatg tatttcatct
+     5521 caagcttgct ctttctcttc ctttggttat taaggtcact aaataaagga agtgccttgg
+     5581 aaaaaaaaaa aaaaaaa
+//
+

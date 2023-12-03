@@ -1,0 +1,6 @@
+Kinase                     	265..1065 	801 	==	misc_feature
+Motor                      	1216..3363	2148	==	misc_feature
+IQ1                        	3367..3456	90  	==	misc_feature
+IQ2                        	3448..3537	90  	==	misc_feature
+THD1                       	4672..4914	243 	==	misc_feature
+THD2                       	4987..5052	66  	==	misc_feature

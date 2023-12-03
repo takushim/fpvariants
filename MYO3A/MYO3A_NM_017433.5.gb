@@ -1,0 +1,471 @@
+LOCUS       NM_017433               5624 bp    mRNA    linear   PRI 13-NOV-2023
+DEFINITION  Homo sapiens myosin IIIA (MYO3A), transcript variant 1, mRNA.
+ACCESSION   NM_017433
+VERSION     NM_017433.5
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 5624)
+  AUTHORS   Gunther LK, Cirilo JA Jr, Desetty R and Yengo CM.
+  TITLE     Deafness mutation in the MYO3A motor domain impairs actin
+            protrusion elongation mechanism
+  JOURNAL   Mol Biol Cell 33 (1), ar5 (2022)
+   PUBMED   34788109
+  REMARK    GeneRIF: Deafness mutation in the MYO3A motor domain impairs actin
+            protrusion elongation mechanism.
+REFERENCE   2  (bases 1 to 5624)
+  AUTHORS   Bueno AS, Nunes K, Dias AMM, Alves LU, Mendes BCA, Sampaio-Silva J,
+            Smits J, Yntema HG, Meyer D, Lezirovitz K and Mingroni-Netto RC.
+  TITLE     Frequency and origin of the c.2090T>G p.(Leu697Trp) MYO3A variant
+            associated with autosomal dominant hearing loss
+  JOURNAL   Eur J Hum Genet 30 (1), 13-21 (2022)
+   PUBMED   33953343
+  REMARK    GeneRIF: Frequency and origin of the c.2090T>G p.(Leu697Trp) MYO3A
+            variant associated with autosomal dominant hearing loss.
+REFERENCE   3  (bases 1 to 5624)
+  AUTHORS   Souissi A, Abdelmalek Driss D, Chakchouk I, Ben Said M, Ben Ayed I,
+            Mosrati MA, Elloumi I, Tlili A, Aifa S and Masmoudi S.
+  TITLE     Molecular insights into MYO3A kinase domain variants explain
+            variability in both severity and progression of DFNB30 hearing
+            impairment
+  JOURNAL   J Biomol Struct Dyn 40 (21), 10940-10951 (2022)
+   PUBMED   34423747
+  REMARK    GeneRIF: Molecular insights into MYO3A kinase domain variants
+            explain variability in both severity and progression of DFNB30
+            hearing impairment.
+REFERENCE   4  (bases 1 to 5624)
+  AUTHORS   Wonkam A, Manyisa N, Bope CD, Dandara C and Chimusa ER.
+  TITLE     Whole exome sequencing reveals pathogenic variants in MYO3A, MYO15A
+            and COL9A3 and differential frequencies in ancestral alleles in
+            hearing impairment genes among individuals from Cameroon
+  JOURNAL   Hum Mol Genet 29 (23), 3729-3743 (2021)
+   PUBMED   33078831
+  REMARK    GeneRIF: Whole exome sequencing reveals pathogenic variants in
+            MYO3A, MYO15A and COL9A3 and differential frequencies in ancestral
+            alleles in hearing impairment genes among individuals from
+            Cameroon.
+REFERENCE   5  (bases 1 to 5624)
+  AUTHORS   Doll J, Hofrichter MAH, Bahena P, Heihoff A, Segebarth D, Muller T,
+            Dittrich M, Haaf T and Vona B.
+  TITLE     A novel missense variant in MYO3A is associated with autosomal
+            dominant high-frequency hearing loss in a German family
+  JOURNAL   Mol Genet Genomic Med 8 (8), e1343 (2020)
+   PUBMED   32519820
+  REMARK    GeneRIF: A novel missense variant in MYO3A is associated with
+            autosomal dominant high-frequency hearing loss in a German family.
+REFERENCE   6  (bases 1 to 5624)
+  AUTHORS   Komaba S, Inoue A, Maruta S, Hosoya H and Ikebe M.
+  TITLE     Determination of human myosin III as a motor protein having a
+            protein kinase activity
+  JOURNAL   J Biol Chem 278 (24), 21352-21360 (2003)
+   PUBMED   12672820
+  REMARK    GeneRIF: class III myosin is an actin-based motor protein having a
+            protein kinase activity
+REFERENCE   7  (bases 1 to 5624)
+  AUTHORS   Walsh T, Walsh V, Vreugde S, Hertzano R, Shahin H, Haika S, Lee MK,
+            Kanaan M, King MC and Avraham KB.
+  TITLE     From flies' eyes to our ears: mutations in a human class III myosin
+            cause progressive nonsyndromic hearing loss DFNB30
+  JOURNAL   Proc Natl Acad Sci U S A 99 (11), 7518-7523 (2002)
+   PUBMED   12032315
+  REMARK    GeneRIF: mutation in humans causes progressive nonsyndromic hearing
+            loss DFNB30
+REFERENCE   8  (bases 1 to 5624)
+  AUTHORS   Dose AC and Burnside B.
+  TITLE     Cloning and chromosomal localization of a human class III myosin
+  JOURNAL   Genomics 67 (3), 333-342 (2000)
+   PUBMED   10936054
+REFERENCE   9  (bases 1 to 5624)
+  AUTHORS   Shearer,A.E., Hildebrand,M.S., Schaefer,A.M. and Smith,R.J.H.
+  TITLE     Genetic Hearing Loss Overview
+  JOURNAL   (in) Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE, Bean LJH,
+            Gripp KW and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301607
+REFERENCE   10 (bases 1 to 5624)
+  AUTHORS   Wallace,H. and Maden,M.
+  TITLE     Irradiation inhibits the regeneration of aneurogenic limbs
+  JOURNAL   J Exp Zool 195 (3), 353-358 (1976)
+   PUBMED   1262820
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from CD628208.1, AY101367.1,
+            CD628204.1, AL391812.7, AL360217.14, AL162503.12 and CK903348.1.
+            This sequence is a reference standard in the RefSeqGene project.
+            
+            On Nov 23, 2018 this sequence version replaced NM_017433.4.
+            
+            Summary: The protein encoded by this gene belongs to the myosin
+            superfamily. Myosins are actin-dependent motor proteins and are
+            categorized into conventional myosins (class II) and unconventional
+            myosins (classes I and III through XV) based on their variable
+            C-terminal cargo-binding domains. Class III myosins, such as this
+            one, have a kinase domain N-terminal to the conserved N-terminal
+            motor domains and are expressed in photoreceptors. The protein
+            encoded by this gene plays an important role in hearing in humans.
+            Three different recessive, loss of function mutations in the
+            encoded protein have been shown to cause nonsyndromic progressive
+            hearing loss. Expression of this gene is highly restricted, with
+            the strongest expression in retina and cochlea. [provided by
+            RefSeq, Jul 2008].
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AY101367.1, AF229172.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA1968968, SAMEA2148874
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000642920.2/ ENSP00000495965.1
+            RefSeq Select criteria :: based on conservation, expression,
+                                      longest protein
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-41                CD628208.1         166-206
+            42-1457             AY101367.1         16-1431
+            1458-1757           CD628204.1         285-584
+            1758-2109           AY101367.1         1732-2083
+            2110-2318           AL391812.7         60750-60958
+            2319-2466           AL360217.14        4529-4676
+            2467-3498           AY101367.1         2441-3472
+            3499-3602           AL360217.14        46574-46677
+            3603-4497           AL162503.12        3629-4523
+            4498-5619           AY101367.1         4472-5593
+            5620-5624           CK903348.1         19-23               c
+FEATURES             Location/Qualifiers
+     source          1..5624
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="10"
+                     /map="10p12.1"
+     gene            1..5624
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /note="myosin IIIA"
+                     /db_xref="GeneID:53904"
+                     /db_xref="HGNC:HGNC:7601"
+                     /db_xref="MIM:606808"
+     exon            1..100
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            101..187
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            188..372
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    193..195
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /note="upstream in-frame stop codon"
+     CDS             205..5055
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /EC_number="2.7.11.1"
+                     /note="isoform 1 is encoded by transcript variant 1;
+                     myosin-IIIa; epididymis secretory sperm binding protein"
+                     /codon_start=1
+                     /product="myosin-IIIa isoform 1"
+                     /protein_id="NP_059129.3"
+                     /db_xref="CCDS:CCDS7148.1"
+                     /db_xref="GeneID:53904"
+                     /db_xref="HGNC:HGNC:7601"
+                     /db_xref="MIM:606808"
+                     /translation="MFPLIGKTIIFDNFPDPSDTWEITETIGKGTYGKVFKVLNKKNG
+                     QKAAVKILDPIHDIDEEIEAEYNILKALSDHPNVVRFYGIYFKKDKVNGDKLWLVLEL
+                     CSGGSVTDLVKGFLKRGERMSEPLIAYILHEALMGLQHLHNNKTIHRDVKGNNILLTT
+                     EGGVKLVDFGVSAQLTSTRHRRNTSVGTPFWMAPEVIACEQQLDTTYDARCDTWSLGI
+                     TAIELGDGDPPLADLHPMRALFKIPRNPPPKLRQPELWSAEFNDFISKCLTKDYEKRP
+                     TVSELLQHKFITQIEGKDVMLQKQLTEFIGIHQCMGGTEKARRERIHTKKGNFNRPLI
+                     SNLKDVDDLATLEILDENTVSEQLEKCYSRDQIYVYVGDILIALNPFQSLGLYSTKHS
+                     KLYIGSKRTASPPHIFAMADLGYQSMITYNSDQCIVISGESGAGKTENAHLLVQQLTV
+                     LGKANNRTLQEKILQVNNLVEAFGNACTIINDNSSRFGKYLEMKFTSSGAVVGAQISE
+                     YLLEKSRVIHQAIGEKNFHIFYYIYAGLAEKKKLAHYKLPENKPPRYLQNDHLRTVQD
+                     IMNNSFYKSQYELIEQCFKVIGFTMEQLGSIYSILAAILNVGNIEFSSVATEHQIDKS
+                     HISNHTALENCASLLCIRADELQEALTSHCVVTRGETIIRPNTVEKATDVRDAMAKTL
+                     YGRLFSWIVNCINSLLKHDSSPSGNGDELSIGILDIFGFENFKKNSFEQLCINIANEQ
+                     IQYYYNQHVFAWEQNEYLNEDVDARVIEYEDNWPLLDMFLQKPMGLLSLLDEESRFPK
+                     ATDQTLVEKFEGNLKSQYFWRPKRMELSFGIHHYAGKVLYNASGFLAKNRDTLPTDIV
+                     LLLRSSDNSVIRQLVNHPLTKTGNLPHSKTKNVINYQMRTSEKLINLAKGDTGEATRH
+                     ARETTNMKTQTVASYFRYSLMDLLSKMVVGQPHFVRCIKPNSERQARKYDKEKVLLQL
+                     RYTGILETARIRRLGFSHRILFANFIKRYYLLCYKSSEEPRMSPDTCATILEKAGLDN
+                     WALGKTKVFLKYYHVEQLNLMRKEAIDKLILIQACVRAFLCSRRYQKIQEKRKESAII
+                     IQSAARGHLVRKQRKEIVDMKNTAVTTIQTSDQEFDYKKNFENTRESFVKKQAENAIS
+                     ANERFISAPNNKGSVSVVKTSTFKPEEETTNAVESNNRVYQTPKKMNNVYEEEVKQEF
+                     YLVGPEVSPKQKSVKDLEENSNLRKVEKEEAMIQSYYQRYTEERNCEESKAAYLERKA
+                     ISERPSYPVPWLAENETSFKKTLEPTLSQRSIYQNANSMEKEKKTSVVTQRAPICSQE
+                     EGRGRLRHETVKERQVEPVTQAQEEEDKAAVFIQSKYRGYKRRQQLRKDKMSSFKHQR
+                     IVTTPTEVARNTHNLYSYPTKHEEINNIKKKDNKDSKATSEREACGLAIFSKQISKLS
+                     EEYFILQKKLNEMILSQQLKSLYLGVSHHKPINRRVSSQQCLSGVCKGEEPKILRPPR
+                     RPRKPKTLNNPEDSTYYYLLHKSIQEEKRRPRKDSQGKLLDLEDFYYKEFLPSRSGPK
+                     EHSPSLRERRPQQELQNQCIKANERCWAAESPEKEEEREPAANPYDFRRLLRKTSQRR
+                     RLVQQS"
+     misc_feature    3004..3072
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8NEV4.2);
+                     Region: Actin-binding.
+                     /evidence=ECO:0000255|PROSITE-ProRule:PRU00782"
+     misc_feature    4405..4641
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8NEV4.2);
+                     Region: Interaction with MORN4.
+                     /evidence=ECO:0000269|PubMed:25822849"
+     misc_feature    4837..4905
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8NEV4.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    4945..5052
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q8NEV4.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     exon            373..507
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            508..612
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            613..712
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            713..789
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            790..935
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            936..1001
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1002..1157
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1158..1257
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1258..1374
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1375..1479
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1480..1563
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1564..1766
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1767..1865
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1866..1980
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1981..2107
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2108..2318
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2319..2466
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2467..2620
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2621..2709
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2710..2839
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2840..2919
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2920..2997
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2998..3203
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3204..3315
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3316..3478
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3479..3602
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3603..4497
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4498..4642
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4643..4749
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4750..4790
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4791..4934
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4935..5624
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      5600..5605
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /note="hexamer: AATAAA"
+     polyA_site      5624
+                     /gene="MYO3A"
+                     /gene_synonym="DFNB30"
+                     /note="major polyA site"
+ORIGIN      
+        1 agttcttccc ctgctcggct gcccctgccc gcccctcgag ggagcgcccg tagccagcgc
+       61 ccccgtaaag aaataaggag gcgcccggct tcccgcccag gcccagggcc ccagtgcagc
+      121 ctggacacag tattcaaagt tttggcgtct gagcattgtt atgcgttatt ttcaagcttt
+      181 gctaacggtt tttaaacctt tgagatgttt ccattaattg gaaaaacaat catctttgat
+      241 aactttcctg atccttctga tacatgggaa atcactgaga caattggcaa aggaacttat
+      301 gggaaagttt ttaaagtatt gaataagaaa aatggccaaa aagcagcagt caaaattctt
+      361 gatccaattc acgatattga cgaagagatt gaagcagaat ataacatctt aaaagcactt
+      421 tctgaccacc ctaatgtggt cagattctat gggatatact ttaagaagga taaagtaaat
+      481 ggagacaagc tgtggttggt tcttgagctc tgcagtggag gatcagtgac tgaccttgtg
+      541 aaaggatttc tgaagagggg tgaaagaatg agtgagcctc taattgccta tattttacat
+      601 gaagcactaa tgggacttca acatttgcat aacaacaaaa ctatccacag agatgtgaaa
+      661 ggcaataaca ttctattgac cacggaaggt ggagtgaaac tagtagattt tggtgtgtct
+      721 gcacagctca ccagtacccg gcaccgtcgg aacacatccg taggaacacc gttttggatg
+      781 gctcctgagg tgattgcatg tgaacagcaa ttggatacca cttatgacgc cagatgtgac
+      841 acttggtccc tgggtatcac ggccattgag ctgggtgatg gagatcctcc actagctgac
+      901 cttcatccca tgagagcact cttcaaaata ccaaggaatc cacccccaaa actaaggcag
+      961 cctgagctat ggtcagcaga attcaatgac ttcataagca agtgcttgac taaagattat
+     1021 gaaaagcgtc caacagtgtc agaactttta cagcataaat tcattactca aattgagggc
+     1081 aaagatgtga tgctacaaaa acaactaacg gaattcattg gcatccatca atgcatggga
+     1141 ggcacagaaa aggccagacg tgaacgtatt cacacgaaga aagggaactt caaccgacct
+     1201 ctaatatcca atctgaagga tgtagatgat ttagcaaccc tagaaatttt ggatgagaat
+     1261 acagtctcag agcaacttga gaagtgttat tccagagatc agatctacgt ctatgtggga
+     1321 gacatactca ttgctcttaa cccttttcag agtctgggtc tttactccac aaagcattcc
+     1381 aaactatata ttggatcaaa gagaactgcc agtcctcctc acatttttgc aatggctgac
+     1441 ttaggatatc aatctatgat aacatataat tcagatcagt gcattgttat ttctggagaa
+     1501 agtggtgctg gaaagactga aaatgctcat cttttagttc agcagctgac agtgcttgga
+     1561 aaggctaata acagaacctt gcaagagaag attttacaag tgaacaattt ggtagaagcc
+     1621 tttggcaatg cctgcactat tataaatgac aattctagca gatttggaaa atacttagaa
+     1681 atgaaattca cctcttctgg agcggtagtg ggagcacaga tttctgaata tctcctggaa
+     1741 aaatcccgag ttatccacca agctattgga gaaaaaaatt ttcatatttt ttactacatt
+     1801 tatgctggtt tggctgaaaa gaagaaacta gcccattaca aactgcctga aaataagcct
+     1861 cccaggtacc tacaaaatga ccacctcaga acagtacaag acatcatgaa taatagtttc
+     1921 tataaatccc agtatgaatt aattgagcaa tgtttcaaag tcataggttt tacaatggag
+     1981 caacttggta gtatatacag catactcgct gcaatcttga atgttggcaa cattgaattt
+     2041 tcttctgtgg caactgaaca ccagattgac aagagccaca tttctaatca tacagccctg
+     2101 gagaactgtg cttctttgct ttgcattcgg gcagatgagc tacaagaagc tctcacctcc
+     2161 cactgtgtgg tcactagagg agaaacaatt atacgaccca atactgtaga aaaagctacc
+     2221 gatgtcaggg atgccatggc taaaacttta tatggacgtc tctttagttg gatagtcaat
+     2281 tgcattaaca gtttgttgaa gcatgactca tcaccaagtg ggaatggtga tgagctgagc
+     2341 attggcattc ttgatatatt tggctttgaa aatttcaaaa aaaattcctt cgagcagctg
+     2401 tgcattaaca ttgcaaatga acaaattcag tattattata atcaacatgt gtttgcatgg
+     2461 gaacagaatg aatacctaaa tgaagatgtg gatgctagag ttattgaata tgaggataac
+     2521 tggcccctct tagatatgtt tctgcaaaag ccaatgggtt tactttccct acttgatgaa
+     2581 gaaagtagat ttcccaaggc cactgaccag actcttgtag aaaaatttga aggtaacctg
+     2641 aaatcacaat acttctggag acccaaaaga atggaactta gttttggaat tcaccattat
+     2701 gcaggaaagg tcctctataa tgcaagtgga ttcttagcca aaaacagaga cactcttcct
+     2761 actgacattg tgctactttt gaggtcatcc gacaacagtg taattaggca actagtcaac
+     2821 caccctctga ccaaaacagg taatctgcca cattctaaaa ctaaaaatgt tataaactat
+     2881 caaatgagga cttcagaaaa attaatcaac ctggcaaagg gcgacactgg agaagccaca
+     2941 cgtcatgcca gagagacaac caacatgaaa acacaaacgg ttgcatcata ttttagatat
+     3001 tccctgatgg atttgttgtc taaaatggtg gtgggccaac ctcattttgt ccgttgcatc
+     3061 aaaccaaata gtgagcgtca ggcaagaaaa tatgacaaag agaaagttct gctacagctt
+     3121 cggtacacag gaattctgga aacagcaaga attcgaagac taggattctc ccatcggata
+     3181 ctttttgcta actttataaa gcggtactac cttctctgct acaagtcgag cgaggagccc
+     3241 cgcatgagcc ctgacacctg tgccaccatt ttggaaaaag ctggtctcga taactgggct
+     3301 cttggaaaaa caaaagtgtt ccttaagtat tatcacgtgg agcagttaaa tctaatgcga
+     3361 aaggaagcta ttgacaagct tattttgatt caagcttgtg tcagagcatt cttgtgttca
+     3421 agaagatacc aaaaaataca ggagaaaagg aaagaaagcg ctataataat acagtcagct
+     3481 gcaagaggac accttgtcag gaaacaaaga aaagaaattg ttgacatgaa aaacacagca
+     3541 gtaacaacca ttcaaacttc tgatcaggaa ttcgactaca agaaaaactt tgaaaataca
+     3601 agggaatctt tcgtgaagaa acaagcagaa aatgcaatct ctgctaatga aagattcatt
+     3661 tcagctccaa ataataaagg aagtgtatct gtagtgaaga cttccacttt caaacctgaa
+     3721 gaggaaacca ccaatgctgt ggagagtaac aacagagtgt atcagactcc aaaaaaaatg
+     3781 aataatgtgt atgaggaaga ggttaagcaa gaattctacc ttgtagggcc agaagtaagc
+     3841 cccaaacaga agtctgtcaa agacctggaa gagaacagca atctaaggaa agtggagaaa
+     3901 gaggaagcta tgatccagag ttactatcag aggtacacag aggagaggaa ttgtgaagag
+     3961 tcaaaagcag catatctaga aaggaaggcc atatcagaaa ggccaagcta cccagtgcct
+     4021 tggttagctg aaaatgagac ttcctttaaa aaaactttgg aacctacact tagccaaagg
+     4081 tcaatttatc aaaatgcaaa cagcatggaa aaagaaaaga agacatctgt agttacccag
+     4141 cgtgcaccga tatgcagcca ggaggaaggc agaggccgtc tgaggcatga gacagtcaaa
+     4201 gagaggcaag ttgaaccagt gacacaggcc caggaggaag aagataaagc agcggtattc
+     4261 attcagagca aataccgggg ttacaagaga aggcagcagt tgaggaagga caagatgtct
+     4321 tcttttaagc atcagaggat tgtcacaaca ccaacagaag tagcaagaaa cactcataat
+     4381 ttgtattcct atcccacaaa acatgaggaa atcaataaca tcaagaagaa ggataacaaa
+     4441 gactcgaaag caacttcaga aagagaagca tgtggtttgg caattttttc aaaacagata
+     4501 tcaaagttat ctgaagaata tttcattctg cagaaaaaat tgaatgaaat gattttgtca
+     4561 cagcaactga agtcacttta tctgggtgtc tcgcaccata agccaattaa tagacgagtt
+     4621 tcttctcagc agtgcctctc aggtgtctgt aaaggagagg agccaaaaat attgagaccc
+     4681 ccaagacgac cccggaaacc caaaacatta aataaccctg aagactccac atactattat
+     4741 ctacttcata agtcaatcca agaagaaaaa cgaagaccaa ggaaagacag tcagggaaaa
+     4801 ttattagatt tggaagattt ctattataag gaatttttgc ccagtcgttc tggaccaaag
+     4861 gaacatagcc ctagtttaag agaacgaaga ccacagcaag aactccagaa tcaatgtatt
+     4921 aaggctaatg aaaggtgctg ggcggcggag agccccgaga aggaggagga gagagagcca
+     4981 gcagccaacc cctacgactt caggaggctc ctgcgcaaaa cctcccagcg ccggcgcctc
+     5041 gtccagcagt cctaaccgtt caacgaggca gtcaccgccg tcggaaggcg ctggagcctg
+     5101 cggggcagca ggggccaagc aggcactctg gggctggcac cagcaggcac tgaagctgcg
+     5161 gccctgatct ccgcagaggc tgcctgctgc gctcggccct caagtgcccg ggccggcctt
+     5221 cgtgctccga aacaagagac ctgggagccc tcgggaaacc tcccccgacg ctctctctcg
+     5281 gaactcccgc accctccttt ctcaccagcc cgccagttgt ggcaaccctg tccttgttcc
+     5341 cctaatctat cactttgttc tttttttttg tgactcctgt ggactccact gcgcctggga
+     5401 tctcgccaac ccctctctca tttggggtga ctgaattcac agattttttt ttttattgga
+     5461 aacggctttt cttggccaac agaacacttg ctagcggttg aatcttagag aaaaaagccc
+     5521 gggaggggtg gggagaattt cgaagatgta tttcatctca agcttgctct ttctcttcct
+     5581 ttggttatta aggtcactaa ataaaggaag tgccttggaa aacc
+//
+
