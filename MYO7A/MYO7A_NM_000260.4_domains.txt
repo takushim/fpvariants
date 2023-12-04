@@ -1,0 +1,10 @@
+11AA          	291..323  	33  	==	misc_feature
+Motor         	483..2513 	2031	==	misc_feature
+IQ1           	2523..2585	63  	==	misc_feature
+IQ2           	2592..2654	63  	==	misc_feature
+IQ3           	2661..2723	63  	==	misc_feature
+IQ4           	2730..2792	63  	==	misc_feature
+IQ5           	2799..2861	63  	==	misc_feature
+MYTH4-1       	3339..4049	711 	==	misc_feature
+SH3           	5097..5306	210 	==	misc_feature
+MYTH4-2       	5529..5978	450 	==	misc_feature

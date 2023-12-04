@@ -1,0 +1,628 @@
+LOCUS       NM_000260               7483 bp    mRNA    linear   PRI 14-NOV-2023
+DEFINITION  Homo sapiens myosin VIIA (MYO7A), transcript variant 1, mRNA.
+ACCESSION   NM_000260
+VERSION     NM_000260.4
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 7483)
+  AUTHORS   Lin Q, Yang D, Shen Z and Zhou X.
+  TITLE     New splice site mutations in MYO7A causing Usher syndrome type 1: a
+            study on a Chinese consanguineous family
+  JOURNAL   Int Ophthalmol 43 (6), 2091-2099 (2023)
+   PUBMED   36484953
+  REMARK    GeneRIF: New splice site mutations in MYO7A causing Usher syndrome
+            type 1: a study on a Chinese consanguineous family.
+REFERENCE   2  (bases 1 to 7483)
+  AUTHORS   Kim YR, Kim HM, Lee B, Baek JI, Lee KY, Park HJ and Kim UK.
+  TITLE     Identification of novel missense mutation related with
+            non-syndromic sensorineural deafness, DFNA11 in korean family by
+            NGS
+  JOURNAL   Genes Genomics 45 (2), 225-230 (2023)
+   PUBMED   36630074
+  REMARK    GeneRIF: Identification of novel missense mutation related with
+            non-syndromic sensorineural deafness, DFNA11 in korean family by
+            NGS.
+REFERENCE   3  (bases 1 to 7483)
+  AUTHORS   Baux D, Faugere V, Larrieu L, Le Guedard-Mereuze S, Hamroun D,
+            Beroud C, Malcolm S, Claustres M and Roux AF.
+  TITLE     UMD-USHbases: a comprehensive set of databases to record and
+            analyse pathogenic mutations and unclassified variants in seven
+            Usher syndrome causing genes
+  JOURNAL   Hum Mutat 29 (8), E76-E87 (2008)
+   PUBMED   18484607
+REFERENCE   4  (bases 1 to 7483)
+  AUTHORS   Inoue A and Ikebe M.
+  TITLE     Characterization of the motor activity of mammalian myosin VIIA
+  JOURNAL   J Biol Chem 278 (7), 5478-5487 (2003)
+   PUBMED   12466270
+REFERENCE   5  (bases 1 to 7483)
+  AUTHORS   Kelley PM, Weston MD, Chen ZY, Orten DJ, Hasson T, Overbeck LD,
+            Pinnt J, Talmadge CB, Ing P, Mooseker MS, Corey D, Sumegi J and
+            Kimberling WJ.
+  TITLE     The genomic structure of the gene defective in Usher syndrome type
+            Ib (MYO7A)
+  JOURNAL   Genomics 40 (1), 73-79 (1997)
+   PUBMED   9070921
+REFERENCE   6  (bases 1 to 7483)
+  AUTHORS   Chen ZY, Hasson T, Kelley PM, Schwender BJ, Schwartz MF,
+            Ramakrishnan M, Kimberling WJ, Mooseker MS and Corey DP.
+  TITLE     Molecular cloning and domain structure of human myosin-VIIa, the
+            gene product defective in Usher syndrome 1B
+  JOURNAL   Genomics 36 (3), 440-448 (1996)
+   PUBMED   8884267
+REFERENCE   7  (bases 1 to 7483)
+  AUTHORS   Hasson T, Heintzelman MB, Santos-Sacchi J, Corey DP and Mooseker
+            MS.
+  TITLE     Expression in cochlea and retina of myosin VIIa, the gene product
+            defective in Usher syndrome type 1B
+  JOURNAL   Proc Natl Acad Sci U S A 92 (21), 9815-9819 (1995)
+   PUBMED   7568224
+REFERENCE   8  (bases 1 to 7483)
+  AUTHORS   Shearer,A.E., Hildebrand,M.S., Schaefer,A.M. and Smith,R.J.H.
+  TITLE     Genetic Hearing Loss Overview
+  JOURNAL   (in) Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE, Bean LJH,
+            Gripp KW and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301607
+REFERENCE   9  (bases 1 to 7483)
+  AUTHORS   Koenekoop,R.K., Arriaga,M.A., Trzupek,K.M. and Lentz,J.J.
+  TITLE     Usher Syndrome Type I
+  JOURNAL   (in) Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE, Bean LJH,
+            Gripp KW and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301442
+REFERENCE   10 (bases 1 to 7483)
+  AUTHORS   Kimberling WJ, Moller CG, Davenport S, Priluck IA, Beighton PH,
+            Greenberg J, Reardon W, Weston MD, Kenyon JB, Grunkemeyer JA et al.
+  TITLE     Linkage of Usher syndrome type I gene (USH1B) to the long arm of
+            chromosome 11
+  JOURNAL   Genomics 14 (4), 988-994 (1992)
+   PUBMED   1478677
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AP000752.4, U39226.1, U34227.1,
+            U55208.1 and BG108466.1.
+            This sequence is a reference standard in the RefSeqGene project.
+            
+            On Nov 22, 2018 this sequence version replaced NM_000260.3.
+            
+            Summary: This gene is a member of the myosin gene family. Myosins
+            are mechanochemical proteins characterized by the presence of a
+            motor domain, an actin-binding domain, a neck domain that interacts
+            with other proteins, and a tail domain that serves as an anchor.
+            This gene encodes an unconventional myosin with a very short tail.
+            Defects in this gene are associated with the mouse shaker-1
+            phenotype and the human Usher syndrome 1B which are characterized
+            by deafness, reduced vestibular function, and (in human) retinal
+            degeneration. Alternative splicing results in multiple transcript
+            variants. [provided by RefSeq, Jul 2008].
+            
+            Transcript Variant: This variant (1) represents the longest
+            transcript and encodes the longest isoform (1).
+            
+            Sequence Note: The update from NM_00260.1 to NM_00260.2 was
+            intended to only modify select nucleotide residues that did not
+            match the reference genome; however, the update mistakenly
+            represented use of an alternate splice donor and splice acceptor
+            site.  NM_00260.2 was subsequently updated to version 3 to
+            represent the original exon and splice site combination. The
+            difference between NM_000260.1 and NM_000260.3 involve single
+            residue changes to match the reference genome.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: U39226.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA1968968, SAMEA2145245
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000409709.9/ ENSP00000386331.3
+            RefSeq Select criteria :: based on conservation
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-18                AP000752.4         129885-129902
+            19-38               U39226.1           1-20
+            39-336              U34227.1           16-313
+            337-5044            U39226.1           319-5026
+            5045-6638           U55208.1           4908-6501
+            6639-7480           U39226.1           6621-7462
+            7481-7483           BG108466.1         124-126
+FEATURES             Location/Qualifiers
+     source          1..7483
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="11"
+                     /map="11q13.5"
+     gene            1..7483
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /note="myosin VIIA"
+                     /db_xref="GeneID:4647"
+                     /db_xref="HGNC:HGNC:7606"
+                     /db_xref="MIM:276903"
+     exon            1..244
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            245..308
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    279..281
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /note="upstream in-frame stop codon"
+     CDS             291..6938
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /note="isoform 1 is encoded by transcript variant 1;
+                     myosin VIIA (Usher syndrome 1B (autosomal recessive,
+                     severe)); unconventional myosin-VIIa"
+                     /codon_start=1
+                     /product="unconventional myosin-VIIa isoform 1"
+                     /protein_id="NP_000251.3"
+                     /db_xref="CCDS:CCDS53683.1"
+                     /db_xref="GeneID:4647"
+                     /db_xref="HGNC:HGNC:7606"
+                     /db_xref="MIM:276903"
+                     /translation="MVILQQGDHVWMDLRLGQEFDVPIGAVVKLCDSGQVQVVDDEDN
+                     EHWISPQNATHIKPMHPTSVHGVEDMIRLGDLNEAGILRNLLIRYRDHLIYTYTGSIL
+                     VAVNPYQLLSIYSPEHIRQYTNKKIGEMPPHIFAIADNCYFNMKRNSRDQCCIISGES
+                     GAGKTESTKLILQFLAAISGQHSWIEQQVLEATPILEAFGNAKTIRNDNSSRFGKYID
+                     IHFNKRGAIEGAKIEQYLLEKSRVCRQALDERNYHVFYCMLEGMSEDQKKKLGLGQAS
+                     DYNYLAMGNCITCEGRVDSQEYANIRSAMKVLMFTDTENWEISKLLAAILHLGNLQYE
+                     ARTFENLDACEVLFSPSLATAASLLEVNPPDLMSCLTSRTLITRGETVSTPLSREQAL
+                     DVRDAFVKGIYGRLFVWIVDKINAAIYKPPSQDVKNSRRSIGLLDIFGFENFAVNSFE
+                     QLCINFANEHLQQFFVRHVFKLEQEEYDLESIDWLHIEFTDNQDALDMIANKPMNIIS
+                     LIDEESKFPKGTDTTMLHKLNSQHKLNANYIPPKNNHETQFGINHFAGIVYYETQGFL
+                     EKNRDTLHGDIIQLVHSSRNKFIKQIFQADVAMGAETRKRSPTLSSQFKRSLELLMRT
+                     LGACQPFFVRCIKPNEFKKPMLFDRHLCVRQLRYSGMMETIRIRRAGYPIRYSFVEFV
+                     ERYRVLLPGVKPAYKQGDLRGTCQRMAEAVLGTHDDWQIGKTKIFLKDHHDMLLEVER
+                     DKAITDRVILLQKVIRGFKDRSNFLKLKNAATLIQRHWRGHNCRKNYGLMRLGFLRLQ
+                     ALHRSRKLHQQYRLARQRIIQFQARCRAYLVRKAFRHRLWAVLTVQAYARGMIARRLH
+                     QRLRAEYLWRLEAEKMRLAEEEKLRKEMSAKKAKEEAERKHQERLAQLAREDAERELK
+                     EKEAARRKKELLEQMERARHEPVNHSDMVDKMFGFLGTSGGLPGQEGQAPSGFEDLER
+                     GRREMVEEDLDAALPLPDEDEEDLSEYKFAKFAATYFQGTTTHSYTRRPLKQPLLYHD
+                     DEGDQLAALAVWITILRFMGDLPEPKYHTAMSDGSEKIPVMTKIYETLGKKTYKRELQ
+                     ALQGEGEAQLPEGQKKSSVRHKLVHLTLKKKSKLTEEVTKRLHDGESTVQGNSMLEDR
+                     PTSNLEKLHFIIGNGILRPALRDEIYCQISKQLTHNPSKSSYARGWILVSLCVGCFAP
+                     SEKFVKYLRNFIHGGPPGYAPYCEERLRRTFVNGTRTQPPSWLELQATKSKKPIMLPV
+                     TFMDGTTKTLLTDSATTAKELCNALADKISLKDRFGFSLYIALFDKVSSLGSGSDHVM
+                     DAISQCEQYAKEQGAQERNAPWRLFFRKEVFTPWHSPSEDNVATNLIYQQVVRGVKFG
+                     EYRCEKEDDLAELASQQYFVDYGSEMILERLLNLVPTYIPDREITPLKTLEKWAQLAI
+                     AAHKKGIYAQRRTDAQKVKEDVVSYARFKWPLLFSRFYEAYKFSGPSLPKNDVIVAVN
+                     WTGVYFVDEQEQVLLELSFPEIMAVSSSRECRVWLSLGCSDLGCAAPHSGWAGLTPAG
+                     PCSPCWSCRGAKTTAPSFTLATIKGDEYTFTSSNAEDIRDLVVTFLEGLRKRSKYVVA
+                     LQDNPNPAGEESGFLSFAKGDLIILDHDTGEQVMNSGWANGINERTKQRGDFPTDSVY
+                     VMPTVTMPPREIVALVTMTPDQRQDVVRLLQLRTAEPEVRAKPYTLEEFSYDYFRPPP
+                     KHTLSRVMVSKARGKDRLWSHTREPLKQALLKKLLGSEELSQEACLAFIAVLKYMGDY
+                     PSKRTRSVNELTDQIFEGPLKAEPLKDEAYVQILKQLTDNHIRYSEERGWELLWLCTG
+                     LFPPSNILLPHVQRFLQSRKHCPLAIDCLQRLQKALRNGSRKYPPHLVEVEAIQHKTT
+                     QIFHKVYFPDDTDEAFEVESSTKAKDFCQNIATRLLLKSSEGFSLFVKIADKVLSVPE
+                     NDFFFDFVRHLTDWIKKARPIKDGIVPSLTYQVFFMKKLWTTTVPGKDPMADSIFHYY
+                     QELPKYLRGYHKCTREEVLQLGALIYRVKFEEDKSYFPSIPKLLRELVPQDLIRQVSP
+                     DDWKRSIVAYFNKHAGKSKEEAKLAFLKLIFKWPTFGSAFFEVKQTTEPNFPEILLIA
+                     INKYGVSLIDPKTKDILTTHPFTKISNWSSGNTYFHITIGNLVRGSKLLCETSLGYKM
+                     DDLLTSYISQMLTAMSKQRGSRSGK"
+     misc_feature    2184..2207
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q13402.2);
+                     Region: Actin-binding. /evidence=ECO:0000305"
+     misc_feature    2862..3095
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q13402.2);
+                     Region: SAH. /evidence=ECO:0000305|PubMed:25122759"
+     misc_feature    4995..4997
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P97479; propagated from
+                     UniProtKB/Swiss-Prot (Q13402.2); phosphorylation site"
+     misc_feature    5001..5003
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000250|UniProtKB:P97479; propagated from
+                     UniProtKB/Swiss-Prot (Q13402.2); phosphorylation site"
+     exon            309..422
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            423..575
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            576..760
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            761..882
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            883..1025
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1026..1139
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1140..1293
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1294..1370
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1371..1490
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1491..1633
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1634..1844
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1845..1980
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1981..2087
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2088..2225
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2226..2384
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2385..2477
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2478..2572
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2573..2657
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2658..2876
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2877..2984
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2985..3194
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3195..3398
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3399..3575
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3576..3665
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3666..3793
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3794..3920
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3921..4040
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4041..4214
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4215..4442
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4443..4613
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4614..4731
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4732..4858
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4859..5142
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5143..5333
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5334..5458
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5459..5616
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    5532..5864
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /note="encodes MyTH4 domain"
+     exon            5617..5770
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5771..5926
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5927..6032
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6033..6146
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6147..6234
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6235..6341
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6342..6527
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6528..6644
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6645..6728
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6729..6848
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6849..7483
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      7458..7463
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /note="hexamer: CATAAA"
+     polyA_site      7483
+                     /gene="MYO7A"
+                     /gene_synonym="DFNA11; DFNB2; MYOVIIA; MYU7A; NSRD2;
+                     USH1B"
+                     /note="major polyA site"
+ORIGIN      
+        1 agtgctggct ggacagctgc tctgggcagg agagagaggg agagacaaga gacacacaca
+       61 gagagacggc gaggaaggga aagacccaga gggacgccta gaacgagact tggagccaga
+      121 cagaggaaga ggggacgtgt gtttgcagac tggctgggcc cgtgacccag cttcctgagt
+      181 cctccgtgca ggtggcagct gtaccaggct ggcaggtcac tgagagtggg cagctgggcc
+      241 ccagaactgt gcctggccca gtgggcagca ggagctcctg acttgggacc atggtgattc
+      301 ttcagcaggg ggaccatgtg tggatggacc tgagattggg gcaggagttc gacgtgccca
+      361 tcggggcggt ggtgaagctc tgcgactctg ggcaggtcca ggtggtggat gatgaagaca
+      421 atgaacactg gatctctccg cagaacgcaa cgcacatcaa gcctatgcac cccacgtcgg
+      481 tccacggcgt ggaggacatg atccgcctgg gggacctcaa cgaggcgggc atcttgcgca
+      541 acctgcttat ccgctaccgg gaccacctca tctacacgta tacgggctcc atcctggtgg
+      601 ctgtgaaccc ctaccagctg ctctccatct actcgccaga gcacatccgc cagtatacca
+      661 acaagaagat tggggagatg cccccccaca tctttgccat tgctgacaac tgctacttca
+      721 acatgaaacg caacagccga gaccagtgct gcatcatcag tggggaatct ggggccggga
+      781 agacggagag cacaaagctg atcctgcagt tcctggcagc catcagtggg cagcactcgt
+      841 ggattgagca gcaggtcttg gaggccaccc ccattctgga agcatttggg aatgccaaga
+      901 ccatccgcaa tgacaactca agccgtttcg gaaagtacat cgacatccac ttcaacaagc
+      961 ggggcgccat cgagggcgcg aagattgagc agtacctgct ggaaaagtca cgtgtctgtc
+     1021 gccaggccct ggatgaaagg aactaccacg tgttctactg catgctggag ggtatgagtg
+     1081 aggatcagaa gaagaagctg ggcttgggcc aggcctctga ctacaactac ttggccatgg
+     1141 gtaactgcat aacctgtgag ggccgggtgg acagccagga gtacgccaac atccgctccg
+     1201 ccatgaaggt gctcatgttc actgacaccg agaactggga gatctcgaag ctcctggctg
+     1261 ccatcctgca cctgggcaac ctgcagtatg aggcacgcac atttgaaaac ctggatgcct
+     1321 gtgaggttct cttctcccca tcgctggcca cagctgcatc cctgcttgag gtgaaccccc
+     1381 cagacctgat gagctgcctg actagccgca ccctcatcac ccgcggggag acggtgtcca
+     1441 ccccactgag cagggaacag gcactggacg tgcgcgacgc cttcgtaaag gggatctacg
+     1501 ggcggctgtt cgtgtggatt gtggacaaga tcaacgcagc aatttacaag cctccctccc
+     1561 aggatgtgaa gaactctcgc aggtccatcg gcctcctgga catctttggg tttgagaact
+     1621 ttgctgtgaa cagctttgag cagctctgca tcaacttcgc caatgagcac ctgcagcagt
+     1681 tctttgtgcg gcacgtgttc aagctggagc aggaggaata tgacctggag agcattgact
+     1741 ggctgcacat cgagttcact gacaaccagg atgccctgga catgattgcc aacaagccca
+     1801 tgaacatcat ctccctcatc gatgaggaga gcaagttccc caagggcaca gacaccacca
+     1861 tgttacacaa gctgaactcc cagcacaagc tcaacgccaa ctacatcccc cccaagaaca
+     1921 accatgagac ccagtttggc atcaaccatt ttgcaggcat cgtctactat gagacccaag
+     1981 gcttcctgga gaagaaccga gacaccctgc atggggacat tatccagctg gtccactcct
+     2041 ccaggaacaa gttcatcaag cagatcttcc aggccgatgt cgccatgggc gccgagacca
+     2101 ggaagcgctc gcccacactt agcagccagt tcaagcggtc actggagctg ctgatgcgca
+     2161 cgctgggtgc ctgccagccc ttctttgtgc gatgcatcaa gcccaatgag ttcaagaagc
+     2221 ccatgctgtt cgaccggcac ctgtgcgtgc gccagctgcg gtactcagga atgatggaga
+     2281 ccatccgaat ccgccgagct ggctacccca tccgctacag cttcgtagag tttgtggagc
+     2341 ggtaccgtgt gctgctgcca ggtgtgaagc cggcctacaa gcagggcgac ctccgcggga
+     2401 cttgccagcg catggctgag gctgtgctgg gcacccacga tgactggcag ataggcaaaa
+     2461 ccaagatctt tctgaaggac caccatgaca tgctgctgga agtggagcgg gacaaagcca
+     2521 tcaccgacag agtcatcctc cttcagaaag tcatccgggg attcaaagac aggtctaact
+     2581 ttctgaagct gaagaacgct gccacactga tccagaggca ctggcggggt cacaactgta
+     2641 ggaagaacta cgggctgatg cgtctgggct tcctgcggct gcaggccctg caccgctccc
+     2701 ggaagctgca ccagcagtac cgcctggccc gccagcgcat catccagttc caggcccgct
+     2761 gccgcgccta tctggtgcgc aaggccttcc gccaccgcct ctgggctgtg ctcaccgtgc
+     2821 aggcctatgc ccggggcatg atcgcccgca ggctgcacca acgcctcagg gctgagtatc
+     2881 tgtggcgcct cgaggctgag aaaatgcggc tggcggagga agagaagctt cggaaggaga
+     2941 tgagcgccaa gaaggccaag gaggaggccg agcgcaagca tcaggagcgc ctggcccagc
+     3001 tggctcgtga ggacgctgag cgggagctga aggagaagga ggccgctcgg cggaagaagg
+     3061 agctcctgga gcagatggaa agggcccgcc atgagcctgt caatcactca gacatggtgg
+     3121 acaagatgtt tggcttcctg gggacttcag gtggcctgcc aggccaggag ggccaggcac
+     3181 ctagtggctt tgaggacctg gagcgagggc ggagggagat ggtggaggag gacctggatg
+     3241 cagccctgcc cctgcctgac gaggatgagg aggacctctc tgagtataaa tttgccaagt
+     3301 tcgcggccac ctacttccag gggacaacca cgcactccta cacccggcgg ccactcaaac
+     3361 agccactgct ctaccatgac gacgagggtg accagctggc agccctggcg gtctggatca
+     3421 ccatcctccg cttcatgggg gacctccctg agcccaagta ccacacagcc atgagtgatg
+     3481 gcagtgagaa gatccctgtg atgaccaaga tttatgagac cctgggcaag aagacgtaca
+     3541 agagggagct gcaggccctg cagggcgagg gcgaggccca gctccccgag ggccagaaga
+     3601 agagcagtgt gaggcacaag ctggtgcatt tgactctgaa aaagaagtcc aagctcacag
+     3661 aggaggtgac caagaggctg catgacgggg agtccacagt gcagggcaac agcatgctgg
+     3721 aggaccggcc cacctccaac ctggagaagc tgcacttcat catcggcaat ggcatcctgc
+     3781 ggccagcact ccgggacgag atctactgcc agatcagcaa gcagctgacc cacaacccct
+     3841 ccaagagcag ctatgcccgg ggctggattc tcgtgtctct ctgcgtgggc tgtttcgccc
+     3901 cctccgagaa gtttgtcaag tacctgcgga acttcatcca cgggggcccg cccggctacg
+     3961 ccccgtactg tgaggagcgc ctgagaagga cctttgtcaa tgggacacgg acacagccgc
+     4021 ccagctggct ggagctgcag gccaccaagt ccaagaagcc aatcatgttg cccgtgacat
+     4081 tcatggatgg gaccaccaag accctgctga cggactcggc aaccacggcc aaggagctct
+     4141 gcaacgcgct ggccgacaag atctctctca aggaccggtt cgggttctcc ctctacattg
+     4201 ccctgtttga caaggtgtcc tccctgggca gcggcagtga ccacgtcatg gacgccatct
+     4261 cccagtgcga gcagtacgcc aaggagcagg gcgcccagga gcgcaacgcc ccctggaggc
+     4321 tcttcttccg caaagaggtc ttcacgccct ggcacagccc ctccgaggac aacgtggcca
+     4381 ccaacctcat ctaccagcag gtggtgcgag gagtcaagtt tggggagtac aggtgtgaga
+     4441 aggaggacga cctggctgag ctggcctccc agcagtactt tgtagactat ggctctgaga
+     4501 tgatcctgga gcgcctcctg aacctcgtgc ccacctacat ccccgaccgc gagatcacgc
+     4561 ccctgaagac gctggagaag tgggcccagc tggccatcgc cgcccacaag aaggggattt
+     4621 atgcccagag gagaactgat gcccagaagg tcaaagagga tgtggtcagt tatgcccgct
+     4681 tcaagtggcc cttgctcttc tccaggtttt atgaagccta caaattctca ggccccagtc
+     4741 tccccaagaa cgacgtcatc gtggccgtca actggacggg tgtgtacttt gtggatgagc
+     4801 aggagcaggt acttctggag ctgtccttcc cagagatcat ggccgtgtcc agcagcaggg
+     4861 agtgccgtgt ctggctctca ctgggctgct ctgatcttgg ctgtgctgcg cctcactcag
+     4921 gctgggcagg actgaccccg gcggggccct gttctccgtg ttggtcctgc aggggagcga
+     4981 aaacgacggc ccccagcttc acgctggcca ccatcaaggg ggacgaatac accttcacct
+     5041 ccagcaatgc tgaggacatt cgtgacctgg tggtcacctt cctagagggg ctccggaaga
+     5101 gatctaagta tgttgtggcc ctgcaggata accccaaccc cgcaggcgag gagtcaggct
+     5161 tcctcagctt tgccaaggga gacctcatca tcctggacca tgacacgggc gagcaggtca
+     5221 tgaactcggg ctgggccaac ggcatcaatg agaggaccaa gcagcgtggg gacttcccca
+     5281 ccgacagtgt gtacgtcatg cccactgtca ccatgccacc gcgggagatt gtggccctgg
+     5341 tcaccatgac tcccgatcag aggcaggacg ttgtccggct cttgcagctg cgaacggcgg
+     5401 agcccgaggt gcgtgccaag ccctacacgc tggaggagtt ttcctatgac tacttcaggc
+     5461 ccccacccaa gcacacgctg agccgtgtca tggtgtccaa ggcccgaggc aaggaccggc
+     5521 tgtggagcca cacgcgggaa ccgctcaagc aggcgctgct caagaagctc ctgggcagtg
+     5581 aggagctctc gcaggaggcc tgcctggcct tcattgctgt gctcaagtac atgggcgact
+     5641 acccgtccaa gaggacacgc tccgtcaacg agctcaccga ccagatcttt gagggtcccc
+     5701 tgaaagccga gcccctgaag gacgaggcat atgtgcagat cctgaagcag ctgaccgaca
+     5761 accacatcag gtacagcgag gagcggggtt gggagctgct ctggctgtgc acgggccttt
+     5821 tcccacccag caacatcctc ctgccccacg tgcagcgctt cctgcagtcc cgaaagcact
+     5881 gcccactcgc catcgactgc ctgcaacggc tccagaaagc cctgagaaac gggtcccgga
+     5941 agtaccctcc gcacctggtg gaggtggagg ccatccagca caagaccacc cagattttcc
+     6001 acaaagtcta cttccctgat gacactgacg aggccttcga agtggagtcc agcaccaagg
+     6061 ccaaggactt ctgccagaac atcgccacca ggctgctcct caagtcctca gagggattca
+     6121 gcctctttgt caaaattgca gacaaggtcc tcagcgttcc tgagaatgac ttcttctttg
+     6181 actttgttcg acacttgaca gactggataa agaaagctcg gcccatcaag gacggaattg
+     6241 tgccctcact cacctaccag gtgttcttca tgaagaagct gtggaccacc acggtgccag
+     6301 ggaaggatcc catggccgat tccatcttcc actattacca ggagttgccc aagtatctcc
+     6361 gaggctacca caagtgcacg cgggaggagg tgctgcagct gggggcgctg atctacaggg
+     6421 tcaagttcga ggaggacaag tcctacttcc ccagcatccc caagctgctg cgggagctgg
+     6481 tgccccagga ccttatccgg caggtctcac ctgatgactg gaagcggtcc atcgtcgcct
+     6541 acttcaacaa gcacgcaggg aagtccaagg aggaggccaa gctggccttc ctgaagctca
+     6601 tcttcaagtg gcccaccttt ggctcagcct tcttcgaggt gaagcaaact acggagccaa
+     6661 acttccctga gatcctccta attgccatca acaagtatgg ggtcagcctc atcgatccca
+     6721 aaacgaagga tatcctcacc actcatccct tcaccaagat ctccaactgg agcagcggca
+     6781 acacctactt ccacatcacc attgggaact tggtgcgcgg gagcaaactg ctctgcgaga
+     6841 cgtcactggg ctacaagatg gatgacctcc tgacttccta cattagccag atgctcacag
+     6901 ccatgagcaa acagcggggc tccaggagcg gcaagtgaac agtcacgggg aggtgctggt
+     6961 tccatgcctg ctctcgaggc agcagtgggt tcaggcccat cagctacccc tgcagctggg
+     7021 gaagacttat gccatcccgg cagcgaggct gggctggcca gccaccactg actataccaa
+     7081 ctgggcctct gatgttcttc cagtgaggca tctctctggg atgcagaact tccctccatc
+     7141 cacccctctg gcacctgggt tggtctaatc ctagtttgct gtggccttcc cggttgtgag
+     7201 agcctgtgat ccttagatgt gtctcctgtt tcagaccagc cccaccatgc aacttccttt
+     7261 gactttctgt gtaccactgg gatagaggaa tcaagaggac aatctagctc tccatacttt
+     7321 gaacaaccaa atgtgcattg aatactctga aaccgaaggg actggatctg caggtgggat
+     7381 gagggagaca gaccactttt ctatattgca gtgtgaatgc tgggcccctg ctcaagtcta
+     7441 ccctgatcac ctcagggcat aaagcatgtt tcattctctg gcc
+//
+
