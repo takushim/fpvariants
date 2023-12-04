@@ -6,7 +6,7 @@ import pandas as pd
 from pathlib import Path
 from matplotlib import pyplot as plt
 from matplotlib import colors as mcolors
-from matplotlib.patches import Rectangle
+from matplotlib.patches import Rectangle, Patch
 from Bio import SeqIO
 
 # default values
@@ -26,7 +26,7 @@ exon_colors = ['black', 'gray']
 cds_colors = ['lightskyblue', 'green'] # the second one will not be used.
 domain_colors = ['pink', 'lightgreen']
 
-scatter_step = 0.02
+scatter_step = 0.1
 scatter_delta = 0.005
 scatter_colors = list(mcolors.TABLEAU_COLORS)
 
@@ -79,23 +79,27 @@ def draw_bands (y_current, ranges, colors):
                                   range[1] - range[0], band_width,
                                   color = colors[index % len(colors)]))
 
-# draw features
+# start drawing from y = 0
 y_current = 0
+
+# draw features
 exons = [feature for feature in seq_record.features if feature.type == 'exon']
 draw_bands(y_current, [(exon.location.start + 1, exon.location.end + 1) for exon in exons], exon_colors)
-axes.text(len(seq_record.seq) + 10, y_current + (band_step - band_width) / 2, "exons")
+axes.text(len(seq_record.seq) + 10, y_current + band_width / 2, "exons", va = 'center')
+y_current = y_current + band_step
 
 # draw CDS(s)
-y_current = y_current + band_step
 cdss = [feature for feature in seq_record.features if feature.type == 'CDS']
 draw_bands(y_current, [(cds.location.start + 1, cds.location.end + 1) for cds in cdss], cds_colors)
-axes.text(len(seq_record.seq) + 10, y_current + (band_step - band_width) / 2, "cds")
+axes.text(len(seq_record.seq) + 10, y_current + band_width / 2, "cds", va = 'center')
+y_current = y_current + band_step
 
 # draw domain
-y_current = y_current + band_step
 domains = pd.read_csv(domain_filename, header = None, delim_whitespace = True)[1].to_list()
-draw_bands(y_current, [(int(domain.partition('..')[0]), int(domain.partition('..')[2])) for domain in domains], domain_colors)
-axes.text(len(seq_record.seq) + 10, y_current + (band_step - band_width) / 2, "domains")
+draw_bands(y_current, [(int(domain.partition('..')[0]), int(domain.partition('..')[2])) 
+                       for domain in domains], domain_colors)
+axes.text(len(seq_record.seq) + 10, y_current + band_width / 2, "domains", va = 'center')
+y_current = y_current + band_step
 
 # load pathogenic variants and drop duplicated variants
 variant_table = pd.read_csv(variant_filename)
@@ -122,6 +126,7 @@ def classify_phenotype (phenotype):
 
 # evaluation function for variants
 variant_classes = ['stop', 'frameshift', 'missense', 'deletion', 'insertion', 'noncoding']
+variant_plots   = [1, 1, 2, 2, 2, 3]
 def classify_variant (consequence):
     consequence = consequence.lower()
     if 'stop_gained' in consequence:
@@ -161,26 +166,27 @@ if mapping_offset != 0:
     print("Mapping of variants are offset by {0} to the 3'-end against the GenBank sequence".format(mapping_offset))
 
 # plot data
-y_current = y_current + band_step
 for p_index, phenotype in enumerate(phenotype_classes):
     phenotype_table = variant_table[variant_table['phenotype_class'] == phenotype]
-    y_start = y_current + scatter_step * (p_index * len(variant_classes))
-    axes.hlines(y_start, axes.get_xlim()[0], axes.get_xlim()[1], color = 'black', linewidth = 0.1)
-    axes.text(len(seq_record.seq) + 10, y_start + scatter_delta, phenotype)
+    y_start = y_current + scatter_step * p_index
 
-    for v_index, variant_class in enumerate(variant_classes):
+    axes.hlines(y_start, axes.get_xlim()[0], axes.get_xlim()[1], color = 'black', linewidth = 0.1)
+    axes.text(len(seq_record.seq) + 10, y_start + scatter_step / 2, phenotype, va = 'center')
+
+    for variant_plot, variant_class in zip(variant_plots, variant_classes):
         plot_table = phenotype_table[phenotype_table['variant_class'] == variant_class].copy()
 
         plot_table['plot_cum'] = plot_table.groupby('plot_x').cumcount()
-        plot_table['plot_y'] = y_start + scatter_step * v_index + scatter_delta * (plot_table['plot_cum'] + 1)
+        plot_table['plot_y'] = y_start + variant_plot * scatter_step / (max(variant_plots) + 1) \
+                               + scatter_delta * plot_table['plot_cum']
 
         axes.scatter(plot_table['plot_x'], plot_table['plot_y'],
-                    c = scatter_colors[v_index], marker = 'o', s = 4)
-
+                     c = scatter_colors[variant_classes.index(variant_class)],
+                     marker = 'o', s = 4)
 
 # dummy drawing to generate the legend
-for v_index, variant_class in enumerate(variant_classes):
-    axes.plot([], [], marker="s", linestyle = "none", color = scatter_colors[v_index], label = variant_class)
-axes.legend(ncol = len(variant_classes))
+legend_handles = [Patch(color = scatter_colors[variant_classes.index(variant)], label = variant)
+                  for variant in variant_classes]
+axes.legend(handles = legend_handles, ncol = len(variant_classes) // 2)
 
 plt.show()
