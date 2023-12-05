@@ -14,10 +14,9 @@ input_filename = None
 domain_filename = None
 domain_suffix = "_domains.txt"
 variant_filename = None
-variant_suffix = "_clv.csv"
+variant_suffix = "_clvariants.csv"
 output_filename = None
 output_suffix = "_graph.png"
-mapping_offset = 0
 
 # graph parameters
 band_step = 0.05
@@ -39,8 +38,6 @@ parser.add_argument('-d', '--domain-file', default =domain_filename, \
                     help='domain filename ([basename]{0} if not specified)'.format(domain_suffix))
 parser.add_argument('-v', '--variant-file', default = variant_filename, \
                     help='variant filename ([basename]{0} if not specified)'.format(variant_suffix))
-parser.add_argument('-m', '--mapping-offset', default = mapping_offset, type = int, \
-                    help='offset of variant mapping against the GenBank sequence')
 parser.add_argument('input_file', default = input_filename, \
                     help='input GenBank file. Needs to include exon information.')
 args = parser.parse_args()
@@ -56,10 +53,11 @@ output_filename = set_default_filename(args.output_file, output_suffix)
 domain_filename = set_default_filename(args.domain_file, domain_suffix)
 variant_filename = set_default_filename(args.variant_file, variant_suffix)
 
-mapping_offset = args.mapping_offset
-
-# Load the cDNA sequence
+# Load the cDNA sequence and find the start of cds
 seq_record = [record for record in SeqIO.parse(input_filename, "genbank")][0]
+exons = [feature for feature in seq_record.features if feature.type == 'exon']
+cdss = [feature for feature in seq_record.features if feature.type == 'CDS']
+cds_offset = cdss[0].location.start
 
 # prepare a canvas.
 figure = plt.figure(figsize = (6, 4), dpi = 300)
@@ -73,38 +71,32 @@ axes.set_ylim(0, 1)
 axes.get_yaxis().set_ticks([])
 
 # drawing function
-def draw_bands (y_current, ranges, colors):
+def draw_bands (y_current, ranges, colors, label):
     for index, range in enumerate(ranges):
         axes.add_artist(Rectangle((range[0], y_current + (band_step - band_width) / 2),
                                   range[1] - range[0], band_width,
                                   color = colors[index % len(colors)]))
+    axes.text(len(seq_record.seq) + 10, y_current + band_width / 2, label, va = 'center')
 
 # start drawing from y = 0
 y_current = 0
 
-# draw features
-exons = [feature for feature in seq_record.features if feature.type == 'exon']
-draw_bands(y_current, [(exon.location.start + 1, exon.location.end + 1) for exon in exons], exon_colors)
-axes.text(len(seq_record.seq) + 10, y_current + band_width / 2, "exons", va = 'center')
+# draw exons
+draw_bands(y_current, [(exon.location.start + 1, exon.location.end + 1) for exon in exons], 'exons', exon_colors)
 y_current = y_current + band_step
 
 # draw CDS(s)
-cdss = [feature for feature in seq_record.features if feature.type == 'CDS']
-draw_bands(y_current, [(cds.location.start + 1, cds.location.end + 1) for cds in cdss], cds_colors)
-axes.text(len(seq_record.seq) + 10, y_current + band_width / 2, "cds", va = 'center')
+draw_bands(y_current, [(cds.location.start + 1, cds.location.end + 1) for cds in cdss], 'cds', cds_colors)
 y_current = y_current + band_step
 
 # draw domain
 domains = pd.read_csv(domain_filename, header = None, delim_whitespace = True)[1].to_list()
 draw_bands(y_current, [(int(domain.partition('..')[0]), int(domain.partition('..')[2])) 
-                       for domain in domains], domain_colors)
-axes.text(len(seq_record.seq) + 10, y_current + band_width / 2, "domains", va = 'center')
+                       for domain in domains], 'domains', domain_colors)
 y_current = y_current + band_step
 
 # load pathogenic variants and drop duplicated variants
 variant_table = pd.read_csv(variant_filename)
-variant_table = variant_table[variant_table['final_pathogenicity'].str.lower() == 'pathogenic']
-variant_table = variant_table.drop_duplicates(subset = ['vep_hgvs_c'])
 
 # evaluation function for phenotype
 phenotype_classes = ['usher', 'hl_dom', 'hl_rec', 'hl_uncat', 'others']
@@ -161,9 +153,6 @@ variant_table = pd.concat([variant_table[variant_table['variant_class'] != 'miss
 # set plot x depending on the position on the cDNA
 pattern = re.compile('^NM_[\d\.]+:c\.(-?[\d]+)\D*')
 variant_table['plot_x'] = variant_table.apply(lambda row: int(re.match(pattern, row['vep_hgvs_c']).group(1)), axis = 1)
-if mapping_offset != 0:
-    variant_table['plot_x'] += mapping_offset
-    print("Mapping of variants are offset by {0} to the 3'-end against the GenBank sequence".format(mapping_offset))
 
 # plot data
 for p_index, phenotype in enumerate(phenotype_classes):

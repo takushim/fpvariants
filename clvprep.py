@@ -39,6 +39,20 @@ variant_table['p_change'] = variant_table.apply(lambda row: re.match(pattern, ro
 
 print("used refseq:", pd.factorize(variant_table['refseq'])[1].values)
 
+# identify the position against the refseq
+pattern = re.compile('^c\.(\-?[\d]+)')
+def decode_variant (variant):
+    match = re.match(pattern, variant)
+    if match is None:
+        match = re.match('^c\.(\*[\d]+)', variant)
+    if match is None:
+        match = re.match('^c\.[\D]+([\d]+)', variant)
+    if match is None:
+        raise Exception('cannot decode:', variant)
+    return match.group(1)
+
+variant_table['v_origin'] = variant_table.apply(lambda row: decode_variant(row['variant']), axis = 1)
+
 # classify protein change
 pattern = re.compile('p\.[\w]{3}[\d]+[\w]{3}')
 def classify_protein_change (p_change):
