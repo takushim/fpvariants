@@ -10,7 +10,7 @@ output_filename = None
 output_suffix = "_prep.csv"
 
 # parse arguments
-parser = argparse.ArgumentParser(description='preprocess a clinvar variant file', \
+parser = argparse.ArgumentParser(description='preprocess a deafness gene variant file', \
                                  formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument('-o', '--output-file', default = output_filename, \
                     help='output filename ([basename]{0} if not specified)'.format(output_suffix))
@@ -29,14 +29,17 @@ output_filename = set_default_filename(args.output_file, output_suffix)
 
 # load a clinvar table
 print("loading a variant table:", input_filename)
-variant_table = pd.read_csv(input_filename, sep = '\t')
-variant_table = variant_table[variant_table['Name'].str.match('^NM_')]
+variant_table = pd.read_csv(input_filename)
+variant_table = variant_table[~(variant_table['vep_hgvs_c'] == '\\N')]
 
 # decompose the name column
-pattern = re.compile('^(NM_[\d\.]+)\((\w+)\):(c\.[\S]+)\ ?(\((p.\w+)\))?')
-variant_table['refseq'] = variant_table.apply(lambda row: re.match(pattern, row['Name']).group(1), axis = 1)
-variant_table['variant'] = variant_table.apply(lambda row: re.match(pattern, row['Name']).group(3), axis = 1)
-variant_table['p_change'] = variant_table.apply(lambda row: re.match(pattern, row['Name']).group(5), axis = 1)
+pattern = re.compile('^(NM_[\d\.]+):(c\.[\S]+)')
+variant_table['refseq'] = variant_table.apply(lambda row: re.match(pattern, row['vep_hgvs_c']).group(1), axis = 1)
+variant_table['variant'] = variant_table.apply(lambda row: re.match(pattern, row['vep_hgvs_c']).group(2), axis = 1)
+
+pattern = re.compile('^(NP_[\d\.]+):(p\.[\S]+)')
+variant_table['p_change'] = variant_table.apply(lambda row: re.match(pattern, row['vep_hgvs_p']).group(2) \
+                                                if row['vep_hgvs_p'] != '\\N' else '\\N', axis = 1)
 
 print("used refseq:", pd.factorize(variant_table['refseq'])[1].values)
 
@@ -55,9 +58,10 @@ def decode_variant (variant):
 variant_table['v_origin'] = variant_table.apply(lambda row: decode_variant(row['variant']), axis = 1)
 
 # classify protein change
-pattern = re.compile('p\.[\w]{3}[\d]+[\w]{3}')
+missense_pattern = re.compile('p\.[\w]{3}[\d]+([\w]{3}|\?)')
+silent_pattern = re.compile('p\.[\w]{3}[\d]+(\=)')
 def classify_protein_change (p_change):
-    if p_change is None or p_change == '':
+    if p_change is None or p_change == '' or p_change == '\\N':
         return 'noncoding'
     elif 'Ter' in p_change:
         return 'stop'
@@ -71,8 +75,10 @@ def classify_protein_change (p_change):
         return 'infins'
     elif 'dup' in p_change:
         return 'infdup'
-    elif re.match(pattern, p_change):
+    elif re.match(missense_pattern, p_change):
         return 'missense'
+    elif re.match(silent_pattern, p_change):
+        return 'silent'
     else:
         raise Exception('cannot classify a protein change:', p_change)
 
@@ -80,11 +86,11 @@ variant_table['p_change_class'] = variant_table.apply(lambda row: classify_prote
 
 # keep pathogenic or likely pathogenic variants
 pattern = re.compile('^(Pathogenic|Likely pathogenic)', re.IGNORECASE)
-variant_table = variant_table[variant_table['Clinical significance (Last reviewed)'].str.match(pattern)]
-variant_table['pathogenicity'] = variant_table.apply(lambda row: re.match(pattern, row['Clinical significance (Last reviewed)']).group(1), axis = 1)
+variant_table = variant_table[variant_table['final_pathogenicity'].str.match(pattern)]
+variant_table['pathogenicity'] = variant_table['final_pathogenicity']
 
 # conditions
-variant_table['conditions'] = variant_table['Condition(s)']
+variant_table['conditions'] = variant_table['final_disease']
 
 # output table
 print("output a preprocessed table:", output_filename)
