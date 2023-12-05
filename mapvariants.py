@@ -18,6 +18,7 @@ variant_filename = None
 variant_suffix = "_variants.csv"
 output_filename = None
 output_suffix = "_graph.png"
+sequence_range = [0, 0]
 eval_module_package = "functions"
 eval_module_name = "default"
 
@@ -43,6 +44,8 @@ parser.add_argument('-v', '--variant-file', default = variant_filename, \
                     help='variant filename ([basename]{0} if not specified)'.format(variant_suffix))
 parser.add_argument('-e', '--eval-module', default = eval_module_name, \
                     help='module containing evaluation methods ({0} if not specified)'.format(eval_module_name))
+parser.add_argument('-s', '--sequence-range', default = sequence_range, nargs = 2, type = int, \
+                    help='range of sequence to draw (MIN, MAX). Inf for MAX = 0.')
 parser.add_argument('input_file', default = input_filename, \
                     help='input GenBank file. Needs to include exon information.')
 args = parser.parse_args()
@@ -58,6 +61,7 @@ output_filename = set_default_filename(args.output_file, output_suffix)
 domain_filename = set_default_filename(args.domain_file, domain_suffix)
 variant_filename = set_default_filename(args.variant_file, variant_suffix)
 eval_module_name = args.eval_module
+sequence_range = args.sequence_range
 
 # Load the cDNA sequence and find the start of cds
 print("loading a sequence:", input_filename)
@@ -73,8 +77,12 @@ axes = figure.add_subplot(111)
 axes.spines['right'].set_visible(False)
 axes.spines['left'].set_visible(False)
 axes.spines['top'].set_visible(False)
-axes.set_xlim(-100, len(seq_record.seq) + 100)
-axes.set_xticks(np.arange(1, len(seq_record.seq) + 1, 1000))
+
+xlim_min = sequence_range[0] - 100
+xlim_max = len(seq_record.seq) + 100 if sequence_range[1] == 0 else sequence_range[1] + 100
+print("using xlim:", xlim_min, xlim_max)
+axes.set_xlim(xlim_min, xlim_max)
+
 axes.set_ylim(0, 1)
 axes.get_yaxis().set_ticks([])
 
@@ -84,7 +92,7 @@ def draw_bands (y_current, ranges, label, colors):
         axes.add_artist(Rectangle((range[0], y_current + (band_step - band_width) / 2),
                                   range[1] - range[0], band_width,
                                   color = colors[index % len(colors)]))
-    axes.text(len(seq_record.seq) + 10, y_current + band_width / 2, label, va = 'center')
+    axes.text(xlim_max + 10, y_current + band_width / 2, label, va = 'center', size = 'xx-small')
 
 # start drawing from y = 0
 y_current = 0
@@ -121,15 +129,18 @@ variant_table['plot_p_change_class'] = variant_table.apply(lambda row: eval_modu
 variant_table['plot_condition'] = variant_table.apply(lambda row: eval_module.classify_condition(row['conditions']), axis = 1)
 
 # plot data
-for c_index, condition in enumerate(eval_module.condition_classes):
-    condition_table = variant_table[variant_table['plot_condition'] == condition]
+for c_index, category in enumerate(eval_module.category_classes):
+    matches = variant_table.apply(lambda row: eval_module.match_category(row['plot_condition'], category), axis = 1)
+    category_table = variant_table[matches]
+    
     y_start = y_current + scatter_step * c_index
 
     axes.hlines(y_start, axes.get_xlim()[0], axes.get_xlim()[1], color = 'black', linewidth = 0.1)
-    axes.text(len(seq_record.seq) + 10, y_start + scatter_step / 2, condition, va = 'center')
+    axes.text(xlim_max, y_start + scatter_step / 2,
+             "{0} ({1})".format(category, len(category_table)), va = 'center', size = 'xx-small')
 
     for p_change_step, p_change_class in zip(eval_module.p_change_steps, eval_module.p_change_classes):
-        plot_table = condition_table[condition_table['plot_p_change_class'] == p_change_class].copy()
+        plot_table = category_table[category_table['plot_p_change_class'] == p_change_class].copy()
 
         plot_table['plot_p_change_cum'] = plot_table.groupby('plot_v_origin').cumcount()
         plot_table['plot_y'] = y_start + p_change_step * scatter_step / (max(eval_module.p_change_steps) + 1) \

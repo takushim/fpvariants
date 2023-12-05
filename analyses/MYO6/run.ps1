@@ -1,8 +1,20 @@
 ~/.venv\gpu\Scripts\Activate.ps1
 
-$variant_file = '../clinvar/MYO6.txt'
-$basename = 'test'
 
-../clvprep.py -o ("{0}_clvariants.csv" -f $basename) $variant_file
+$clv_base = 'MYO6_NM_004999.4'
+$clv_refseq = 'NM_004999'
+$clv_eval = 'MYO6'
+$clv_orig = '../clvorig/MYO6.txt'
+$clv_variants = ("{0}_clvvariants.csv" -f $clv_base)
+$clv_graph = ("{0}_clvgraph.png" -f $clv_base)
+../../clvprep.py -o $clv_variants -r $clv_refseq $clv_orig
+../../mapvariants.py -o $clv_graph -e $clv_eval -v $clv_variants -s 0 4500 ("{0}.gb" -f $clv_base)
 
-#. ../dvdmap.py -m 290 MYO7A_NM_000260.4.gb
+$dvd_base = 'MYO6_NM_001368865.1'
+$dvd_refseq = 'NM_001368865'
+$dvd_eval = 'MYO6'
+$dvd_orig = '../dvdorig/MYO6.gvtable.9.csv'
+$dvd_variants = ("{0}_dvdvariants.csv" -f $dvd_base)
+$dvd_graph = ("{0}_dvdgraph.png" -f $dvd_base)
+../../dvdprep.py -o $dvd_variants -r $dvd_refseq $dvd_orig
+../../mapvariants.py -o $dvd_graph -e $dvd_eval -v $dvd_variants -s 0 4500 ("{0}.gb" -f $dvd_base)

@@ -20,14 +20,24 @@ def classify_condition (condition):
     else:
         return 'others'
 
+# categorize conditions allowing duplicates
+category_classes = ['usher', 'nonsynd', 'dominant', 'recessive', 'noncat', 'noinfo', 'others']
+def match_category (condition, category):
+    if category == 'nonsynd':
+        if condition in ['dominant', 'recessive', 'noncat']:
+            return True
+    elif category == condition:
+        return True
+    return False
+
 # evaluation function for variants
-p_change_classes = ['stop', 'frameshift', 'missense', 'inframe', 'noncoding']
+p_change_classes = ['stop', 'frameshift', 'missense', 'inframe', 'silent', 'noncoding']
 p_change_steps   = [1, 1, 2, 2, 2, 3]
 def classify_p_change (p_change):
-    if any(x == p_change for x in ['noncoding', 'stop', 'missense', 'frameshift']):
+    if any(x == p_change for x in ['noncoding', 'stop', 'missense', 'silent', 'frameshift']):
         return p_change
     elif p_change.startswith('inf'):
         return 'inframe'
     else:
-        raise Exception('unable to classify or process:', p_change)
+        raise Exception('unable to classify:', p_change)
 

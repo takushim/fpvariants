@@ -8,12 +8,15 @@ from pathlib import Path
 input_filename = None
 output_filename = None
 output_suffix = "_prep.csv"
+refseq_pattern = None
 
 # parse arguments
 parser = argparse.ArgumentParser(description='preprocess a clinvar variant file', \
                                  formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument('-o', '--output-file', default = output_filename, \
                     help='output filename ([basename]{0} if not specified)'.format(output_suffix))
+parser.add_argument('-r', '--refseq-pattern', default = refseq_pattern, \
+                    help='pattern for refseq (regex allowed)')
 parser.add_argument('input_file', default = input_filename, \
                     help='input GenBank file. Needs to include exon information.')
 args = parser.parse_args()
@@ -26,6 +29,7 @@ def set_default_filename (filename, suffix):
 
 input_filename = args.input_file
 output_filename = set_default_filename(args.output_file, output_suffix)
+refseq_pattern = args.refseq_pattern
 
 # load a clinvar table
 print("loading a variant table:", input_filename)
@@ -37,8 +41,6 @@ pattern = re.compile('^(NM_[\d\.]+)\((\w+)\):(c\.[\S]+)\ ?(\((p.\w+)\))?')
 variant_table['refseq'] = variant_table.apply(lambda row: re.match(pattern, row['Name']).group(1), axis = 1)
 variant_table['variant'] = variant_table.apply(lambda row: re.match(pattern, row['Name']).group(3), axis = 1)
 variant_table['p_change'] = variant_table.apply(lambda row: re.match(pattern, row['Name']).group(5), axis = 1)
-
-print("used refseq:", pd.factorize(variant_table['refseq'])[1].values)
 
 # identify the position against the refseq
 pattern = re.compile('^c\.(\-?[\d]+)')
@@ -85,6 +87,15 @@ variant_table['pathogenicity'] = variant_table.apply(lambda row: re.match(patter
 
 # conditions
 variant_table['conditions'] = variant_table['Condition(s)']
+
+# refseq
+if refseq_pattern is not None:
+    print("filtering using a refseq pattern:", refseq_pattern)
+    pattern = re.compile(refseq_pattern)
+    variant_table = variant_table[variant_table['refseq'].str.match(pattern)]
+
+print("used refseq:")
+print(pd.value_counts(variant_table['refseq']))
 
 # output table
 print("output a preprocessed table:", output_filename)

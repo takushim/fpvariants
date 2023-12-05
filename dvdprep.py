@@ -8,12 +8,15 @@ from pathlib import Path
 input_filename = None
 output_filename = None
 output_suffix = "_prep.csv"
+refseq_pattern = None
 
 # parse arguments
 parser = argparse.ArgumentParser(description='preprocess a deafness gene variant file', \
                                  formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument('-o', '--output-file', default = output_filename, \
                     help='output filename ([basename]{0} if not specified)'.format(output_suffix))
+parser.add_argument('-r', '--refseq-pattern', default = refseq_pattern, \
+                    help='pattern for refseq (regex allowed)')
 parser.add_argument('input_file', default = input_filename, \
                     help='input GenBank file. Needs to include exon information.')
 args = parser.parse_args()
@@ -26,22 +29,23 @@ def set_default_filename (filename, suffix):
 
 input_filename = args.input_file
 output_filename = set_default_filename(args.output_file, output_suffix)
+refseq_pattern = args.refseq_pattern
 
 # load a clinvar table
 print("loading a variant table:", input_filename)
 variant_table = pd.read_csv(input_filename)
-variant_table = variant_table[~(variant_table['vep_hgvs_c'] == '\\N')]
+variant_table = variant_table[variant_table['vep_hgvs_c'].str.match('^NM_')]
 
 # decompose the name column
 pattern = re.compile('^(NM_[\d\.]+):(c\.[\S]+)')
-variant_table['refseq'] = variant_table.apply(lambda row: re.match(pattern, row['vep_hgvs_c']).group(1), axis = 1)
-variant_table['variant'] = variant_table.apply(lambda row: re.match(pattern, row['vep_hgvs_c']).group(2), axis = 1)
+variant_table['refseq'] = variant_table.apply(lambda row: re.match(pattern, row['vep_hgvs_c']).group(1) \
+                                              if row['vep_hgvs_c'] != '\\N' else '\\N', axis = 1)
+variant_table['variant'] = variant_table.apply(lambda row: re.match(pattern, row['vep_hgvs_c']).group(2) \
+                                              if row['vep_hgvs_c'] != '\\N' else '\\N', axis = 1)
 
 pattern = re.compile('^(NP_[\d\.]+):(p\.[\S]+)')
 variant_table['p_change'] = variant_table.apply(lambda row: re.match(pattern, row['vep_hgvs_p']).group(2) \
                                                 if row['vep_hgvs_p'] != '\\N' else '\\N', axis = 1)
-
-print("used refseq:", pd.factorize(variant_table['refseq'])[1].values)
 
 # identify the position against the refseq
 pattern = re.compile('^c\.(\-?[\d]+)')
@@ -91,6 +95,15 @@ variant_table['pathogenicity'] = variant_table['final_pathogenicity']
 
 # conditions
 variant_table['conditions'] = variant_table['final_disease']
+
+# refseq
+if refseq_pattern is not None:
+    print("filtering using a refseq pattern:", refseq_pattern)
+    pattern = re.compile(refseq_pattern)
+    variant_table = variant_table[variant_table['refseq'].str.match(pattern)]
+
+print("used refseq:")
+print(pd.value_counts(variant_table['refseq']))
 
 # output table
 print("output a preprocessed table:", output_filename)
