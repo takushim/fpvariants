@@ -1,0 +1,809 @@
+LOCUS       NM_016239              11811 bp    mRNA    linear   PRI 14-NOV-2023
+DEFINITION  Homo sapiens myosin XVA (MYO15A), mRNA.
+ACCESSION   NM_016239
+VERSION     NM_016239.4
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 11811)
+  AUTHORS   Asaad M, Mahfood M, Al Mutery A and Tlili A.
+  TITLE     Loss-of-function mutations in MYO15A and OTOF cause non-syndromic
+            hearing loss in two Yemeni families
+  JOURNAL   Hum Genomics 17 (1), 42 (2023)
+   PUBMED   37189200
+  REMARK    GeneRIF: Loss-of-function mutations in MYO15A and OTOF cause
+            non-syndromic hearing loss in two Yemeni families.
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 11811)
+  AUTHORS   Yoshino H, Tatarano S, Tamai M, Tsuruda M, Iizasa S, Arima J,
+            Kawakami I, Fukumoto W, Kawahara I, Li G, Sakaguchi T, Inoguchi S,
+            Yamada Y and Enokida H.
+  TITLE     Exosomal microRNA-1 and MYO15A as a target for therapy and
+            diagnosis in renal cell carcinoma
+  JOURNAL   Biochem Biophys Res Commun 630, 71-76 (2022)
+   PUBMED   36150242
+  REMARK    GeneRIF: Exosomal microRNA-1 and MYO15A as a target for therapy and
+            diagnosis in renal cell carcinoma.
+REFERENCE   3  (bases 1 to 11811)
+  AUTHORS   Wang L, Zhang Y, Xue Q, Huang P and Liu X.
+  TITLE     Identification of novel compound heterozygous mutations of the
+            MYO15A gene with autosomal recessive non-syndromic hearing loss
+  JOURNAL   J Clin Lab Anal 36 (10), e24653 (2022)
+   PUBMED   36217262
+  REMARK    GeneRIF: Identification of novel compound heterozygous mutations of
+            the MYO15A gene with autosomal recessive non-syndromic hearing
+            loss.
+REFERENCE   4  (bases 1 to 11811)
+  AUTHORS   Chen PY, Tsai CY, Wu JL, Li YL, Wu CM, Chen KC, Hwang CF, Wu HP,
+            Lin HC, Cheng YF, Lo MY, Liu TC, Yang TH, Chen PL, Hsu CJ and Wu
+            CC.
+  TITLE     Hearing Features and Cochlear Implantation Outcomes in Patients
+            With Pathogenic MYO15A Variants: a Multicenter Observational Study
+  JOURNAL   Ear Hear 43 (4), 1198-1207 (2022)
+   PUBMED   34974475
+  REMARK    GeneRIF: Hearing Features and Cochlear Implantation Outcomes in
+            Patients With Pathogenic MYO15A Variants: a Multicenter
+            Observational Study.
+REFERENCE   5  (bases 1 to 11811)
+  AUTHORS   Fu Y, Huang S, Gao X, Han M, Wang G, Kang D, Yuan Y and Dai P.
+  TITLE     Analysis of the genotype-phenotype correlation of MYO15A variants
+            in Chinese non-syndromic hearing loss patients
+  JOURNAL   BMC Med Genomics 15 (1), 71 (2022)
+   PUBMED   35346193
+  REMARK    GeneRIF: Analysis of the genotype-phenotype correlation of MYO15A
+            variants in Chinese non-syndromic hearing loss patients.
+            Publication Status: Online-Only
+REFERENCE   6  (bases 1 to 11811)
+  AUTHORS   Anderson DW, Probst FJ, Belyantseva IA, Fridell RA, Beyer L, Martin
+            DM, Wu D, Kachar B, Friedman TB, Raphael Y and Camper SA.
+  TITLE     The motor and tail regions of myosin XV are critical for normal
+            structure and function of auditory and vestibular hair cells
+  JOURNAL   Hum Mol Genet 9 (12), 1729-1738 (2000)
+   PUBMED   10915760
+REFERENCE   7  (bases 1 to 11811)
+  AUTHORS   Liang Y, Wang A, Belyantseva IA, Anderson DW, Probst FJ, Barber TD,
+            Miller W, Touchman JW, Jin L, Sullivan SL, Sellers JR, Camper SA,
+            Lloyd RV, Kachar B, Friedman TB and Fridell RA.
+  TITLE     Characterization of the human and mouse unconventional myosin XV
+            genes responsible for hereditary deafness DFNB3 and shaker 2
+  JOURNAL   Genomics 61 (3), 243-258 (1999)
+   PUBMED   10552926
+REFERENCE   8  (bases 1 to 11811)
+  AUTHORS   Wang A, Liang Y, Fridell RA, Probst FJ, Wilcox ER, Touchman JW,
+            Morton CC, Morell RJ, Noben-Trauth K, Camper SA and Friedman TB.
+  TITLE     Association of unconventional myosin MYO15 mutations with human
+            nonsyndromic deafness DFNB3
+  JOURNAL   Science 280 (5368), 1447-1451 (1998)
+   PUBMED   9603736
+REFERENCE   9  (bases 1 to 11811)
+  AUTHORS   Friedman TB, Liang Y, Weber JL, Hinnant JT, Barber TD, Winata S,
+            Arhya IN and Asher JH Jr.
+  TITLE     A gene for congenital, recessive deafness DFNB3 maps to the
+            pericentromeric region of chromosome 17
+  JOURNAL   Nat Genet 9 (1), 86-91 (1995)
+   PUBMED   7704031
+REFERENCE   10 (bases 1 to 11811)
+  AUTHORS   Shearer,A.E., Hildebrand,M.S., Schaefer,A.M. and Smith,R.J.H.
+  TITLE     Genetic Hearing Loss Overview
+  JOURNAL   (in) Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE, Bean LJH,
+            Gripp KW and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301607
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AC087164.9 and AF144094.1.
+            This sequence is a reference standard in the RefSeqGene project.
+            
+            On Nov 22, 2018 this sequence version replaced NM_016239.3.
+            
+            Summary: This gene encodes an unconventional myosin. This protein
+            differs from other myosins in that it has a long N-terminal
+            extension preceding the conserved motor domain. Studies in mice
+            suggest that this protein is necessary for actin organization in
+            the hair cells of the cochlea. Mutations in this gene have been
+            associated with profound, congenital, neurosensory, nonsyndromal
+            deafness. This gene is located within the Smith-Magenis syndrome
+            region on chromosome 17. Read-through transcripts containing an
+            upstream gene and this gene have been identified, but they are not
+            thought to encode a fusion protein. Several alternatively spliced
+            transcript variants have been described, but their full length
+            sequences have not been determined. [provided by RefSeq, Jul 2008].
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AF144094.1 [ECO:0000332]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000647165.2/ ENSP00000495481.1
+            RefSeq Select criteria :: based on conservation
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-69                AC087164.9         81524-81592         c
+            70-3897             AC087164.9         67939-71766         c
+            3898-3980           AC087164.9         65783-65865         c
+            3981-4044           AC087164.9         65117-65180         c
+            4045-4154           AC087164.9         63892-64001         c
+            4155-4229           AC087164.9         63483-63557         c
+            4230-4320           AC087164.9         63183-63273         c
+            4321-4326           AC087164.9         59538-59543         c
+            4327-4430           AC087164.9         59006-59109         c
+            4431-4494           AC087164.9         58817-58880         c
+            4495-4608           AC087164.9         57782-57895         c
+            4609-4770           AC087164.9         56962-57123         c
+            4771-4884           AC087164.9         54524-54637         c
+            4885-4943           AC087164.9         53873-53931         c
+            4944-5067           AC087164.9         53662-53785         c
+            5068-5163           AC087164.9         52669-52764         c
+            5164-5295           AC087164.9         52102-52233         c
+            5296-5421           AC087164.9         51412-51537         c
+            5422-5499           AC087164.9         50737-50814         c
+            5500-5648           AC087164.9         49683-49831         c
+            5649-5694           AC087164.9         49516-49561         c
+            5695-5819           AC087164.9         49205-49329         c
+            5820-5937           AC087164.9         48578-48695         c
+            5938-6113           AC087164.9         48094-48269         c
+            6114-6198           AC087164.9         47508-47592         c
+            6199-6252           AC087164.9         46729-46782         c
+            6253-6334           AC087164.9         46552-46633         c
+            6335-6465           AC087164.9         46348-46478         c
+            6466-6561           AC087164.9         45756-45851         c
+            6562-6797           AC087164.9         44241-44476         c
+            6798-6979           AC087164.9         42138-42319         c
+            6980-7052           AC087164.9         41780-41852         c
+            7053-7244           AC087164.9         41396-41587         c
+            7245-7405           AC087164.9         40972-41132         c
+            7406-7500           AC087164.9         40768-40862         c
+            7501-7615           AC087164.9         39805-39919         c
+            7616-7683           AC087164.9         39583-39650         c
+            7684-7761           AC087164.9         39435-39512         c
+            7762-7942           AC087164.9         39058-39238         c
+            7943-8075           AC087164.9         38821-38953         c
+            8076-8181           AC087164.9         38397-38502         c
+            8182-8254           AC087164.9         38164-38236         c
+            8255-8376           AC087164.9         36452-36573         c
+            8377-8436           AC087164.9         36158-36217         c
+            8437-8512           AC087164.9         35593-35668         c
+            8513-8628           AC087164.9         35123-35238         c
+            8629-8747           AC087164.9         34916-35034         c
+            8748-8889           AC087164.9         34012-34153         c
+            8890-9001           AC087164.9         33283-33394         c
+            9002-9076           AC087164.9         33118-33192         c
+            9077-9255           AC087164.9         32448-32626         c
+            9256-9371           AC087164.9         31710-31825         c
+            9372-9444           AC087164.9         31351-31423         c
+            9445-9517           AC087164.9         31001-31073         c
+            9518-9591           AC087164.9         30669-30742         c
+            9592-9674           AC087164.9         30331-30413         c
+            9675-9805           AC087164.9         28901-29031         c
+            9806-9900           AC087164.9         27669-27763         c
+            9901-9978           AC087164.9         27027-27104         c
+            9979-10075          AC087164.9         26510-26606         c
+            10076-10236         AC087164.9         23827-23987         c
+            10237-10370         AC087164.9         22625-22758         c
+            10371-10504         AC087164.9         18577-18710         c
+            10505-10638         AC087164.9         18058-18191         c
+            10639-10779         AC087164.9         16427-16567         c
+            10780-11493         AC087164.9         10866-11579         c
+            11494-11811         AF144094.1         11544-11861
+FEATURES             Location/Qualifiers
+     source          1..11811
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="17"
+                     /map="17p11.2"
+     gene            1..11811
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /note="myosin XVA"
+                     /db_xref="GeneID:51168"
+                     /db_xref="HGNC:HGNC:7594"
+                     /db_xref="MIM:602666"
+     exon            1..69
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            70..3897
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    241..243
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /note="upstream in-frame stop codon"
+     CDS             289..10881
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /note="unconventional myosin-15; myosin-XV"
+                     /codon_start=1
+                     /product="unconventional myosin-XV"
+                     /protein_id="NP_057323.3"
+                     /db_xref="CCDS:CCDS42271.1"
+                     /db_xref="GeneID:51168"
+                     /db_xref="HGNC:HGNC:7594"
+                     /db_xref="MIM:602666"
+                     /translation="MAKEEDEEKKAKKGKKGKKAPEPEKPKRSLKGTSRLFMGFRDRT
+                     PKISKKGQFRSASAFFWGLHTGPQKTKRKRKARTVLKSTSKLMTQMRMGKKKRAMKGK
+                     KPSFMVIRFPGRRGYGRLRPRARSLSKASTAINWLTKKFLLKKAEESGSEQATVDAWL
+                     QRSSSRMGSRKLPFPSGAEILRPGGRLRRFPRSRSIYASGEPLGFLPFEDEAPFHHSG
+                     SRKSLYGLEGFQDLGEYYDYHRDGDDYYDRQSLHRYEEQEPYLAGLGPYSPAWPPYGD
+                     HYYGYPPEDPYDYYHPDYYGGPFDPGYTYGYGYDDYEPPYAPPSGYSSPYSYHDGYEG
+                     EAHPYGYYLDPYAPYDAPYPPYDLPYHTPYDVPYFDPYGVHYTVPYAEGVYGGGDEAI
+                     YPPEVPYFYPEESASAFVYPWVPPPIPSPHNPYAHAMDDIAELEEPEDAGVERQGTSF
+                     RLPSAAFFEQQGMDKPARSKLSLIRKFRLFPRPQVKLFGKEKLEVPLPPSLDIPLPLG
+                     DADEEEDEEELPPVSAVPYGHPFWGFLTPRQRNLQRALSAFGAHRGLGFGPEFGRPVP
+                     RPATSLARFLKKTLSEKKPIARLRGSQKARAGGPAVREAAYKRFGYKLAGMDPEKPGT
+                     PIVLRRAQPRARSSNDARRPPAPQPAPRTLSHWSALLSPPVPPRPPSSGPPPAPPLSP
+                     ALSGLPRPASPYGSLRRHPPPWAAPAHVPPAPQASWWAFVEPPAVSPEVPPDLLAFPG
+                     PRPSFRGSRRRGAAFGFPGASPRASRRRAWSPLASPQPSLRSSPGLGYCSPLAPPSPQ
+                     LSLRTGPFQPPFLPPARRPRSLQESPAPRRAAGRLGPPGSPLPGSPRPPSPPLGLCHS
+                     PRRSSLNLPSRLPHTWRRLSEPPTRAVKPQVRLPFHRPPRAGAWRAPLEHRESPREPE
+                     DSETPWTVPPLAPSWDVDMPPTQRPPSPWPGGAGSRRGFSRPPPVPENPFLQLLGPVP
+                     SPTLQPEDPAADMTRVFLGRHHEPGPGQLTKSAGPTPEKPEEEATLGDPQLPAETKPP
+                     TPAPPKDVTPPKDITPPKDVLPEQKTLRPSLSYPLAACDQTRATWPPWHRWGTLPQAA
+                     APLAPIRAPEPLPKGGERRQAAPGRFAVVMPRVQKLSSFQRVGPATLKPQVQPIQDPK
+                     PRACSLRWSCLWLRADAYGPWPRVHTHPQSCHLGPGAACLSLRGSWEEVGPPSWRNKM
+                     HSIRNLPSMRFREQHGEDGVEDMTQLEDLQETTVLSNLKIRFERNLIYTYIGSILVSV
+                     NPYQMFGIYGPEQVQQYNGRALGENPPHLFAVANLAFAKMLDAKQNQCIIISGESGSG
+                     KTEATKLILRYLAAMNQKREVMQQIKILEATPLLESFGNAKTVRNDNSSRFGKFVEIF
+                     LEGGVISGAITSQYLLEKSRIVFQAKNERNYHIFYELLAGLPAQLRQAFSLQEAETYY
+                     YLNQGGNCEIAGKSDADDFRRLLAAMEVLGFSSEDQDSIFRILASILHLGNVYFEKYE
+                     TDAQEVASVVSAREIQAVAELLQISPEGLQKAITFKVTETMREKIFTPLTVESAVDAR
+                     DAIAKVLYALLFSWLITRVNALVSPRQDTLSIAILDIYGFEDLSFNSFEQLCINYANE
+                     NLQYLFNKIVFQEEQEEYIREQIDWQEITFADNQPCINLISLKPYGILRILDDQCCFP
+                     QATDHTFLQKCHYHHGANPLYSKPKMPLPEFTIKHYAGKVTYQVHKFLDKNHDQVRQD
+                     VLDLFVRSRTRVVAHLFSSHAPQAAPQRLGKSSSVTRLYKAHTVAAKFQQSLLDLVEK
+                     MERCNPLFMRCLKPNHKKEPGLFEPDVVMAQLRYSGVLETVRIRKEGFPVRLPFQGFI
+                     DRYCCLVALKHDLPANGDMCVSVLSRLCKVMPNMYRVGVSKLFLKEHLYQLLESMREH
+                     VLNLAALTLQRCLRGFFIKRRFRSLRHKIILLQSRARGYLARQRYQQMRRSLVKFRSL
+                     VHAYVSRRRYLKLRAEWRCQVEGALLWEQEELSKREVVAVGHLEVPAELAGLLQAVAG
+                     LGLAQVPQVAPVRTPRLQAEPRVTLPLDINNYPMAKFVQCHFKEPAFGMLTVPLRTPL
+                     TQLPAEHHAEAVSIFKLILRFMGDPHLHGARENIFGNYIVQKGLAVPELRDEILAQLA
+                     NQVWHNHNAHNAERGWLLLAACLSGFAPSPCFNKYLLKFVSDYGRNGFQAVCQHRLMQ
+                     AMGRAQQQGSGAARTLPPTQLEWTATYEKASMALDVGCFNGDQFSCPVHSWSTGEEVA
+                     GDILRHRGLADGWRGWTVAMKNGVQWAELAGHDYVLDLVSDLELLRDFPRQKSYFIVG
+                     TEGPAASRGGPKVVFGNSWDSDEDMSTRPQPQEHMPKVLDSDGYSSHNQDGTNGETEA
+                     QRGTATHQESDSLGEPAVPHKGLDCYLDSLFDPVLSYGDADLEKPTAIAYRMKGGGQP
+                     GGGSSSGTEDTPRRPPEPKPIPGLDASTLALQQAFIHKQAVLLAREMTLQATALQQQP
+                     LSAALRSLPAEKPPAPEAQPTSVGTGPPAKPVLLRATPKPLAPAPLAKAPRLPIKPVA
+                     APVLAQDQASPETTSPSPELVRYSTLNSEHFPQPTQQIKNIVRQYQQPFRGGRPEALR
+                     KDGGKVFMKRPDPHEEALMILKGQMTHLAAAPGTQVSREAVALVKPVTSAPRPSMAPT
+                     SALPSRSLEPPEELTQTRLHRLINPNFYGYQDAPWKIFLRKEVFYPKDSYSHPVQLDL
+                     LFRQILHDTLSEACLRISEDERLRMKALFAQNQLDTQKPLVTESVKRAVVSTARDTWE
+                     VYFSRIFPATGSVGTGVQLLAVSHVGIKLLRMVKGGQEAGGQLRVLRAYSFADILFVT
+                     MPSQNMLEFNLASEKVILFSARAHQVKTLVDDFILELKKDSDYVVAVRNFLPEDPALL
+                     AFHKGDIIHLQPLEPPRVGYSAGCVVRRKVVYLEELRRRGPDFGWRFGTIHGRVGRFP
+                     SELVQPAAAPDFLQLPTEPGRGRAAAVAAAVASAAAAQEVGRRREGPPVRARSADHGE
+                     DALALPPYTMLEFAQKYFRDPQRRPQDGLRLKSKEPRESRTLEDMLCFTKTPLQESLI
+                     ELSDSSLSKMATDMFLAVMRFMGDAPLKGQSDLDVLCNLLKLCGDHEVMRDECYCQVV
+                     KQITDNTSSKQDSCQRGWRLLYIVTAYHSCSEVLHPHLTRFLQDVSRTPGLPFQGIAK
+                     ACEQNLQKTLRFGGRLELPSSIELRAMLAGRSSKRQLFLLPGGLERHLKIKTCTVALD
+                     VVEEICAEMALTRPEAFNEYVIFVVTNRGQHVCPLSRRAYILDVASEMEQVDGGYMLW
+                     FRRVLWDQPLKFENELYVTMHYNQVLPDYLKGLFSSVPASRPSEQLLQQVSKLASLQH
+                     RAKDHFYLPSVREVQEYIPAQLYRTTAGSTWLNLVSQHRQQTQALSPHQARAQFLGLL
+                     SALPMFGSSFFFIQSCSNIAVPAPCILAINHNGLNFLSTETHELMVKFPLKEIQSTRT
+                     QRPTANSSYPYVEIALGDVAAQRTLQLQLEQGLELCRVVAVHVENLLSAHEKRLTLPP
+                     SEITLL"
+     misc_feature    289..426
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9UKN7.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    2131..2418
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9UKN7.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    2476..3459
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9UKN7.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    5662..5685
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9UKN7.2);
+                     Region: Actin-binding. /evidence=ECO:0000255"
+     misc_feature    5950..6375
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9UKN7.2);
+                     Region: Neck or regulatory domain"
+     misc_feature    6376..10878
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9UKN7.2);
+                     Region: Tail"
+     misc_feature    7219..7431
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9UKN7.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    7528..7626
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9UKN7.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    7756..7815
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9UKN7.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    8218..8283
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /note="propagated from UniProtKB/Swiss-Prot (Q9UKN7.2);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     exon            3898..3980
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3981..4044
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4045..4154
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4155..4229
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4230..4320
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4321..4326
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4327..4430
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4431..4494
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4495..4608
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4609..4770
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4771..4884
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4885..4943
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4944..5067
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5068..5163
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5164..5295
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5296..5421
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5422..5499
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5500..5648
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5649..5694
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5695..5819
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5820..5937
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5938..6113
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6114..6198
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6199..6252
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6253..6334
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6335..6465
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6466..6561
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6562..6797
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6798..6979
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6980..7052
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7053..7244
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7245..7405
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7406..7500
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7501..7615
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7616..7683
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7684..7761
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7762..7942
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7943..8075
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8076..8181
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8182..8254
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8255..8376
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8377..8436
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8437..8512
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8513..8628
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8629..8747
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8748..8889
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8890..9001
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9002..9076
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9077..9255
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9256..9371
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9372..9444
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9445..9517
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9518..9591
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9592..9674
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9675..9805
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9806..9900
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9901..9978
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            9979..10075
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            10076..10236
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            10237..10370
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            10371..10504
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            10505..10638
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            10639..10779
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     exon            10780..11811
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      11792..11797
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /note="hexamer: AATAAA"
+     polyA_site      11811
+                     /gene="MYO15A"
+                     /gene_synonym="DFNB3; MYO15"
+                     /note="major polyA site"
+ORIGIN      
+        1 gtgctcctgg gccagccaga ggacccccat gaggcggcat gcaggcgggg agcaggccac
+       61 agaacgcagg gtgaaaccca aggcgctcta gaggagatga attatggatc cgccctcccg
+      121 gaatcctggc tcggccctcc ccacgccacc cagggccagt cgggtctgct cacagcccga
+      181 ggaggccgcg tgtccagccg cgggcaagag acagagcagg tccctgtgtc tccaagtccc
+      241 tgagcccgtg acaccggccc caggccctgt agagagcagg cagccaccat ggcgaaggag
+      301 gaagatgagg agaagaaagc caagaaaggg aagaagggga agaaggcacc ggagccggag
+      361 aagcccaaac ggagcctgaa ggggacgtcg cggctgttca tgggcttccg cgaccgtaca
+      421 cccaagatct ccaagaaggg ccagttccgc agcgcctcgg ccttcttctg gggcctccac
+      481 accggccccc agaagaccaa gcgcaagagg aaggcccgca ccgtgctcaa gtccacgtca
+      541 aagctcatga cgcagatgcg catgggcaag aagaagcggg cgatgaaggg caagaagccg
+      601 tccttcatgg tgatccgctt cccaggccgc cgtggctacg gccgcctgcg gccgcgcgcc
+      661 cggtcactca gcaaagcgtc cacggccatc aactggctca caaaaaagtt cctcctcaag
+      721 aaggccgagg agtcgggcag cgaacaggcc acagtggacg cctggctgca gcgctcgagc
+      781 tcccgcatgg gctcccgcaa actccccttc ccgtcgggtg ccgagatcct gcggcctggg
+      841 ggccggctcc ggaggttccc ccgcagccgc agcatctacg cgtcaggcga gcccctgggc
+      901 ttcctgccct tcgaggacga ggccccattc catcactcgg gctcccgcaa gtcgctgtac
+      961 gggcttgagg gcttccagga cctgggcgag tattatgact atcaccgcga cggcgacgac
+     1021 tactacgacc ggcagtcact ccaccgctac gaggagcagg aaccctacct ggcgggcctc
+     1081 ggcccctaca gcccggcctg gccaccctac ggcgaccact actacgggta cccgcccgag
+     1141 gatccctacg actactacca ccccgactat tacggtggcc cctttgatcc ggggtacacc
+     1201 tacggctacg gctacgacga ttacgaaccc ccatatgcgc ccccgtcggg gtactcgtct
+     1261 ccttacagct accacgatgg gtacgagggc gaggcgcacc cttatggcta ctacctggat
+     1321 ccctatgcgc cgtacgacgc gccataccca ccctatgacc tcccatacca cactccctac
+     1381 gatgtaccct actttgatcc ctacggagtc cactacaccg tcccctatgc cgaaggcgtc
+     1441 tatggcggtg gggacgaggc catctacccc cccgaggtgc cctattttta cccggaggag
+     1501 tcggcttcgg cctttgtgta cccctgggta ccaccgccca tcccgtcgcc ccacaacccg
+     1561 tatgcccacg ccatggatga catcgccgag ctggaggaac cagaggacgc gggcgtagag
+     1621 cgtcagggga cctccttccg cctgcccagc gccgccttct tcgagcagca aggcatggat
+     1681 aagcccgcca ggtccaagct gtccctcatc cgcaagttcc gcctcttccc gcgaccccag
+     1741 gtgaagctgt ttgggaagga gaagctggag gtgcccctgc caccctctct ggacattcct
+     1801 ctccccttgg gggatgcgga cgaagaagag gacgaggagg agctgccccc ggtttccgct
+     1861 gtgccctacg gccacccttt ctggggcttc ctcacgccgc gccagcgcaa cctccagcgc
+     1921 gcgctgtcgg ccttcggcgc ccaccggggc ctgggcttcg gccctgagtt tggccgcccc
+     1981 gtgcctcgcc ctgccacctc gcttgcgcgg ttcctcaaga agacgctgtc ggagaagaag
+     2041 cccatcgcgc ggctcagggg cagccagaag gcccgggcgg gcggccctgc tgtcagggag
+     2101 gcggcctaca aacgcttcgg ctacaagctg gctggcatgg accccgagaa gcccggcacg
+     2161 cccatcgtgc tgaggagggc ccagccacgc gctcgcagca gcaacgacgc gcgccgcccg
+     2221 cccgcgccac agcccgcgcc caggaccctc tcccactgga gcgcgctcct gtctccgccc
+     2281 gtgcccccgc ggcccccaag ctccgggccc ccgcccgcgc cgccgctctc cccggcgctc
+     2341 tcgggcctgc cccggccggc ctcgccctac ggctccctcc gccgccaccc gccgccctgg
+     2401 gccgccccag cgcacgtgcc accggcgccg caggccagct ggtgggcctt cgtggagccc
+     2461 cctgccgtga gcccggaggt gccccccgac ctactagcct tcccagggcc ccgaccctcg
+     2521 ttcaggggct cccgccggag aggggcggct ttcggcttcc ccggggcctc tccacgggcg
+     2581 tcgcggaggc gagcttggtc accgctggcc tcgccccagc cctcgctgag gagctcgccg
+     2641 ggcctcggct actgctcacc cttggcgccc ccgtcgcctc agctgtcctt gcgcacgggc
+     2701 cccttccagc cgcccttcct gcccccggcc cgccggcccc gctcgctgca ggagtcccca
+     2761 gccccacgcc gagccgctgg gcgcctgggc ccacccggct cgccgctgcc gggctcaccc
+     2821 aggccgccct cgccgcccct ggggctctgc cacagcccgc ggcgcagctc cctgaatctg
+     2881 ccctcgcgcc tcccgcacac gtggcggcgc ctcagcgagc cacccactcg ggctgtgaag
+     2941 ccgcaagtgc gcctgccctt ccaccgaccg cccagggccg gggcctggcg ggcgcccctg
+     3001 gaacaccggg agagcccgcg agaacccgag gactcagaga cgccctggac tgtgccccca
+     3061 ctggccccca gctgggacgt ggacatgcct cccacccaac gcccaccctc cccctggcca
+     3121 ggaggtgcag gcagccgccg aggcttttcc aggccacccc ctgtgccgga aaaccccttt
+     3181 ctccagctcc tgggccctgt gccatccccc accctccagc ctgaggatcc agctgctgat
+     3241 atgaccaggg tcttcctggg cagacaccat gagccggggc ctggacagct caccaaatca
+     3301 gctggcccaa cccctgagaa gcctgaagaa gaggccaccc tgggggaccc ccagctgcca
+     3361 gcagagacca agcctccaac cccagcacct cccaaggatg tcactccccc caaggatatc
+     3421 actcccccca aggatgtcct cccagagcaa aagacattaa ggcccagcct ctcataccca
+     3481 ctggctgcgt gtgaccagac cagggccaca tggccaccat ggcaccgctg gggaacactg
+     3541 ccccaagccg cagccccctt ggcgcccatc agggccccag agcccctgcc caaggggggt
+     3601 gaacggcgcc aggcagcccc tgggcgtttt gctgtggtca tgcctcgtgt gcagaagctg
+     3661 agctctttcc agcgagttgg gcctgcaacc ctgaagcctc aagtccagcc cattcaggac
+     3721 cccaagccaa gagcctgtag tcttcgctgg tcctgcctct ggcttcgggc agatgcctat
+     3781 ggaccctggc cacgagtaca cacccatccc cagtcctgcc acctgggccc tggagctgcc
+     3841 tgcctgtccc ttaggggctc ctgggaggag gtcggcccgc caagctggcg gaacaagatg
+     3901 cactccatcc gcaacctgcc atccatgcgg ttccgtgagc agcacgggga ggatggtgtg
+     3961 gaggacatga cacagctgga agacctccag gaaaccactg tgctgtccaa cctcaagatt
+     4021 agatttgaac ggaacctcat ctacacatac attgggagca tcctggtgtc ggtgaaccca
+     4081 taccaaatgt ttggaatcta tgggccggag caggtgcagc agtacaacgg acgggccctg
+     4141 ggagagaatc ccccgcacct ctttgctgtt gcaaatctcg ccttcgccaa aatgctcgat
+     4201 gccaaacaga accagtgcat aatcattagt ggagagagcg gctctggcaa aactgaggcc
+     4261 accaagctga ttctgcgcta cctggccgcc atgaaccaga aacgggaggt catgcagcag
+     4321 ataaagatcc tggaggcaac acccctcttg gagtccttcg gtaatgccaa aaccgtcagg
+     4381 aacgacaact ccagccgctt tgggaagttt gtggaaatct ttctggaagg gggcgtgatc
+     4441 tctggtgcca taacctccca gtacctgctt gagaaatcca ggatcgtgtt tcaggccaaa
+     4501 aacgagagga attaccacat cttctacgag ttgctggccg ggttgcctgc ccagctcagg
+     4561 caggccttta gcctgcaaga ggctgagacc tactactatc tgaaccaggg tgggaactgt
+     4621 gagatagcag gaaagagcga tgcagatgac tttcgccggc tcctggctgc catggaggtg
+     4681 ttgggcttca gcagtgagga ccaggacagc atcttccgca tcctggcctc catcctgcac
+     4741 ctgggcaacg tctactttga gaagtatgag acggatgcac aggaggtggc ctcagtggtg
+     4801 agtgcccgag agatccaggc cgtggcagag ctgctgcaga tctcccctga gggcctgcag
+     4861 aaggccatca ccttcaaagt gaccgagaca atgcgagaga agatcttcac gcccctaact
+     4921 gtggagagcg ctgtggatgc cagggacgcc atcgccaagg tcttgtatgc actgctgttc
+     4981 agctggctca tcaccagggt caacgcgctg gtgtccccaa ggcaggacac actgtccatc
+     5041 gccatcctgg acatctatgg tttcgaggac ctgagcttca acagctttga gcagctgtgt
+     5101 attaactacg caaacgagaa ccttcagtac cttttcaaca agatcgtctt ccaggaggag
+     5161 caggaggagt acatccgtga gcagatagac tggcaggaga tcacctttgc tgacaaccag
+     5221 ccctgcatca acctcatctc actgaagcct tatggcatcc tgcggatcct tgacgaccag
+     5281 tgttgctttc cccaggctac agaccacacc ttcctacaga agtgccacta ccatcatggc
+     5341 gccaacccgc tctattccaa acccaagatg ccgctgcctg agttcaccat caagcactat
+     5401 gcaggcaagg tcacctacca ggtgcacaag ttcctggaca agaaccacga ccaagtgcgc
+     5461 caggatgtgc tggacctgtt cgtacggagc cggacacggg tggtggcaca cctcttctcc
+     5521 agccatgccc cacaggctgc ccctcagcgc ctgggcaaga gcagctccgt cactcggctc
+     5581 tacaaggcgc acactgtggc cgccaagttc cagcagtcac tcctggatct ggtggaaaag
+     5641 atggagaggt gcaacccctt gttcatgcgt tgcctgaagc ccaaccacaa gaaggagcca
+     5701 ggtctctttg agccagatgt ggtaatggca caattacgct attcaggggt gctggagacc
+     5761 gtgaggatcc gcaaggaggg atttccagtg cgcctgcctt tccaggggtt catcgacagg
+     5821 tactgctgtc tagtggccct caagcatgac ctgccggcta atggggacat gtgtgtgtca
+     5881 gtgctgagtc gcctgtgcaa agtcatgcca aacatgtacc gtgttggggt cagcaagctg
+     5941 ttccttaagg aacacctata ccagctgctg gagagtatgc gagagcatgt cctgaatctg
+     6001 gcagccctca ctctgcagcg ctgcctccgt ggcttcttca ttaagcggcg attccgctct
+     6061 ctgcgccaca agatcatcct gctgcaaagc cgggcccgtg gctaccttgc caggcaacgc
+     6121 tatcagcaga tgaggaggag tctggtgaag ttccggtccc tggtacacgc atacgtgagc
+     6181 cgccgacgct atctcaagct gagggcagag tggaggtgcc aggtggaggg ggcgctgctg
+     6241 tgggagcagg aggagctgag caagcgggag gtagtcgctg tggggcacct ggaggtaccg
+     6301 gctgagctgg ctgggctctt gcaagcagtg gcaggcctcg ggctggccca ggtgcctcag
+     6361 gtggcccctg tgaggactcc tcgactccag gctgagcccc gtgtcacact gcccctggac
+     6421 atcaacaact atcctatggc caagtttgtc cagtgccact tcaaggaacc tgcctttggg
+     6481 atgctgacag tgcccctgag gacacccctc acgcagctgc cagccgagca ccatgcagaa
+     6541 gccgtgagca tcttcaagct gatcctgcgc ttcatgggcg acccccacct gcatggtgcc
+     6601 cgggagaaca tcttcgggaa ctacatcgtg cagaaggggc tggcggtgcc tgagctgcgg
+     6661 gatgagatcc tggcacagct ggccaatcag gtgtggcaca atcacaatgc ccacaatgct
+     6721 gagcggggct ggctgctgct ggccgcctgc ctcagtggct ttgcaccttc cccgtgcttc
+     6781 aacaagtacc ttctcaagtt tgtgtctgat tatgggcgga atggcttcca ggctgtgtgt
+     6841 cagcaccgcc tcatgcaggc catgggccgg gcccaacagc agggctcggg ggctgcccgc
+     6901 accttacccc cgacccagct cgagtggaca gcgacctatg agaaggccag catggcgctg
+     6961 gacgtgggct gcttcaatgg tgaccagttc tcctgcccgg tgcactcctg gagtacgggg
+     7021 gaagaggtgg ctggagacat tctgaggcac agggggctgg cagatggctg gcgcggctgg
+     7081 accgtggcca tgaagaatgg tgtccagtgg gcagagctgg ctggccacga ctacgtgtta
+     7141 gacctggtgt cggacctgga gctgctcagg gacttccctc gacagaagtc ctacttcatt
+     7201 gtgggcacag aggggcctgc agccagcagg ggaggcccca aagtggtgtt tgggaacagc
+     7261 tgggactcgg atgaggacat gtccactaga ccccagcccc aggagcacat gcccaaagta
+     7321 cttgactctg atgggtacag cagccacaat caggacggta caaatgggga gactgaggcc
+     7381 caaagaggga cagcaaccca ccaagagtca gacagtcttg gagagcctgc tgtgccccac
+     7441 aaggggctgg actgctacct ggatagcctc tttgaccctg tgctgtccta cggggatgcg
+     7501 gacctggaga agccaacagc cattgcctac cgcatgaaag ggggaggcca gcccggtgga
+     7561 ggcagcagta gtggtactga agacaccccc aggagacccc cagagccaaa gccaatccca
+     7621 ggcctggatg cctccacatt ggctctgcag caagccttca tccacaaaca ggccgtgctg
+     7681 ctggcccggg agatgaccct gcaggccacg gcactccagc agcagcccct gagtgctgcc
+     7741 ctgagatcct tgcccgcaga gaaaccccca gcaccagagg cacagccgac gtctgtaggc
+     7801 accggtcccc ctgccaaacc cgtgctcctg cgtgccactc caaagccctt ggccccagcc
+     7861 cctctggcca aggctccaag gctccccatc aagcctgtgg ctgcccctgt tctagctcag
+     7921 gatcaggctt ctccagaaac cacttcaccc tccccagagc tggtccggta ctctacgctc
+     7981 aactctgagc acttcccaca gcccacacag cagatcaaga atattgtcag gcagtaccag
+     8041 cagccgttcc ggggaggccg gcctgaggcc ctcaggaagg atggcgggaa agtgttcatg
+     8101 aagcggccag accctcatga ggaggccctg atgatcctga aagggcagat gacccacctg
+     8161 gcagctgcac ctggcaccca ggtgtccaga gaggccgtgg ccctggtgaa gccggtgacc
+     8221 agtgcaccaa ggccatccat ggcacccact tcagctctgc cctcgcgatc gctggagccc
+     8281 cctgaggaac tcacgcagac gcggctgcac cgcctcatca atcccaactt ctacggctat
+     8341 caggacgccc cctggaagat cttcctgcgc aaagaggtgt tttaccccaa ggacagctac
+     8401 agccatcctg tgcagcttga cctcctgttc cggcagatcc tgcacgacac gctctccgag
+     8461 gcctgccttc gcatctctga ggatgagagg ctcaggatga aggccttgtt tgcccagaac
+     8521 cagctggaca cacagaagcc tctggtaacg gaaagcgtga agcgggccgt ggtcagcact
+     8581 gcacgagaca cctgggaggt ctacttctcc cgcatcttcc ccgccacggg cagcgtgggc
+     8641 actggtgtgc agctcctagc tgtgtcccac gtgggcatca aactcctgag gatggtcaag
+     8701 ggtggccagg aggccggcgg gcagctgcgg gtcctgcgtg catacagctt tgcagatatc
+     8761 ctgtttgtga ccatgccctc ccagaacatg ctggagttca acctggccag tgagaaggtc
+     8821 atcctcttct cagcccgagc gcaccaggtc aagaccctgg tagatgactt catcttggag
+     8881 ctgaagaagg actctgacta cgtggtcgct gtgaggaact tcctgcctga ggaccctgcg
+     8941 ctgctggctt tccacaaggg tgacatcata cacctgcagc ccctagagcc acctcgagtg
+     9001 ggctacagtg ctggctgcgt ggttcgcagg aaggtggtgt acctggagga gctgcgacgt
+     9061 agaggccccg actttggctg gaggttcggg accatccacg ggcgcgtggg ccgcttccct
+     9121 tcggagctgg tgcagcccgc tgctgccccc gacttcctgc agctgccaac ggagccaggc
+     9181 cgcggccgag cagccgccgt ggccgctgct gtggcctctg cagccgctgc acaggaggtg
+     9241 ggccgcagga gagagggtcc cccagtcagg gcccgctctg ctgaccatgg ggaggacgcc
+     9301 ctggcgctcc caccctacac aatgctcgag tttgcccaga agtatttccg agaccctcag
+     9361 aggagacccc aggatggcct caggctgaaa tccaaggagc ctcgggagtc cagaaccttg
+     9421 gaggacatgc tttgcttcac caagactccc ctccaggaat ccctcatcga actcagcgac
+     9481 agcagcctca gcaagatggc caccgacatg ttcctagctg taatgaggtt catgggggat
+     9541 gccccactga agggccagag tgacctggac gtgctttgta acctcctgaa gctgtgcggg
+     9601 gaccatgagg tcatgcggga tgaatgttac tgccaagttg tgaagcagat cacagacaat
+     9661 accagctcca agcaggacag ctgccagcga ggctggaggc tgctgtatat cgtgaccgcc
+     9721 taccacagct gctctgaggt cctccaccca cacctcactc gcttcctcca agacgtgagc
+     9781 cggaccccag gcctgccctt tcaggggatc gccaaggcct gcgagcagaa cctgcagaaa
+     9841 accttgcgct tcggaggtcg tctggagctc cccagcagca tagagcttcg ggccatgttg
+     9901 gcaggccgca gttccaagag gcaactcttt cttcttcctg gaggccttga acgccatctc
+     9961 aaaatcaaaa catgcactgt ggccctggac gtggtggaag agatatgtgc tgagatggct
+    10021 ctgacacgcc ctgaggcctt caatgaatat gttatcttcg ttgtcaccaa ccgtggccag
+    10081 catgtgtgcc cactcagtcg ccgtgcttac atcctggatg tggcctcaga gatggagcag
+    10141 gtggacggcg gctacatgct ctggttccgg cgtgtgctct gggatcagcc actcaagttc
+    10201 gagaatgagc tatatgtgac catgcactac aaccaggtcc tgcctgacta cctgaaggga
+    10261 ctcttcagca gtgtgccggc cagccggccc agcgagcagc tgctgcagca ggtgtccaag
+    10321 ctggcttcac tgcagcatcg cgccaaggac cacttctacc tgccgagcgt gcgggaagtc
+    10381 caggagtaca tcccagccca gctctaccgt acaacggcag gctcgacctg gctcaacctg
+    10441 gtcagccagc accggcagca gacacaggcg ctcagccccc accaggcccg tgcccagttt
+    10501 ctgggcctcc tcagcgcctt acctatgttc ggctcctcct tcttcttcat ccagagctgc
+    10561 agcaacattg ctgtgccagc cccttgcatc cttgccatca accacaatgg cctcaacttt
+    10621 ctcagcacag agactcatga attgatggtg aagttccccc tgaaggagat ccagtcgacg
+    10681 cggacccagc ggcccacggc caactccagc tacccctatg tggagattgc gctgggggac
+    10741 gtggcggccc agcgcacctt gcagctgcag ctggagcagg gactggaact gtgtcgtgtg
+    10801 gtggccgtgc acgtggagaa cctgctcagt gcccatgaga agcggctcac attgcccccc
+    10861 agcgagatca ccctgctctg acccagcccc cagccctcca gtaccttctg ccagaagact
+    10921 cactgtgtgg cctcagagaa atcactgaac ctctcaggat caatgacccc tgtaaggggc
+    10981 cagagccttg gaggacacta agaggaggca ggaggagcaa ctcaaatccc caagaacaca
+    11041 agaagaccca tcctgaactg ggatggaatg gcagcatgca aacttggatc agatagcagg
+    11101 aggaactttc aaaagtctgg cccactgtgc agtggagcag aaggcaggac catgaggcct
+    11161 cctgccatgt acccattgca gaccctgccc ctaactcctg cctatgacac agaagcccca
+    11221 caccagttgc ccagatgaac tggcctctgc ctttggttta ctcagggtct gatgttggaa
+    11281 tctgctccaa ctccacaccc tagcccttac atgtcctcct aaggggcccc tccttgtgct
+    11341 gccagtcagc ctggatttct ggtctttggt tatttctgtg caaacaaaag gtgtgcctgg
+    11401 cagccatttc tccatggagt tgctaagtgg ccggaaaaca agcctgaggg aggaggcagg
+    11461 agttggagtt accttaggcc cctgattcac tgcctatgaa cagaccatcc cccactcctt
+    11521 gggtatcccc aaccccagac ccccatcact tgatgggcca cacaagtttg agagtggtac
+    11581 aagggagaag tttgggaaaa gccttcttgg aaaatgggac attagcattg agttttgaaa
+    11641 gatgagtagg agtttgctaa gaatagatgg aagacagcag gataaacatt ccagagaaaa
+    11701 tcatgtttat tccctgctgt atcttccaga acctaggagg atgcctaaca gagagtaagc
+    11761 acttaaaaaa tatttgtcat atgaatgaaa aaataaacga gtgaatgttg a
+//
+

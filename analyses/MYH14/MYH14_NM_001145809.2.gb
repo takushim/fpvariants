@@ -1,0 +1,561 @@
+LOCUS       NM_001145809            6914 bp    mRNA    linear   PRI 17-NOV-2023
+DEFINITION  Homo sapiens myosin heavy chain 14 (MYH14), transcript variant 3,
+            mRNA.
+ACCESSION   NM_001145809
+VERSION     NM_001145809.2
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 6914)
+  AUTHORS   Hiramatsu K, Nishio SY, Kitajiri SI, Kitano T, Moteki H, Usami SI
+            and On Behalf Of The Deafness Gene Study Consortium.
+  TITLE     Prevalence and Clinical Characteristics of Hearing Loss Caused by
+            MYH14 Variants
+  JOURNAL   Genes (Basel) 12 (10), 1623 (2021)
+   PUBMED   34681017
+  REMARK    GeneRIF: Prevalence and Clinical Characteristics of Hearing Loss
+            Caused by MYH14 Variants.
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 6914)
+  AUTHORS   Weissenbruch K, Grewe J, Hippler M, Fladung M, Tremmel M, Stricker
+            K, Schwarz US and Bastmeyer M.
+  TITLE     Distinct roles of nonmuscle myosin II isoforms for establishing
+            tension and elasticity during cell morphodynamics
+  JOURNAL   Elife 10, e71888 (2021)
+   PUBMED   34374341
+  REMARK    GeneRIF: Distinct roles of nonmuscle myosin II isoforms for
+            establishing tension and elasticity during cell morphodynamics.
+            Publication Status: Online-Only
+REFERENCE   3  (bases 1 to 6914)
+  AUTHORS   Singh RR, McNamara JW and Sadayappan S.
+  TITLE     Mutations in myosin S2 alter cardiac myosin-binding protein-C
+            interaction in hypertrophic cardiomyopathy in a
+            phosphorylation-dependent manner
+  JOURNAL   J Biol Chem 297 (1), 100836 (2021)
+   PUBMED   34051236
+  REMARK    GeneRIF: Mutations in myosin S2 alter cardiac myosin-binding
+            protein-C interaction in hypertrophic cardiomyopathy in a
+            phosphorylation-dependent manner.
+REFERENCE   4  (bases 1 to 6914)
+  AUTHORS   Wang M, Zhou Y, Zhang F, Fan Z, Bai X and Wang H.
+  TITLE     A novel MYH14 mutation in a Chinese family with autosomal dominant
+            nonsyndromic hearing loss
+  JOURNAL   BMC Med Genet 21 (1), 154 (2020)
+   PUBMED   32711451
+  REMARK    GeneRIF: A novel MYH14 mutation in a Chinese family with autosomal
+            dominant nonsyndromic hearing loss.
+            Publication Status: Online-Only
+REFERENCE   5  (bases 1 to 6914)
+  AUTHORS   Almutawa W, Smith C, Sabouny R, Smit RB, Zhao T, Wong R, Lee-Glover
+            L, Desrochers-Goyette J, Ilamathi HS, Suchowersky O, Germain M,
+            Mains PE, Parboosingh JS, Pfeffer G, Innes AM and Shutt TE.
+  CONSRTM   Care4Rare Canada Consortium
+  TITLE     The R941L mutation in MYH14 disrupts mitochondrial fission and
+            associates with peripheral neuropathy
+  JOURNAL   EBioMedicine 45, 379-392 (2019)
+   PUBMED   31231018
+  REMARK    GeneRIF: We describe the third family carrying the R941L mutation
+            in MYH14, and demonstrate that the R941L mutation impairs
+            non-muscle myosin protein function. To better understand the
+            molecular basis of the peripheral neuropathy phenotype associated
+            with the R941L mutation, which has been hindered by the fact that
+            NMIIC is largely uncharacterized, we have established a previously
+            unrecognized biological role for NMIIC in mediatin
+REFERENCE   6  (bases 1 to 6914)
+  AUTHORS   Golomb E, Ma X, Jana SS, Preston YA, Kawamoto S, Shoham NG, Goldin
+            E, Conti MA, Sellers JR and Adelstein RS.
+  TITLE     Identification and characterization of nonmuscle myosin II-C, a new
+            member of the myosin II family
+  JOURNAL   J Biol Chem 279 (4), 2800-2808 (2004)
+   PUBMED   14594953
+REFERENCE   7  (bases 1 to 6914)
+  AUTHORS   Leal A, Endele S, Stengel C, Huehne K, Loetterle J, Barrantes R,
+            Winterpacht A and Rautenstrauss B.
+  TITLE     A novel myosin heavy chain gene in human chromosome 19q13.3
+  JOURNAL   Gene 312, 165-171 (2003)
+   PUBMED   12909352
+REFERENCE   8  (bases 1 to 6914)
+  AUTHORS   Desjardins PR, Burkman JM, Shrager JB, Allmond LA and Stedman HH.
+  TITLE     Evolutionary implications of three novel members of the human
+            sarcomeric myosin heavy chain gene family
+  JOURNAL   Mol Biol Evol 19 (4), 375-393 (2002)
+   PUBMED   11919279
+REFERENCE   9  (bases 1 to 6914)
+  AUTHORS   Bement WM, Hasson T, Wirth JA, Cheney RE and Mooseker MS.
+  TITLE     Identification and overlapping expression of multiple
+            unconventional myosin genes in vertebrate cell types
+  JOURNAL   Proc Natl Acad Sci U S A 91 (14), 6549-6553 (1994)
+   PUBMED   8022818
+  REMARK    Erratum:[Proc Natl Acad Sci U S A. 1994 Nov 22;91(24):11767. PMID:
+            7972138]
+REFERENCE   10 (bases 1 to 6914)
+  AUTHORS   Shearer,A.E., Hildebrand,M.S., Schaefer,A.M. and Smith,R.J.H.
+  TITLE     Genetic Hearing Loss Overview
+  JOURNAL   (in) Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE, Bean LJH,
+            Gripp KW and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301607
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AC020906.6, BC129803.1,
+            AB290169.1, BC018933.2, AK125082.1, DB110776.1 and BC007877.2.
+            This sequence is a reference standard in the RefSeqGene project.
+            
+            On Jun 2, 2019 this sequence version replaced NM_001145809.1.
+            
+            Summary: This gene encodes a member of the myosin superfamily. The
+            protein represents a conventional non-muscle myosin; it should not
+            be confused with the unconventional myosin-14 (MYO14). Myosins are
+            actin-dependent motor proteins with diverse functions including
+            regulation of cytokinesis, cell motility, and cell polarity.
+            Mutations in this gene result in one form of autosomal dominant
+            hearing impairment. Multiple transcript variants encoding different
+            isoforms have been found for this gene. [provided by RefSeq, Dec
+            2011].
+            
+            Transcript Variant: This variant (3) represents the longest
+            transcript and encodes the longest isoform (3).
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AB290169.1 [ECO:0000332]
+            RNAseq introns              :: mixed sample support SAMEA1965299,
+                                           SAMEA1966682 [ECO:0006172]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000642316.2/ ENSP00000493594.1
+            RefSeq Select criteria :: based on manual assertion, conservation,
+                                      longest protein
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-6                 AC020906.6         55456-55461         c
+            7-36                BC129803.1         1-30
+            37-709              AB290169.1         1-673
+            710-710             BC018933.2         456-456
+            711-2302            AB290169.1         675-2266
+            2303-3071           AK125082.1         2277-3045
+            3072-5482           AB290169.1         3036-5446
+            5483-5483           DB110776.1         427-427
+            5484-6285           AB290169.1         5448-6249
+            6286-6914           BC007877.2         895-1523
+FEATURES             Location/Qualifiers
+     source          1..6914
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="19"
+                     /map="19q13.33"
+     gene            1..6914
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /note="myosin heavy chain 14"
+                     /db_xref="GeneID:79784"
+                     /db_xref="HGNC:HGNC:23212"
+                     /db_xref="MIM:608568"
+     exon            1..50
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            51..458
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             54..6164
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /EC_number="5.6.1.8"
+                     /note="isoform 3 is encoded by transcript variant 3;
+                     nonmuscle myosin heavy chain II-C; myosin, heavy
+                     polypeptide 14; myosin-14; MYH14 variant protein;
+                     non-muscle myosin heavy chain IIc; myosin heavy chain,
+                     non-muscle IIc; myosin, heavy chain 14, non-muscle"
+                     /codon_start=1
+                     /product="myosin-14 isoform 3"
+                     /protein_id="NP_001139281.1"
+                     /db_xref="CCDS:CCDS54295.1"
+                     /db_xref="GeneID:79784"
+                     /db_xref="HGNC:HGNC:23212"
+                     /db_xref="MIM:608568"
+                     /translation="MAAVTMSVPGRKAPPRPGPVPEAAQPFLFTPRGPSAGGGPGSGT
+                     SPQVEWTARRLVWVPSELHGFEAAALRDEGEEEAEVELAESGRRLRLPRDQIQRMNPP
+                     KFSKAEDMAELTCLNEASVLHNLRERYYSGLIYTYSGLFCVVINPYKQLPIYTEAIVE
+                     MYRGKKRHEVPPHVYAVTEGAYRSMLQDREDQSILCTGESGAGKTENTKKVIQYLAHV
+                     ASSPKGRKEPGVPASVSTVSYGELERQLLQANPILEAFGNAKTVKNDNSSRFGKFIRI
+                     NFDVAGYIVGANIETYLLEKSRAIRQAKDECSFHIFYQLLGGAGEQLKADLLLEPCSH
+                     YRFLTNGPSSSPGQERELFQETLESLRVLGFSHEEIISMLRMVSAVLQFGNIALKRER
+                     NTDQATMPDNTAAQKLCRLLGLGVTDFSRALLTPRIKVGRDYVQKAQTKEQADFALEA
+                     LAKATYERLFRWLVLRLNRALDRSPRQGASFLGILDIAGFEIFQLNSFEQLCINYTNE
+                     KLQQLFNHTMFVLEQEEYQREGIPWTFLDFGLDLQPCIDLIERPANPPGLLALLDEEC
+                     WFPKATDKSFVEKVAQEQGGHPKFQRPRHLRDQADFSVLHYAGKVDYKANEWLMKNMD
+                     PLNDNVAALLHQSTDRLTAEIWKDEHGGFQQFSFLGSFPPSPPGSAERCSSAISPPGV
+                     EGIVGLEQVSSLGDGPPGGRPRRGMFRTVGQLYKESLSRLMATLSNTNPSFVRCIVPN
+                     HEKRAGKLEPRLVLDQLRCNGVLEGIRICRQGFPNRILFQEFRQRYEILTPNAIPKGF
+                     MDGKQACEKMIQALELDPNLYRVGQSKIFFRAGVLAQLEEERDLKVTDIIVSFQAAAR
+                     GYLARRAFQKRQQQQSALRVMQRNCAAYLKLRHWQWWRLFTKVKPLLQVTRQDEVLQA
+                     RAQELQKVQELQQQSAREVGELQGRVAQLEEERARLAEQLRAEAELCAEAEETRGRLA
+                     ARKQELELVVSELEARVGEEEECSRQMQTEKKRLQQHIQELEAHLEAEEGARQKLQLE
+                     KVTTEAKMKKFEEDLLLLEDQNSKLSKERKLLEDRLAEFSSQAAEEEEKVKSLNKLRL
+                     KYEATIADMEDRLRKEEKGRQELEKLKRRLDGESSELQEQMVEQQQRAEELRAQLGRK
+                     EEELQAALARAEDEGGARAQLLKSLREAQAALAEAQEDLESERVARTKAEKQRRDLGE
+                     ELEALRGELEDTLDSTNAQQELRSKREQEVTELKKTLEEETRIHEAAVQELRQRHGQA
+                     LGELAEQLEQARRGKGAWEKTRLALEAEVSELRAELSSLQTARQEGEQRRRRLELQLQ
+                     EVQGRAGDGERARAEAAEKLQRAQAELENVSGALNEAESKTIRLSKELSSTEAQLHDA
+                     QELLQEETRAKLALGSRVRAMEAEAAGLREQLEEEAAARERAGRELQTAQAQLSEWRR
+                     RQEEEAGALEAGEEARRRAAREAEALTQRLAEKTETVDRLERGRRRLQQELDDATMDL
+                     EQQRQLVSTLEKKQRKFDQLLAEEKAAVLRAVEERERAEAEGREREARALSLTRALEE
+                     EQEAREELERQNRALRAELEALLSSKDDVGKSVHELERACRVAEQAANDLRAQVTELE
+                     DELTAAEDAKLRLEVTVQALKTQHERDLQGRDEAGEERRRQLAKQLRDAEVERDEERK
+                     QRTLAVAARKKLEGELEELKAQMASAGQGKEEAVKQLRKMQAQMKELWREVEETRTSR
+                     EEIFSQNRESEKRLKGLEAEVLRLQEELAASDRARRQAQQDRDEMADEVANGNLSKAA
+                     ILEEKRQLEGRLGQLEEELEEEQSNSELLNDRYRKLLLQVESLTTELSAERSFSAKAE
+                     SGRQQLERQIQELRGRLGEEDAGARARHKMTIAALESKLAQAEEQLEQETRERILSGK
+                     LVRRAEKRLKEVVLQVEEERRVADQLRDQLEKGNLRVKQLKRQLEEAEEEASRAQAGR
+                     RRLQRELEDVTESAESMNREVTTLRNRLRRGPLTFTTRTVRQVFRLEEGVASDEEAEE
+                     AQPGSGPSPEPEGSPPAHPQ"
+     exon            459..615
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            616..643
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            644..746
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            747..770
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            771..863
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            864..927
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            928..1026
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1027..1167
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1168..1263
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1264..1382
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1383..1535
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1536..1709
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1710..1883
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1884..1998
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1999..2097
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2098..2285
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2286..2407
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2408..2477
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2478..2638
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2639..2747
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2748..2879
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2880..3086
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3087..3224
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3225..3348
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3349..3520
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3521..3733
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3734..3878
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3879..4085
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4086..4190
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4191..4343
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4344..4592
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4593..4805
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4806..5018
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5019..5180
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5181..5309
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5310..5398
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5399..5522
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5523..5731
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5732..5840
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5841..6013
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6014..6914
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      6893..6898
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /note="hexamer: AATAAA"
+     polyA_site      6914
+                     /gene="MYH14"
+                     /gene_synonym="DFNA4; DFNA4A; FP17425; MHC16; MYH17;
+                     myosin; NMHC II-C; NMHC-II-C; PNMHH"
+                     /note="major polyA site"
+ORIGIN      
+        1 acgcccctct ttctccccag gccgaagcct cgggacggcc ctggaagccg accatggcag
+       61 ccgtgaccat gtcggtgccc gggcggaagg cgccccccag gccgggccca gtgcccgagg
+      121 cggcccagcc gttcctgttc acgccccgcg ggcccagcgc gggtggcggg cctggctcgg
+      181 gcacctcccc gcaggtggag tggacggccc ggcgtctcgt gtgggtgcct tcggagcttc
+      241 acgggttcga ggcggcggcg ctgcgggacg aaggcgagga ggaggcggag gtggagctgg
+      301 cggagagcgg gaggcggctg cgactgccgc gggaccagat ccagcgcatg aacccgccca
+      361 agttcagcaa ggccgaggac atggccgagc tgacctgcct caacgaggcc tcggtcctgc
+      421 acaacctccg ggagcggtac tactccggcc tcatctacac gtactccggc cttttctgtg
+      481 tggtcatcaa cccgtacaag cagcttccca tctacacaga agccattgtg gagatgtacc
+      541 ggggcaagaa gcgccacgag gtgccacccc acgtgtacgc agtgaccgag ggggcctatc
+      601 ggagcatgct gcaggatcgt gaggaccagt ccattctctg cactggagag tctggagctg
+      661 ggaagacgga aaacaccaag aaggtcatcc agtacctcgc ccacgtggcg tcgtctccaa
+      721 agggcaggaa ggagccgggt gtccccgcct ccgtcagcac cgtgtcttat ggtgagctgg
+      781 agcggcagct gcttcaggcc aaccccatcc tagaggcctt tggcaatgcc aagacagtga
+      841 agaatgacaa ctcctcccga ttcggcaaat tcatccgcat caactttgat gttgccgggt
+      901 acatcgtggg cgccaacatt gagacctacc tgctggagaa gtcgcgggcc atccgccagg
+      961 ccaaggacga gtgcagcttc cacatcttct accagctgct ggggggcgct ggagagcagc
+     1021 tcaaagccga cctcctcctc gagccctgct cccactaccg gttcctgacc aacgggccgt
+     1081 catcctctcc cggccaggag cgggaactct tccaggagac gctggagtcg ctgcgggtcc
+     1141 tgggattcag ccacgaggaa atcatctcca tgctgcggat ggtctcagca gttctccagt
+     1201 ttggcaacat tgccttgaag agagaacgga acaccgatca agccaccatg cctgacaaca
+     1261 cagctgcaca gaagctctgc cgcctcttgg gactgggggt gacggatttc tcccgagcct
+     1321 tgctcacccc tcgcatcaaa gttggccgag actatgtgca gaaagcccag actaaggaac
+     1381 aggctgactt cgcgctggag gccctggcca aggccaccta cgagcgcctc ttccgctggc
+     1441 tggttctgcg cctcaaccgg gccttggacc gcagcccccg ccaaggcgcc tccttcctgg
+     1501 gcatcctgga catcgcgggc tttgagatct tccagctgaa ctccttcgag cagctctgca
+     1561 tcaactacac caacgagaag ctgcagcagc tcttcaacca caccatgttc gtgctggagc
+     1621 aggaggagta ccagcgtgag ggcatcccct ggaccttcct cgactttggc ctcgacctgc
+     1681 agccctgcat cgacctcatc gagcggccgg ccaacccccc tggactcctg gccctgctgg
+     1741 atgaggagtg ctggttcccg aaggccacag acaagtcgtt tgtggagaag gtagcccagg
+     1801 agcagggcgg ccaccccaag ttccagcggc cgaggcacct gcgggatcag gccgacttca
+     1861 gtgttctcca ctacgcgggc aaggtcgact acaaggccaa cgagtggctg atgaaaaaca
+     1921 tggaccctct gaatgacaac gtcgcagcct tgctccacca gagcacagac cggctgacgg
+     1981 cagagatctg gaaagacgaa catgggggct tccagcagtt ctctttcctt ggctccttcc
+     2041 caccgtcgcc cccaggatct gcagagaggt gcagctctgc tatttctccg ccaggggtgg
+     2101 agggcatcgt ggggctggaa caggtgagca gcctgggcga cggcccacca ggtggccgcc
+     2161 cccgtcgggg tatgttccgg acagtgggac agctctacaa ggagtccctg agccgcctca
+     2221 tggccacact cagcaacacc aaccccagtt ttgtccgctg cattgtcccc aaccacgaga
+     2281 agagggccgg gaagctggag ccacggctgg tgctggacca gcttcgctgc aacggggtcc
+     2341 tggagggcat ccgcatctgt cgccagggct tccccaaccg catcctcttc caggagttcc
+     2401 ggcagcgata cgagatcctg acacccaatg ccatccccaa gggcttcatg gatgggaagc
+     2461 aggcctgtga aaagatgatc caggcgctgg aactggaccc caacctctac cgcgtgggac
+     2521 agagcaagat cttcttccgg gctggggtcc tggcccagct ggaagaggag cgagacctga
+     2581 aggtcaccga catcatcgtc tccttccagg cagctgcccg gggatacctg gctcgcaggg
+     2641 ccttccagaa gcgccagcag cagcagagcg ccctgagggt gatgcagcgg aactgcgcgg
+     2701 cctacctcaa gctgagacac tggcagtggt ggcggctgtt taccaaggtg aagccactgc
+     2761 tgcaggtgac gcggcaggat gaggtgctgc aggcacgggc ccaggagctg cagaaagtgc
+     2821 aggagctaca gcagcagagc gcccgcgaag ttggggagct ccagggccga gtggcacagc
+     2881 tggaagagga gcgcgcccgc ctggcagagc aattgcgagc agaggcagaa ctgtgtgcag
+     2941 aggccgagga gacgcggggg aggctggcag cccgcaagca ggagctggag ctggtggtgt
+     3001 cagagctgga ggctcgcgtg ggcgaggagg aggagtgcag ccgtcaaatg caaaccgaga
+     3061 agaagaggct gcagcagcac atacaggagc tagaggccca ccttgaggct gaggagggtg
+     3121 cgcggcagaa gctgcagctg gagaaggtga cgacagaggc aaaaatgaag aaatttgaag
+     3181 aggacctgct gctcctggaa gaccagaatt ccaagctgag caaggagcgg aagctgctgg
+     3241 aagatcgtct ggccgagttc tcatcccagg cagctgagga ggaggagaag gtcaagagcc
+     3301 tcaataagct acggctcaaa tatgaggcca caatcgcaga catggaggac cgcctacgga
+     3361 aggaggagaa gggtcgccag gagctggaga agctgaagcg gaggctggat ggggagagct
+     3421 cagagctgca ggagcagatg gtggagcagc aacagcgggc agaggagctg cgggcccagc
+     3481 tgggccggaa ggaggaggag ctgcaggctg ccctggccag ggcagaagac gagggtgggg
+     3541 cccgggccca gctgctgaaa tccctgcggg aggctcaagc agccctggcc gaggcccagg
+     3601 aggacctgga gtctgagcgt gtggccagga ccaaggcgga gaagcagcgc cgggacctgg
+     3661 gcgaggagct ggaggcgctg cggggcgagc tggaggacac gctggactcc accaacgcac
+     3721 agcaggagct ccggtccaag agggaacagg aggtgacgga gctgaagaag actctggagg
+     3781 aggagactcg catccacgag gcggcagtgc aggagctgag gcagcgccac ggccaggccc
+     3841 tgggggagct ggcggagcag ctggagcagg cccggagggg caaaggtgca tgggagaaga
+     3901 cccggctggc cctggaggcc gaggtgtccg agctgcgggc agaactgagc agcctgcaga
+     3961 ctgcacgtca ggagggtgag cagcggaggc gccgcctgga gttacagctg caggaggtgc
+     4021 agggccgggc tggtgatggg gagagggcac gagcggaggc tgctgagaag ctgcagcgag
+     4081 cccaggctga actggagaat gtgtctgggg cgctgaacga ggctgagtcc aaaaccatcc
+     4141 gtcttagcaa ggagctgagc agcacagaag cccagctgca cgatgcccag gagctgctgc
+     4201 aggaggagac cagggcgaaa ttggccttgg ggtcccgggt gcgagccatg gaggctgagg
+     4261 cagccgggct gcgtgagcag ctggaggagg aggcagctgc cagggaacgg gcgggccgtg
+     4321 aactgcagac tgcccaggcc cagctttccg agtggcggcg gcgccaggag gaggaggcag
+     4381 gggcactgga ggcaggggag gaggcacggc gccgggcagc ccgggaggcc gaggccctga
+     4441 cccagcgcct ggcagaaaag acagagaccg tggatcggct ggagcggggc cgccgccggc
+     4501 tgcagcagga gctggacgac gccaccatgg acctggagca gcagcggcag cttgtgagca
+     4561 ccctggagaa gaagcagcgc aagtttgacc agcttctggc agaggagaag gcagctgtac
+     4621 ttcgggcagt ggaggaacgt gagcgggccg aggcagaggg ccgggagcgt gaggctcggg
+     4681 ccctgtcact gacacgggca ctggaggagg agcaggaggc acgtgaggag ctggagcggc
+     4741 agaaccgggc cctgcgggct gagctggagg cactgctgag cagcaaggat gacgtcggca
+     4801 agagcgtgca tgagctggaa cgagcctgcc gggtagcaga acaggcagcc aatgatctgc
+     4861 gagcacaggt gacagaactg gaggatgagc tgacagcggc cgaggatgcc aagctgcgtc
+     4921 tggaggtgac tgtgcaggct ctcaagactc agcatgagcg tgacctgcag ggccgtgatg
+     4981 aggctggtga agagaggcgg aggcagctgg ccaagcagct gagagatgca gaggtggagc
+     5041 gggatgagga gcggaagcag cgcactctgg ccgtggctgc ccgcaagaag ctggagggag
+     5101 agctggagga gctgaaggct cagatggcct ctgccggcca gggcaaggag gaggcggtga
+     5161 agcagcttcg caagatgcag gcccagatga aggagctatg gcgggaggtg gaggagacac
+     5221 gcacctcccg ggaggagatc ttctcccaga atcgggaaag tgaaaagcgc ctcaagggcc
+     5281 tggaggctga ggtgctgcgg ctgcaggagg aactggccgc ctcggaccgt gctcggcggc
+     5341 aggcccagca ggaccgggat gagatggcag atgaggtggc caatggtaac cttagcaagg
+     5401 cagccattct ggaggagaag cgtcagctgg aggggcgcct ggggcagttg gaggaagagc
+     5461 tggaggagga gcagagcaac tcggagctgc tcaatgaccg ctaccgcaag ctgctcctgc
+     5521 aggtagagtc actgaccaca gagctgtcag ctgagcgcag tttctcagcc aaggcagaga
+     5581 gcgggcggca gcagctggaa cggcagatcc aggagctacg gggacgcctg ggtgaggagg
+     5641 atgctggggc ccgtgcccgc cacaagatga ccattgctgc ccttgagtct aagttggccc
+     5701 aggctgagga gcagctagag caagagacca gagagcgcat cctctctgga aagctggtgc
+     5761 gcagagctga gaagcggctt aaagaggtgg tgctccaggt ggaggaggag cggagggtgg
+     5821 ctgaccagct ccgggaccag ctggagaagg gaaaccttcg agtcaagcag ctgaagcggc
+     5881 agctggagga ggccgaggag gaggcatccc gggctcaggc cggccgccgg aggctgcagc
+     5941 gtgagctgga agatgtcaca gagtcggccg agtccatgaa ccgtgaagtg accacactga
+     6001 ggaaccggct tcgacgcggc cccctcacct tcaccacccg cacggtgcgc caggtcttcc
+     6061 gactagagga gggcgtggca tccgacgagg aggcagagga agcacagcct gggtctgggc
+     6121 catccccgga gcctgagggg tccccaccag cccaccccca gtgaccctac cctgtcccca
+     6181 gatgcactaa cagatggggc ccagccccct tcctccctgg accccacggg cccctgtccc
+     6241 aggaaccccg ccctctgact tcttgccctt tggaaatggt gcagcactct ggcatttatc
+     6301 acccccacct gggtcccctg caacctccca tcaaaggatg acccctaaac acagaggagc
+     6361 ggggcaggca gggaggcaat gactggagct accttgcttg ttgggggact gggtacagtt
+     6421 ggcaagctgt gtttccatca gctccctgtc ctcctttctt ccctcgttat tgatctatag
+     6481 acattaggaa gggagtgaga cggctcctcc accatcctca gccagtgcaa cccattccct
+     6541 ctgcttctct ctctctctct ctctctccct ccctctcctt ccctaccctc tcaccatctt
+     6601 tcttggcctc tctgagggtc tctctgtgca tctttttagg aatctcgctc tcactctcta
+     6661 cgtagccact ctccttcccc catttctgcg tccacccctg aactcctgag cgacagaagc
+     6721 cccaggcctc caccagcctt gaacccttgc aaaggggcag gacaagggga cccctctcac
+     6781 tcctgctgct gcccatgctc tgccctccct tctggttgct ctgagggttc ggagcttccc
+     6841 tctgggacta aaggagtgtc ctttaccctc ccagcctcca ggctctggca gaaataaact
+     6901 ccaacccgac tgga
+//
+

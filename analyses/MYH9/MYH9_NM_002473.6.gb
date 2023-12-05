@@ -1,0 +1,780 @@
+LOCUS       NM_002473               7451 bp    mRNA    linear   PRI 18-NOV-2023
+DEFINITION  Homo sapiens myosin heavy chain 9 (MYH9), mRNA.
+ACCESSION   NM_002473
+VERSION     NM_002473.6
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 7451)
+  AUTHORS   Kouno H, Kunishima S, Takebe J, Uchiyama T, Kaname T and Ishiguro
+            A.
+  TITLE     Measurement of immature platelet fraction is useful in the
+            differential diagnosis of MYH9 disorders
+  JOURNAL   Int J Lab Hematol 45 (5), 700-706 (2023)
+   PUBMED   37328958
+  REMARK    GeneRIF: Measurement of immature platelet fraction is useful in the
+            differential diagnosis of MYH9 disorders.
+REFERENCE   2  (bases 1 to 7451)
+  AUTHORS   Das S, Mallick D, Sarkar S, Billington N, Sellers JR and Jana SS.
+  TITLE     A brain specific alternatively spliced isoform of nonmuscle myosin
+            IIA lacks its mechanoenzymatic activities
+  JOURNAL   J Biol Chem 299 (9), 105143 (2023)
+   PUBMED   37562567
+  REMARK    GeneRIF: A brain specific alternatively spliced isoform of
+            nonmuscle myosin IIA lacks its mechanoenzymatic activities.
+REFERENCE   3  (bases 1 to 7451)
+  AUTHORS   Alanazi SM, Feroz W, Mishra R, Kilroy MK, Patel H, Yuan L, Storr SJ
+            and Garrett JT.
+  TITLE     HER2 inhibition increases non-muscle myosin IIA to promote
+            tumorigenesis in HER2+ breast cancers
+  JOURNAL   PLoS One 18 (5), e0285251 (2023)
+   PUBMED   37200287
+  REMARK    GeneRIF: HER2 inhibition increases non-muscle myosin IIA to promote
+            tumorigenesis in HER2+ breast cancers.
+            Publication Status: Online-Only
+REFERENCE   4  (bases 1 to 7451)
+  AUTHORS   Liu F, Peng L and Xi J.
+  TITLE     [High expression of MYH9 inhibits apoptosis of non-small cell lung
+            cancer cells through activating the AKT/c-Myc pathway]
+  JOURNAL   Nan Fang Yi Ke Da Xue Xue Bao 43 (4), 527-536 (2023)
+   PUBMED   37202187
+  REMARK    GeneRIF: [High expression of MYH9 inhibits apoptosis of non-small
+            cell lung cancer cells through activating the AKT/c-Myc pathway].
+REFERENCE   5  (bases 1 to 7451)
+  AUTHORS   Savoia,A. and Pecci,A.
+  TITLE     MYH9-Related Disease
+  JOURNAL   (in) Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE, Bean LJH,
+            Gripp KW and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301740
+REFERENCE   6  (bases 1 to 7451)
+  AUTHORS   Shearer,A.E., Hildebrand,M.S., Schaefer,A.M. and Smith,R.J.H.
+  TITLE     Genetic Hearing Loss Overview
+  JOURNAL   (in) Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE, Bean LJH,
+            Gripp KW and Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301607
+REFERENCE   7  (bases 1 to 7451)
+  AUTHORS   Toothaker LE, Gonzalez DA, Tung N, Lemons RS, Le Beau MM, Arnaout
+            MA, Clayton LK and Tenen DG.
+  TITLE     Cellular myosin heavy chain in human leukocytes: isolation of 5'
+            cDNA clones, characterization of the protein, chromosomal
+            localization, and upregulation during myeloid differentiation
+  JOURNAL   Blood 78 (7), 1826-1833 (1991)
+   PUBMED   1912569
+REFERENCE   8  (bases 1 to 7451)
+  AUTHORS   Simons M, Wang M, McBride OW, Kawamoto S, Yamakawa K, Gdula D,
+            Adelstein RS and Weir L.
+  TITLE     Human nonmuscle myosin heavy chains are encoded by two genes
+            located on different chromosomes
+  JOURNAL   Circ Res 69 (2), 530-539 (1991)
+   PUBMED   1860190
+REFERENCE   9  (bases 1 to 7451)
+  AUTHORS   Saez CG, Myers JC, Shows TB and Leinwand LA.
+  TITLE     Human nonmuscle myosin heavy chain mRNA: generation of diversity
+            through alternative polyadenylylation
+  JOURNAL   Proc Natl Acad Sci U S A 87 (3), 1164-1168 (1990)
+   PUBMED   1967836
+REFERENCE   10 (bases 1 to 7451)
+  AUTHORS   Starr,R. and Offer,G.
+  TITLE     The interaction of C-protein with heavy meromyosin and
+            subfragment-2
+  JOURNAL   Biochem J 171 (3), 813-816 (1978)
+   PUBMED   352343
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AB191263.1, Z82215.1 and
+            AA420536.1.
+            
+            On Dec 4, 2019 this sequence version replaced NM_002473.5.
+            
+            Summary: This gene encodes a conventional non-muscle myosin; this
+            protein should not be confused with the unconventional myosin-9a or
+            9b (MYO9A or MYO9B). The encoded protein is a myosin IIA heavy
+            chain that contains an IQ domain and a myosin head-like domain
+            which is involved in several important functions, including
+            cytokinesis, cell motility and maintenance of cell shape. Defects
+            in this gene have been associated with non-syndromic sensorineural
+            deafness autosomal dominant type 17, Epstein syndrome, Alport
+            syndrome with macrothrombocytopenia, Sebastian syndrome, Fechtner
+            syndrome and macrothrombocytopenia with progressive sensorineural
+            deafness. [provided by RefSeq, Dec 2011].
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AB191263.1, AB290175.1 [ECO:0000332]
+            RNAseq introns              :: mixed sample support SAMEA1965299,
+                                           SAMEA1966682 [ECO:0006172]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            MANE Ensembl match     :: ENST00000216181.11/ ENSP00000216181.6
+            RefSeq Select criteria :: based on single protein-coding transcript
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-3608              AB191263.1         1-3608
+            3609-3609           Z82215.1           63857-63857         c
+            3610-6658           AB191263.1         3610-6658
+            6659-6659           Z82215.1           50368-50368         c
+            6660-7450           AB191263.1         6660-7450
+            7451-7451           AA420536.1         484-484
+FEATURES             Location/Qualifiers
+     source          1..7451
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="22"
+                     /map="22q12.3"
+     gene            1..7451
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="myosin heavy chain 9"
+                     /db_xref="GeneID:4627"
+                     /db_xref="HGNC:HGNC:7579"
+                     /db_xref="MIM:160775"
+     exon            1..161
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            162..513
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    172..174
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="upstream in-frame stop codon"
+     CDS             181..6063
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="nonmuscle myosin heavy chain II-A; cellular myosin
+                     heavy chain, type A; non-muscle myosin heavy chain 9;
+                     myosin, heavy chain 9, non-muscle; non-muscle myosin heavy
+                     polypeptide 9; non-muscle myosin heavy chain A; non-muscle
+                     myosin heavy chain IIa; nonmuscle myosin IIA2"
+                     /codon_start=1
+                     /product="myosin-9"
+                     /protein_id="NP_002464.1"
+                     /db_xref="CCDS:CCDS13927.1"
+                     /db_xref="GeneID:4627"
+                     /db_xref="HGNC:HGNC:7579"
+                     /db_xref="MIM:160775"
+                     /translation="MAQQAADKYLYVDKNFINNPLAQADWAAKKLVWVPSDKSGFEPA
+                     SLKEEVGEEAIVELVENGKKVKVNKDDIQKMNPPKFSKVEDMAELTCLNEASVLHNLK
+                     ERYYSGLIYTYSGLFCVVINPYKNLPIYSEEIVEMYKGKKRHEMPPHIYAITDTAYRS
+                     MMQDREDQSILCTGESGAGKTENTKKVIQYLAYVASSHKSKKDQGELERQLLQANPIL
+                     EAFGNAKTVKNDNSSRFGKFIRINFDVNGYIVGANIETYLLEKSRAIRQAKEERTFHI
+                     FYYLLSGAGEHLKTDLLLEPYNKYRFLSNGHVTIPGQQDKDMFQETMEAMRIMGIPEE
+                     EQMGLLRVISGVLQLGNIVFKKERNTDQASMPDNTAAQKVSHLLGINVTDFTRGILTP
+                     RIKVGRDYVQKAQTKEQADFAIEALAKATYERMFRWLVLRINKALDKTKRQGASFIGI
+                     LDIAGFEIFDLNSFEQLCINYTNEKLQQLFNHTMFILEQEEYQREGIEWNFIDFGLDL
+                     QPCIDLIEKPAGPPGILALLDEECWFPKATDKSFVEKVMQEQGTHPKFQKPKQLKDKA
+                     DFCIIHYAGKVDYKADEWLMKNMDPLNDNIATLLHQSSDKFVSELWKDVDRIIGLDQV
+                     AGMSETALPGAFKTRKGMFRTVGQLYKEQLAKLMATLRNTNPNFVRCIIPNHEKKAGK
+                     LDPHLVLDQLRCNGVLEGIRICRQGFPNRVVFQEFRQRYEILTPNSIPKGFMDGKQAC
+                     VLMIKALELDSNLYRIGQSKVFFRAGVLAHLEEERDLKITDVIIGFQACCRGYLARKA
+                     FAKRQQQLTAMKVLQRNCAAYLKLRNWQWWRLFTKVKPLLQVSRQEEEMMAKEEELVK
+                     VREKQLAAENRLTEMETLQSQLMAEKLQLQEQLQAETELCAEAEELRARLTAKKQELE
+                     EICHDLEARVEEEEERCQHLQAEKKKMQQNIQELEEQLEEEESARQKLQLEKVTTEAK
+                     LKKLEEEQIILEDQNCKLAKEKKLLEDRIAEFTTNLTEEEEKSKSLAKLKNKHEAMIT
+                     DLEERLRREEKQRQELEKTRRKLEGDSTDLSDQIAELQAQIAELKMQLAKKEEELQAA
+                     LARVEEEAAQKNMALKKIRELESQISELQEDLESERASRNKAEKQKRDLGEELEALKT
+                     ELEDTLDSTAAQQELRSKREQEVNILKKTLEEEAKTHEAQIQEMRQKHSQAVEELAEQ
+                     LEQTKRVKANLEKAKQTLENERGELANEVKVLLQGKGDSEHKRKKVEAQLQELQVKFN
+                     EGERVRTELADKVTKLQVELDNVTGLLSQSDSKSSKLTKDFSALESQLQDTQELLQEE
+                     NRQKLSLSTKLKQVEDEKNSFREQLEEEEEAKHNLEKQIATLHAQVADMKKKMEDSVG
+                     CLETAEEVKRKLQKDLEGLSQRHEEKVAAYDKLEKTKTRLQQELDDLLVDLDHQRQSA
+                     CNLEKKQKKFDQLLAEEKTISAKYAEERDRAEAEAREKETKALSLARALEEAMEQKAE
+                     LERLNKQFRTEMEDLMSSKDDVGKSVHELEKSKRALEQQVEEMKTQLEELEDELQATE
+                     DAKLRLEVNLQAMKAQFERDLQGRDEQSEEKKKQLVRQVREMEAELEDERKQRSMAVA
+                     ARKKLEMDLKDLEAHIDSANKNRDEAIKQLRKLQAQMKDCMRELDDTRASREEILAQA
+                     KENEKKLKSMEAEMIQLQEELAAAERAKRQAQQERDELADEIANSSGKGALALEEKRR
+                     LEARIAQLEEELEEEQGNTELINDRLKKANLQIDQINTDLNLERSHAQKNENARQQLE
+                     RQNKELKVKLQEMEGTVKSKYKASITALEAKIAQLEEQLDNETKERQAACKQVRRTEK
+                     KLKDVLLQVDDERRNAEQYKDQADKASTRLKQLKRQLEEAEEEAQRANASRRKLQREL
+                     EDATETADAMNREVSSLKNKLRRGDLPFVVPRRMARKGAGDGSDEEVDGKADGAEAKP
+                     AE"
+     misc_feature    184..2694
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35579.4);
+                     Region: Mediates interaction with LIMCH1.
+                     /evidence=ECO:0000269|PubMed:28228547"
+     misc_feature    184..186
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N-acetylalanine. /evidence=ECO:0000269|Ref.10;
+                     propagated from UniProtKB/Swiss-Prot (P35579.4);
+                     acetylation site"
+     misc_feature    202..204
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    211..213
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0007744|PubMed:19690332; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); phosphorylation site"
+     misc_feature    484..486
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    1075..1077
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    1483..1485
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:P35580; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    2017..2019
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:Q8VDD5; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    2062..2064
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); phosphorylation site"
+     misc_feature    2140..2208
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35579.4);
+                     Region: Actin-binding"
+     misc_feature    2440..2442
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); phosphorylation site"
+     misc_feature    2758..2760
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:Q8VDD5; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    3103..3105
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:Q8VDD5; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    3250..3252
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    3283..3351
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35579.4);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    3520..3522
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:Q8VDD5; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); phosphorylation site"
+     misc_feature    3532..3591
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35579.4);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    3880..3882
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:Q61879; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    3925..3927
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:Q8VDD5; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    4249..4251
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    4354..4356
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    4390..4392
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    4408..4410
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    4555..4557
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    5092..5094
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0007744|PubMed:19608861; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    5320..5322
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:20068231,
+                     ECO:0007744|PubMed:23186163; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); phosphorylation site"
+     misc_feature    5557..5559
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:Q8VDD5; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    5584..5586
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:Q8VDD5; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    5713..5715
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="N6-acetyllysine.
+                     /evidence=ECO:0000250|UniProtKB:Q8VDD5; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); acetylation site"
+     misc_feature    5809..6060
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="propagated from UniProtKB/Swiss-Prot (P35579.4);
+                     Region: Disordered. /evidence=ECO:0000256|SAM:MobiDB-lite"
+     misc_feature    5947..5949
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="Omega-N-methylarginine.
+                     /evidence=ECO:0000250|UniProtKB:Q61879; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); methylation site"
+     misc_feature    6007..6009
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:16964243,
+                     ECO:0007744|PubMed:17081983, ECO:0007744|PubMed:17487921,
+                     ECO:0007744|PubMed:18088087, ECO:0007744|PubMed:18318008,
+                     ECO:0007744|PubMed:19367720, ECO:0007744|PubMed:19369195,
+                     ECO:0007744|PubMed:19690332, ECO:0007744|PubMed:20068231,
+                     ECO:0007744|PubMed:21406692, ECO:0007744|PubMed:23186163,
+                     ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P35579.4); phosphorylation site"
+     exon            514..670
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            671..698
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            699..792
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            793..885
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            886..949
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            950..1048
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1049..1192
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1193..1288
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1289..1407
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1408..1560
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1561..1734
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1735..1908
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1909..2023
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2024..2217
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2218..2339
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2340..2409
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2410..2570
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2571..2679
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2680..2811
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2812..3018
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3019..3156
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3157..3280
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3281..3452
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3453..3665
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3666..3810
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3811..4017
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4018..4122
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4123..4275
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4276..4524
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4525..4737
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4738..4950
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4951..5112
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5113..5241
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5242..5330
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5331..5454
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5455..5663
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5664..5772
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5773..5945
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5946..7451
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      7067..7072
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="hexamer: AATAAA"
+     polyA_site      7086
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+     regulatory      7431..7436
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="hexamer: AATAAA"
+     polyA_site      7451
+                     /gene="MYH9"
+                     /gene_synonym="BDPLT6; DFNA17; EPSTS; FTNS; MATINS; MHA;
+                     NMHC-II-A; NMMHC-IIA; NMMHCA"
+                     /note="major polyA site"
+ORIGIN      
+        1 gcagatcacc gcggttcctg ggcagggcac ggaaggctaa gcaaggctga cctgctgcag
+       61 ctcccgcctc gtgcgctcgc cccacccggc cgccgcccga gcgctcgaga aagtcctctc
+      121 gggagaagca gcgcctgttc ccggggcaga tccaggttca ggtcctggct ataagtcacc
+      181 atggcacagc aagctgccga taagtatctc tatgtggata aaaacttcat caacaatccg
+      241 ctggcccagg ccgactgggc tgccaagaag ctggtatggg tgccttccga caagagtggc
+      301 tttgagccag ccagcctcaa ggaggaggtg ggcgaagagg ccatcgtgga gctggtggag
+      361 aatgggaaga aggtgaaggt gaacaaggat gacatccaga agatgaaccc gcccaagttc
+      421 tccaaggtgg aggacatggc agagctcacg tgcctcaacg aagcctcggt gctgcacaac
+      481 ctcaaggagc gttactactc agggctcatc tacacctatt caggcctgtt ctgtgtggtc
+      541 atcaatcctt acaagaacct gcccatctac tctgaagaga ttgtggaaat gtacaagggc
+      601 aagaagaggc acgagatgcc ccctcacatc tatgccatca cagacaccgc ctacaggagt
+      661 atgatgcaag accgagaaga tcaatccatc ttgtgcactg gtgaatctgg agctggcaag
+      721 acggagaaca ccaagaaggt catccagtat ctggcgtacg tggcgtcctc gcacaagagc
+      781 aagaaggacc agggcgagct ggagcggcag ctgctgcagg ccaaccccat cctggaggcc
+      841 ttcgggaacg ccaagaccgt gaagaatgac aactcctccc gcttcggcaa attcattcgc
+      901 atcaactttg atgtcaatgg ctacattgtt ggagccaaca ttgagactta tcttttggag
+      961 aaatctcgtg ctatccgcca agccaaggaa gaacggacct tccacatctt ctattatctc
+     1021 ctgtctgggg ctggagagca cctgaagacc gatctcctgt tggagccgta caacaaatac
+     1081 cgcttcctgt ccaatggaca cgtcaccatc cccgggcagc aggacaagga catgttccag
+     1141 gagaccatgg aggccatgag gattatgggc atcccagaag aggagcaaat gggcctgctg
+     1201 cgggtcatct caggggttct tcagctcggc aacatcgtct tcaagaagga gcggaacact
+     1261 gaccaggcgt ccatgcccga caacacagct gcccaaaagg tgtcccatct cttgggtatc
+     1321 aatgtgaccg atttcaccag aggaatcctc accccgcgca tcaaggtggg acgggattac
+     1381 gtccagaagg cgcagactaa agagcaggct gactttgcca tcgaggcctt ggccaaggcg
+     1441 acctatgagc ggatgttccg ctggctggtg ctgcgcatca acaaggctct ggacaagacc
+     1501 aagaggcagg gcgcctcctt catcgggatc ctggacattg ccggcttcga gatctttgat
+     1561 ctgaactcgt ttgagcagct gtgcatcaat tacaccaatg agaagctgca gcagctcttc
+     1621 aaccacacca tgttcatcct ggagcaggag gagtaccagc gcgagggcat cgagtggaac
+     1681 ttcatcgact ttggcctcga cctgcagccc tgcatcgacc tcattgagaa gccagcaggc
+     1741 cccccgggca ttctggccct gctggacgag gagtgctggt tccccaaagc caccgacaag
+     1801 agcttcgtgg agaaggtgat gcaggagcag ggcacccacc ccaagttcca gaagcccaag
+     1861 cagctgaagg acaaagctga tttctgcatt atccactatg ccggcaaggt ggattacaaa
+     1921 gctgacgagt ggctgatgaa gaacatggat cccctgaatg acaacatcgc cacactgctc
+     1981 caccagtcct ctgacaagtt tgtctcggag ctgtggaagg atgtggaccg catcatcggc
+     2041 ctggaccagg tggccggcat gtcggagacc gcactgcccg gggccttcaa gacgcggaag
+     2101 ggcatgttcc gcactgtggg gcagctttac aaggagcagc tggccaagct gatggctacg
+     2161 ctgaggaaca cgaaccccaa ctttgtccgc tgcatcatcc ccaaccacga gaagaaggcc
+     2221 ggcaagctgg acccgcatct cgtgctggac cagctgcgct gcaacggtgt tctcgagggc
+     2281 atccgtatct gccgccaggg cttccccaac agggtggtct tccaggagtt tcggcagaga
+     2341 tatgagatcc tgactccaaa ctccattccc aagggtttca tggacgggaa gcaggcgtgc
+     2401 gtgctcatga taaaagccct ggagctcgac agcaatctgt accgcattgg ccagagcaaa
+     2461 gtcttcttcc gtgccggtgt gctggcccac ctggaggagg agcgagacct gaagatcacc
+     2521 gacgtcatca tagggttcca ggcctgctgc aggggctacc tggccaggaa agcatttgcc
+     2581 aagcggcagc agcagcttac cgccatgaag gtcctccagc ggaactgcgc tgcctacctg
+     2641 aagctgcgga actggcagtg gtggcggctc ttcaccaagg tcaagccgct gctgcaggtg
+     2701 agccggcagg aggaggagat gatggccaag gaggaggagc tggtgaaggt cagagagaag
+     2761 cagctggctg cggagaacag gctcacggag atggagacgc tgcagtctca gctcatggca
+     2821 gagaaattgc agctgcagga gcagctccag gcagaaaccg agctgtgtgc cgaggctgag
+     2881 gagctccggg cccgcctgac cgccaagaag caggaattag aagagatctg ccatgaccta
+     2941 gaggccaggg tggaggagga ggaggagcgc tgccagcacc tgcaggcgga gaagaagaag
+     3001 atgcagcaga acatccagga gcttgaggag cagctggagg aggaggagag cgcccggcag
+     3061 aagctgcagc tggagaaggt gaccaccgag gcgaagctga aaaagctgga ggaggagcag
+     3121 atcatcctgg aggaccagaa ctgcaagctg gccaaggaaa agaaactgct ggaagacaga
+     3181 atagctgagt tcaccaccaa cctcacagaa gaggaggaga aatctaagag cctcgccaag
+     3241 ctcaagaaca agcatgaggc aatgatcact gacttggaag agcgcctccg cagggaggag
+     3301 aagcagcgac aggagctgga gaagacccgc cggaagctgg agggagactc cacagacctc
+     3361 agcgaccaga tcgccgagct ccaggcccag atcgcggagc tcaagatgca gctggccaag
+     3421 aaagaggagg agctccaggc cgccctggcc agagtggaag aggaagctgc ccagaagaac
+     3481 atggccctca agaagatccg ggagctggaa tctcagatct ctgaactcca ggaagacctg
+     3541 gagtctgagc gtgcttccag gaataaagct gagaagcaga aacgggacct tggggaagag
+     3601 ctagaggctc tgaaaacaga gttggaggac acgctggatt ccacagctgc ccagcaggag
+     3661 ctcaggtcaa aacgtgagca ggaggtgaac atcctgaaga agaccctgga ggaggaggcc
+     3721 aagacccacg aggcccagat ccaggagatg aggcagaagc actcacaggc cgtggaggag
+     3781 ctggcggagc agctggagca gacgaagcgg gtgaaagcaa acctcgagaa ggcaaagcag
+     3841 actctggaga acgagcgggg ggagctggcc aacgaggtga aggtgctgct gcagggcaaa
+     3901 ggggactcgg agcacaagcg caagaaagtg gaggcgcagc tgcaggagct gcaggtcaag
+     3961 ttcaacgagg gagagcgcgt gcgcacagag ctggccgaca aggtcaccaa gctgcaggtg
+     4021 gagctggaca acgtgaccgg gcttctcagc cagtccgaca gcaagtccag caagctcacc
+     4081 aaggacttct ccgcgctgga gtcccagctg caggacactc aggagctgct gcaggaggag
+     4141 aaccggcaga agctgagcct gagcaccaag ctcaagcagg tggaggacga gaagaattcc
+     4201 ttccgggagc agctggagga ggaggaggag gccaagcaca acctggagaa gcagatcgcc
+     4261 accctccatg cccaggtggc cgacatgaaa aagaagatgg aggacagtgt ggggtgcctg
+     4321 gaaactgctg aggaggtgaa gaggaagctc cagaaggacc tggagggcct gagccagcgg
+     4381 cacgaggaga aggtggccgc ctacgacaag ctggagaaga ccaagacgcg gctgcagcag
+     4441 gagctggacg acctgctggt ggacctggac caccagcgcc agagcgcgtg caacctggag
+     4501 aagaagcaga agaagtttga ccagctcctg gcggaggaga agaccatctc tgccaagtat
+     4561 gcagaggagc gcgaccgggc tgaggcggag gcccgagaga aggagaccaa ggctctgtcg
+     4621 ctggcccggg ccctggagga agccatggag cagaaggcgg agctggagcg gctcaacaag
+     4681 cagttccgca cggagatgga ggaccttatg agctccaagg atgatgtggg caagagtgtc
+     4741 cacgagctgg agaagtccaa gcgggcccta gagcagcagg tggaggagat gaagacgcag
+     4801 ctggaagagc tggaggacga gctgcaggcc accgaagatg ccaagctgcg gttggaggtc
+     4861 aacctgcagg ccatgaaggc ccagttcgag cgggacctgc agggccggga cgagcagagc
+     4921 gaggagaaga agaagcagct ggtcagacag gtgcgggaga tggaggcaga gctggaggac
+     4981 gagaggaagc agcgctcgat ggcagtggcc gcccggaaga agctggagat ggacctgaag
+     5041 gacctggagg cgcacatcga ctcggccaac aagaaccggg acgaagccat caaacagctg
+     5101 cggaagctgc aggcccagat gaaggactgc atgcgcgagc tggatgacac ccgcgcctct
+     5161 cgtgaggaga tcctggccca ggccaaagag aacgagaaga agctgaagag catggaggcc
+     5221 gagatgatcc agttgcagga ggaactggca gccgcggagc gtgccaagcg ccaggcccag
+     5281 caggagcggg atgagctggc tgacgagatc gccaacagca gcggcaaagg agccctggcg
+     5341 ttagaggaga agcggcgtct ggaggcccgc atcgcccagc tggaggagga gctggaggag
+     5401 gagcagggca acacggagct gatcaacgac cggctgaaga aggccaacct gcagatcgac
+     5461 cagatcaaca ccgacctgaa cctggagcgc agccacgccc agaagaacga gaatgctcgg
+     5521 cagcagctgg aacgccagaa caaggagctt aaggtcaagc tgcaggagat ggagggcact
+     5581 gtcaagtcca agtacaaggc ctccatcacc gccctcgagg ccaagattgc acagctggag
+     5641 gagcagctgg acaacgagac caaggagcgc caggcagcct gcaaacaggt gcgtcggacc
+     5701 gagaagaagc tgaaggatgt gctgctgcag gtggatgacg agcggaggaa cgccgagcag
+     5761 tacaaggacc aggccgacaa ggcatctacc cgcctgaagc agctcaagcg gcagctggag
+     5821 gaggccgaag aggaggccca gcgggccaac gcctcccgcc ggaaactgca gcgcgagctg
+     5881 gaggacgcca ctgagacggc cgatgccatg aaccgcgaag tcagctccct aaagaacaag
+     5941 ctcaggcgcg gggacctgcc gtttgtcgtg ccccgccgaa tggcccggaa aggcgccggg
+     6001 gatggctccg acgaagaggt agatggcaaa gcggatgggg ctgaggccaa acctgccgaa
+     6061 taagcctctt ctcctgcagc ctgagatgga tggacagaca gacaccacag cctccccttc
+     6121 ccagaccccg cagcacgcct ctccccacct tcttgggact gctgtgaaca tgcctcctcc
+     6181 tgccctccgc cccgtccccc catcccgttt ccctccaggt gttgttgagg gcatttggct
+     6241 tcctctgctg catccccttc cagctccctc ccctgctcag aatctgatac caaagagaca
+     6301 gggcccgggc ccaggcagag agcgaccagc aggctcctca gccctctctt gccaaaaagc
+     6361 acaagatgtt gaggcgagca gggcaggccc ccggggaggg gccagagttt tctatgaatc
+     6421 tatttttctt cagactgagg ccttttggta gtcggagccc ccgcagtcgt cagcctccct
+     6481 gacgtctgcc accagcgccc ccactcctcc tcctttcttt gctgtttgca atcacacgtg
+     6541 gtgacctcac acacctctgc cccttgggcc tcccactccc atggctctgg gcggtccaga
+     6601 aggagcaggc cctgggcctc cacctctgtg cagggcacag aaggctgggg tggggggagg
+     6661 agtggattcc tccccaccct gtcccaggca gcgccactgt ccgctgtctc cctcctgatt
+     6721 ctaaaatgtc tcaagtgcaa tgccccctcc cctcctttac cgaggacagc ctgcctctgc
+     6781 cacagcaagg ctgtcggggt caagctggaa aggccagcag ccttccagtg gcttctccca
+     6841 acactcttgg ggaccaaata tatttaatgg ttaagggact tgtcccaagt ctgacagcca
+     6901 gagcgttaga ggggccagcg gccctcccag gcgatcttgt gtctactcta ggactgggcc
+     6961 cgagggtggt ttacctgcac cgttgactca gtatagttta aaaatctgcc acctgcacag
+     7021 gtatttttga aagcaaaata aggttttctt ttttcccctt tcttgtaata aatgataaaa
+     7081 ttccgagtct ttctcactgc ctttgtttag aagagagtag ctcgtcctca ctggtctaca
+     7141 ctggttgccg aatttacttg tattcctaac tgttttgtat atgctgcatt gagacttacg
+     7201 gcaagaaggc attttttttt tttaaaggaa acaaactctc aaatcatgaa gtgatataaa
+     7261 agctgcatat gcctacaaag ctctgaattc aggtcccagt tgctgtcaca aaggagtgag
+     7321 tgaaactccc accctacccc cttttttata taataaaagt gccttagcat gtgttgcagc
+     7381 tgtcaccact acagtaagct ggtttacaga tgttttccac tgagcatcac aataaagaga
+     7441 accatgtgct a
+//
+

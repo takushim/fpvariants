@@ -107,11 +107,12 @@ y_current = y_current + band_step
 
 # draw domain
 print("loading domains:", domain_filename)
-domain_table = pd.read_csv(domain_filename, header = None, delim_whitespace = True)
+domain_table = pd.read_csv(domain_filename, header = None, sep = '\t')
+domain_table = domain_table.apply(lambda x: x.str.strip() if x.dtype == 'object' else x)
 print(domain_table[[0, 1]])
 
 domains = domain_table[1].to_list()
-draw_bands(y_current, [(int(domain.partition('..')[0]), int(domain.partition('..')[2])) 
+draw_bands(y_current, [(int(domain.partition('..')[0].replace(",","")), int(domain.partition('..')[2].replace(",",""))) 
                        for domain in domains], 'domains', domain_colors)
 y_current = y_current + band_step
 

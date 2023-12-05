@@ -1,0 +1,4 @@
+SH3-like   	259..411  	153 	==	misc_feature
+Motor      	421..2508 	2088	==	misc_feature
+IQ         	2515..2604	90  	==	misc_feature
+Coiled-coil	2689..5958	3270	==	misc_feature

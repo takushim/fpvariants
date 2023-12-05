@@ -1,0 +1,9 @@
+Motor  	3952..5985    	2034	==	misc_feature
+IQ1    	5992..6060    	69  	==	misc_feature
+IQ2    	6061..6150    	90  	==	misc_feature
+IQ3    	6151..6216    	66  	==	misc_signal 
+MYTH4  	6481..6939    	459 	==	misc_feature
+SH3    	8887..9147    	261 	==	misc_feature
+MYTH4 2	9436..9900    	465 	==	misc_feature
+FERM   	9913..10,878  	966 	==	misc_feature
+PDZ    	10,867..10,878	12  	==	misc_feature
