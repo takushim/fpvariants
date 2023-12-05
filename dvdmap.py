@@ -184,9 +184,10 @@ for p_index, phenotype in enumerate(phenotype_classes):
                      c = scatter_colors[variant_classes.index(variant_class)],
                      marker = 'o', s = 4)
 
-# dummy drawing to generate the legend
+# legend
 legend_handles = [Patch(color = scatter_colors[variant_classes.index(variant)], label = variant)
                   for variant in variant_classes]
 axes.legend(handles = legend_handles, ncol = len(variant_classes) // 2)
 
-plt.show()
+# output the figure
+figure.savefig(output_filename)
