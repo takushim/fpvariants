@@ -33,6 +33,8 @@ domain_colors = ['pink', 'lightgreen']
 scatter_step = 0.1
 scatter_delta = 0.005
 scatter_colors = list(mcolors.TABLEAU_COLORS)
+scatter_marker_default = 'o'
+scatter_marker_conflict = 'X'
 
 # canvas settings
 plt.rcParams['figure.figsize'] = (3, 2)
@@ -42,9 +44,9 @@ plt.rcParams['axes.linewidth'] = 0.05
 plt.rcParams['axes.spines.left'] = False
 plt.rcParams['axes.spines.right'] = False
 plt.rcParams['axes.spines.top'] = False
-plt.rcParams['lines.linewidth'] = 0.05
-plt.rcParams['lines.markersize'] = 0.5
-plt.rcParams['scatter.marker'] = 'o'
+plt.rcParams['lines.linewidth'] = 0.02
+plt.rcParams['lines.markersize'] = 2
+plt.rcParams['scatter.edgecolors'] = 'none'
 plt.rcParams['legend.frameon'] = False
 plt.rcParams['legend.fontsize'] = 4
 plt.rcParams['legend.loc'] = 'upper right'
@@ -146,15 +148,16 @@ for c_index, plot_category in enumerate(eval_module.plot_category_classes):
 
     for plot_step in range(max(eval_module.plot_p_change_steps) + 1):
         plot_p_change_classes = [c for c, s in zip(eval_module.plot_p_change_classes, eval_module.plot_p_change_steps) if s == plot_step]
-        print(plot_step, plot_p_change_classes)
-
         plot_p_change_table = plot_category_table[plot_category_table['plot_p_change_class'].isin(plot_p_change_classes)].copy()
-
         plot_p_change_table['plot_p_change_cum'] = plot_p_change_table.groupby('plot_v_origin').cumcount()
         plot_p_change_table['plot_y'] = y_start + plot_step * scatter_step / (max(eval_module.plot_p_change_steps) + 1) \
                                       + scatter_delta * plot_p_change_table['plot_p_change_cum']
 
-        axes.scatter(plot_p_change_table['plot_v_origin'], plot_p_change_table['plot_y'], c = plot_p_change_table['plot_marker_color'])
+        conflict_mask = plot_p_change_table['conflict']
+        axes.scatter(plot_p_change_table['plot_v_origin'][~conflict_mask], plot_p_change_table['plot_y'][~conflict_mask], 
+                     c = plot_p_change_table['plot_marker_color'][~conflict_mask], marker = scatter_marker_default)
+        axes.scatter(plot_p_change_table['plot_v_origin'][conflict_mask], plot_p_change_table['plot_y'][conflict_mask], 
+                     c = plot_p_change_table['plot_marker_color'][conflict_mask], marker = scatter_marker_conflict)
 
     axes.text(xlim_max, y_start + scatter_step / 2, "{0}: {1}".format(len(plot_category_table), plot_category), va = 'center')
     axes.hlines(y_start + scatter_step, axes.get_xlim()[0], axes.get_xlim()[1], color = 'black')
@@ -165,6 +168,6 @@ legend_handles = [Patch(color = scatter_colors[eval_module.plot_p_change_classes
 axes.legend(handles = legend_handles, ncol = len(eval_module.plot_p_change_classes) // 2)
 
 print("output graph:", output_filename)
-figure.savefig(output_filename, transparent = True)
+figure.savefig(output_filename)
 
 print(".")
