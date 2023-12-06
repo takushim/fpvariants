@@ -10,8 +10,8 @@ $clv_graph = ("{0}_clvgraph.{1}" -f $basename, $output_type)
 ../../clvprep.py -o $clv_variants -e $eval $clv_orig
 ../../mapvariants.py -o $clv_graph -e $eval -v $clv_variants ("{0}.gb" -f $basename)
 
-$dvd_orig = '../dvdorig/MYO3A.gvtable.9.csv'
-$dvd_variants = ("{0}_dvdvariants.csv" -f $basename)
-$dvd_graph = ("{0}_dvdgraph.{1}" -f $basename, $output_type)
+#$dvd_orig = '../dvdorig/MYO3A.gvtable.9.csv'
+#$dvd_variants = ("{0}_dvdvariants.csv" -f $basename)
+#$dvd_graph = ("{0}_dvdgraph.{1}" -f $basename, $output_type)
 #../../dvdprep.py -o $dvd_variants -e $eval $dvd_orig
 #../../mapvariants.py -o $dvd_graph -e $eval -v $dvd_variants ("{0}.gb" -f $basename)

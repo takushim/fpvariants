@@ -162,11 +162,12 @@ for c_index, plot_category in enumerate(eval_module.plot_category_classes):
     axes.text(xlim_max, y_start + scatter_step / 2, "{0}: {1}".format(len(plot_category_table), plot_category), va = 'center')
     axes.hlines(y_start + scatter_step, axes.get_xlim()[0], axes.get_xlim()[1], color = 'black')
 
-# dummy drawing to generate the legend
+# legend
 legend_handles = [Patch(color = scatter_colors[eval_module.plot_p_change_classes.index(p_change)], label = p_change)
                   for p_change in eval_module.plot_p_change_classes]
 axes.legend(handles = legend_handles, ncol = len(eval_module.plot_p_change_classes) // 2)
 
+# output graph
 print("output graph:", output_filename)
 figure.savefig(output_filename)
 

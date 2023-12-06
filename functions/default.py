@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-import pandas as pd
-
 ### members for pre-processing
 # evaluate phenotype
 condition_classes = ['usher', 'dominant', 'recessive', 'noncat', 'systemic', 'other', 'noinfo']
@@ -16,12 +14,16 @@ count_condition_dvd = count_condition_clinvar
 
 def identify_condition_class (condition):
     condition = condition.lower()
-    if condition.startswith('not provided'):
+    if condition.startswith('not provided') or condition.startswith('not specified'):
+        return 'noinfo'
+    elif condition == '\\n':
         return 'noinfo'
     elif 'usher' in condition:
         return 'usher'
     elif any(x in condition for x in ['deafness', 'hearing']):
-        if 'retinitis' in condition:
+        if 'retinitis pigmentosa' in condition:
+            return 'usher'
+        elif 'retinal dystrophy' in condition:
             return 'usher'
         elif 'dominant' in condition:
             return 'dominant'
@@ -30,7 +32,8 @@ def identify_condition_class (condition):
         else:
             return 'noncat'
     else:
-        return 'others'
+        print('classified as other:', condition)
+        return 'other'
 
 conflict_lookup = [x for x in condition_classes if x != 'noinfo']
 
