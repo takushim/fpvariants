@@ -3,12 +3,15 @@
 import sys, re, argparse
 import pandas as pd
 from pathlib import Path
+from importlib import import_module
 
 # default values
 input_filename = None
 output_filename = None
 output_suffix = "_prep.csv"
 refseq_pattern = None
+eval_module_package = "functions"
+eval_module_name = "default"
 
 # parse arguments
 parser = argparse.ArgumentParser(description='preprocess a deafness gene variant file', \
@@ -17,6 +20,8 @@ parser.add_argument('-o', '--output-file', default = output_filename, \
                     help='output filename ([basename]{0} if not specified)'.format(output_suffix))
 parser.add_argument('-r', '--refseq-pattern', default = refseq_pattern, \
                     help='pattern for refseq (regex allowed)')
+parser.add_argument('-e', '--eval-module', default = eval_module_name, \
+                    help='module containing evaluation methods ({0} if not specified)'.format(eval_module_name))
 parser.add_argument('input_file', default = input_filename, \
                     help='input GenBank file. Needs to include exon information.')
 args = parser.parse_args()
@@ -30,6 +35,7 @@ def set_default_filename (filename, suffix):
 input_filename = args.input_file
 output_filename = set_default_filename(args.output_file, output_suffix)
 refseq_pattern = args.refseq_pattern
+eval_module_name = args.eval_module
 
 # load a clinvar table
 print("loading a variant table:", input_filename)
@@ -95,6 +101,15 @@ variant_table['pathogenicity'] = variant_table['final_pathogenicity']
 
 # conditions
 variant_table['conditions'] = variant_table['final_disease']
+
+# classify phenotype and variants
+print("evaluation module:", eval_module_name)
+eval_module = import_module(eval_module_package + "." + eval_module_name)
+for condition_class in eval_module.condition_classes:
+    variant_table[condition_class] = variant_table.apply(lambda row: eval_module.count_condition_dvd(condition_class, row['conditions']), axis = 1)
+
+print("checking conflicting conditions")
+variant_table['conflict'] = variant_table.apply(lambda row: eval_module.is_conflict(row), axis = 1)
 
 # refseq
 if refseq_pattern is not None:

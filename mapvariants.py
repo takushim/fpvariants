@@ -23,15 +23,31 @@ eval_module_package = "functions"
 eval_module_name = "default"
 
 # graph parameters
-band_step = 0.05
-band_width = 0.04
+band_step = 0.04
+exon_width = 0.01
+domain_width = 0.03
+cds_width = 0.004
 exon_colors = ['black', 'gray']
-cds_colors = ['lightskyblue', 'green'] # the second one will not be used.
+cds_colors = ['black', 'blue'] # the second one will not be used.
 domain_colors = ['pink', 'lightgreen']
-
 scatter_step = 0.1
 scatter_delta = 0.005
 scatter_colors = list(mcolors.TABLEAU_COLORS)
+
+# canvas settings
+plt.rcParams['figure.figsize'] = (3, 2)
+plt.rcParams['figure.dpi'] = 300
+plt.rcParams['font.size'] = 6
+plt.rcParams['axes.linewidth'] = 0.05
+plt.rcParams['axes.spines.left'] = False
+plt.rcParams['axes.spines.right'] = False
+plt.rcParams['axes.spines.top'] = False
+plt.rcParams['lines.linewidth'] = 0.05
+plt.rcParams['lines.markersize'] = 0.5
+plt.rcParams['scatter.marker'] = 'o'
+plt.rcParams['legend.frameon'] = False
+plt.rcParams['legend.fontsize'] = 4
+plt.rcParams['legend.loc'] = 'upper right'
 
 # parse arguments
 parser = argparse.ArgumentParser(description='Map variants on a coding sequence', \
@@ -72,38 +88,31 @@ cds_offset = cdss[0].location.start
 print("cds offset:", cds_offset)
 
 # prepare a canvas.
-figure = plt.figure(figsize = (6, 4), dpi = 300)
+figure = plt.figure()
 axes = figure.add_subplot(111)
-axes.spines['right'].set_visible(False)
-axes.spines['left'].set_visible(False)
-axes.spines['top'].set_visible(False)
-
 xlim_min = sequence_range[0] - 100
 xlim_max = len(seq_record.seq) + 100 if sequence_range[1] == 0 else sequence_range[1] + 100
 print("using xlim:", xlim_min, xlim_max)
 axes.set_xlim(xlim_min, xlim_max)
-
 axes.set_ylim(0, 1)
 axes.get_yaxis().set_ticks([])
 
 # drawing function
-def draw_bands (y_current, ranges, label, colors):
+def draw_bands (y_current, ranges, width, colors):
     for index, range in enumerate(ranges):
-        axes.add_artist(Rectangle((range[0], y_current + (band_step - band_width) / 2),
-                                  range[1] - range[0], band_width,
+        axes.add_artist(Rectangle((range[0], y_current + (band_step - width) / 2),
+                                  range[1] - range[0], width,
                                   color = colors[index % len(colors)]))
-    axes.text(xlim_max + 10, y_current + band_width / 2, label, va = 'center', size = 'xx-small')
 
 # start drawing from y = 0
 y_current = 0
 
 # draw exons
-draw_bands(y_current, [(exon.location.start + 1, exon.location.end + 1) for exon in exons], 'exons', exon_colors)
+draw_bands(y_current, [(exon.location.start + 1, exon.location.end + 1) for exon in exons], exon_width, exon_colors)
 y_current = y_current + band_step
 
 # draw CDS(s)
-draw_bands(y_current, [(cds.location.start + 1, cds.location.end + 1) for cds in cdss], 'cds', cds_colors)
-y_current = y_current + band_step
+draw_bands(y_current, [(cds.location.start + 1, cds.location.end + 1) for cds in cdss], cds_width, cds_colors)
 
 # draw domain
 print("loading domains:", domain_filename)
@@ -112,8 +121,9 @@ domain_table = domain_table.apply(lambda x: x.str.strip() if x.dtype == 'object'
 print(domain_table[[0, 1]])
 
 domains = domain_table[1].to_list()
-draw_bands(y_current, [(int(domain.partition('..')[0].replace(",","")), int(domain.partition('..')[2].replace(",",""))) 
-                       for domain in domains], 'domains', domain_colors)
+draw_bands(y_current,
+           [(int(domain.partition('..')[0].replace(",","")), int(domain.partition('..')[2].replace(",",""))) for domain in domains],
+           domain_width, domain_colors)
 y_current = y_current + band_step
 
 # load pathogenic variants and drop duplicated variants
@@ -126,37 +136,35 @@ print("evaluation module:", eval_module_name)
 eval_module = import_module(eval_module_package + "." + eval_module_name)
 
 # classify protein changes and diseases
-variant_table['plot_p_change_class'] = variant_table.apply(lambda row: eval_module.classify_p_change(row['p_change_class']), axis = 1)
-variant_table['plot_condition'] = variant_table.apply(lambda row: eval_module.classify_condition(row['conditions']), axis = 1)
+variant_table['plot_p_change_class'] = variant_table.apply(lambda row: eval_module.identify_plot_p_change_class(row['p_change_class']), axis = 1)
+variant_table['plot_marker_color'] = variant_table.apply(lambda row: scatter_colors[eval_module.plot_p_change_classes.index(row['plot_p_change_class'])], axis = 1)
 
 # plot data
-for c_index, category in enumerate(eval_module.category_classes):
-    matches = variant_table.apply(lambda row: eval_module.match_category(row['plot_condition'], category), axis = 1)
-    category_table = variant_table[matches]
-    
+for c_index, plot_category in enumerate(eval_module.plot_category_classes):
+    plot_category_table = variant_table[variant_table.apply(lambda row: eval_module.is_condition_to_plot(plot_category, row), axis = 1)]
     y_start = y_current + scatter_step * c_index
 
-    axes.hlines(y_start, axes.get_xlim()[0], axes.get_xlim()[1], color = 'black', linewidth = 0.1)
-    axes.text(xlim_max, y_start + scatter_step / 2,
-             "{0} ({1})".format(category, len(category_table)), va = 'center', size = 'xx-small')
+    for plot_step in range(max(eval_module.plot_p_change_steps) + 1):
+        plot_p_change_classes = [c for c, s in zip(eval_module.plot_p_change_classes, eval_module.plot_p_change_steps) if s == plot_step]
+        print(plot_step, plot_p_change_classes)
 
-    for p_change_step, p_change_class in zip(eval_module.p_change_steps, eval_module.p_change_classes):
-        plot_table = category_table[category_table['plot_p_change_class'] == p_change_class].copy()
+        plot_p_change_table = plot_category_table[plot_category_table['plot_p_change_class'].isin(plot_p_change_classes)].copy()
 
-        plot_table['plot_p_change_cum'] = plot_table.groupby('plot_v_origin').cumcount()
-        plot_table['plot_y'] = y_start + p_change_step * scatter_step / (max(eval_module.p_change_steps) + 1) \
-                               + scatter_delta * plot_table['plot_p_change_cum']
+        plot_p_change_table['plot_p_change_cum'] = plot_p_change_table.groupby('plot_v_origin').cumcount()
+        plot_p_change_table['plot_y'] = y_start + plot_step * scatter_step / (max(eval_module.plot_p_change_steps) + 1) \
+                                      + scatter_delta * plot_p_change_table['plot_p_change_cum']
 
-        axes.scatter(plot_table['plot_v_origin'], plot_table['plot_y'],
-                     c = scatter_colors[eval_module.p_change_classes.index(p_change_class)],
-                     marker = 'o', s = 4)
+        axes.scatter(plot_p_change_table['plot_v_origin'], plot_p_change_table['plot_y'], c = plot_p_change_table['plot_marker_color'])
+
+    axes.text(xlim_max, y_start + scatter_step / 2, "{0}: {1}".format(len(plot_category_table), plot_category), va = 'center')
+    axes.hlines(y_start + scatter_step, axes.get_xlim()[0], axes.get_xlim()[1], color = 'black')
 
 # dummy drawing to generate the legend
-legend_handles = [Patch(color = scatter_colors[eval_module.p_change_classes.index(p_change)], label = p_change)
-                  for p_change in eval_module.p_change_classes]
-axes.legend(handles = legend_handles, ncol = len(eval_module.p_change_classes) // 2)
+legend_handles = [Patch(color = scatter_colors[eval_module.plot_p_change_classes.index(p_change)], label = p_change)
+                  for p_change in eval_module.plot_p_change_classes]
+axes.legend(handles = legend_handles, ncol = len(eval_module.plot_p_change_classes) // 2)
 
 print("output graph:", output_filename)
-figure.savefig(output_filename)
+figure.savefig(output_filename, transparent = True)
 
 print(".")
