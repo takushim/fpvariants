@@ -106,7 +106,7 @@ variant_table['conditions'] = variant_table['final_disease']
 print("evaluation module:", eval_module_name)
 eval_module = import_module(eval_module_package + "." + eval_module_name)
 for condition_class in eval_module.condition_classes:
-    variant_table[condition_class] = variant_table.apply(lambda row: eval_module.count_condition_dvd(condition_class, row['conditions']), axis = 1)
+    variant_table[condition_class] = variant_table.apply(lambda row: eval_module.count_condition(condition_class, row['conditions']), axis = 1)
 
 print("checking conflicting conditions")
 variant_table['conflict'] = variant_table.apply(lambda row: eval_module.is_conflict(row), axis = 1)
