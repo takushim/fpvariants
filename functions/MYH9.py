@@ -3,8 +3,8 @@
 from .default import *
 
 #plot_category_classes = ['dominant', 'recessive', 'noncat']
-condition_classes = ['usher', 'dominant', 'recessive', 'noncat', 'eye', 'platelet', 'systemic', 'other', 'noinfo']
-plot_category_classes = condition_classes
+condition_classes = ['usher', 'dominant', 'recessive', 'noncat', 'eye', 'systemic', 'other', 'noinfo']
+plot_category_classes = ['dominant', 'recessive', 'noncat', 'systemic', 'other']
 
 def count_condition (condition_class, condition):
     condition = condition.lower()
@@ -32,7 +32,7 @@ def count_condition (condition_class, condition):
         elif any(x in condition for x in ['retinal', 'retinitis']):
             return 'eye'
         elif any(x in condition for x in ['thrombocytopenia', 'platelet', 'may-hegglin', 'epistaxis']):
-            return 'platelet'
+            return 'systemic'
         elif any(x in condition for x in ['facial', 'freckles', 'obesity']):
             return 'systemic'
         else:

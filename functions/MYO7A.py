@@ -2,7 +2,7 @@
 
 from .default import *
 
-plot_category_classes = ['usher', 'dominant', 'recessive', 'noncat', 'eye', 'systemic', 'other']
+plot_category_classes = ['usher', 'dominant', 'recessive', 'noncat', 'eye']
 
 condition_classes = ['usher', 'dominant', 'recessive', 'noncat', 'eye', 'systemic', 'other', 'noinfo']
 

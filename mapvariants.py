@@ -31,25 +31,32 @@ exon_colors = ['black', 'gray']
 cds_colors = ['black', 'blue'] # the second one will not be used.
 domain_colors = ['pink', 'lightgreen']
 scatter_step = 0.1
-scatter_delta = 0.005
+scatter_delta = 0.01
 scatter_colors = list(mcolors.TABLEAU_COLORS)
 scatter_marker_default = 'o'
 scatter_marker_conflict = 'X'
 
 # canvas settings
-plt.rcParams['figure.figsize'] = (3, 2)
+plt.rcParams['pdf.fonttype'] = 42
+#plt.rcParams["pdf.use14corefonts"] = True
+#plt.rcParams["ps.useafm"] = True
+plt.rcParams['svg.fonttype'] = 'none'
+plt.rcParams['figure.figsize'] = (4, 3)
 plt.rcParams['figure.dpi'] = 300
-plt.rcParams['font.size'] = 6
-plt.rcParams['axes.linewidth'] = 0.05
+plt.rcParams['font.size'] = 8
+plt.rcParams['font.sans-serif'] = 'Arial'
+plt.rcParams['axes.linewidth'] = 1
 plt.rcParams['axes.spines.left'] = False
 plt.rcParams['axes.spines.right'] = False
 plt.rcParams['axes.spines.top'] = False
-plt.rcParams['lines.linewidth'] = 0.02
-plt.rcParams['lines.markersize'] = 2
+plt.rcParams['lines.linewidth'] = 0.5
+plt.rcParams['lines.markersize'] = 3
 plt.rcParams['scatter.edgecolors'] = 'none'
 plt.rcParams['legend.frameon'] = False
-plt.rcParams['legend.fontsize'] = 4
+plt.rcParams['legend.fontsize'] = 8
 plt.rcParams['legend.loc'] = 'upper right'
+plt.rcParams['savefig.transparent'] = True
+plt.rcParams['figure.frameon'] = False
 
 # parse arguments
 parser = argparse.ArgumentParser(description='Map variants on a coding sequence', \
@@ -160,7 +167,7 @@ for c_index, plot_category in enumerate(eval_module.plot_category_classes):
                      c = plot_p_change_table['plot_marker_color'][conflict_mask], marker = scatter_marker_conflict)
 
     axes.text(xlim_max, y_start + scatter_step / 2, "{0}: {1}".format(len(plot_category_table), plot_category), va = 'center')
-    axes.hlines(y_start + scatter_step, axes.get_xlim()[0], axes.get_xlim()[1], color = 'black')
+    axes.hlines(y_start + scatter_step, axes.get_xlim()[0], axes.get_xlim()[1], color = 'black', linestyles = 'dashed')
 
 # legend
 legend_handles = [Patch(color = scatter_colors[eval_module.plot_p_change_classes.index(p_change)], label = p_change)
@@ -169,6 +176,9 @@ axes.legend(handles = legend_handles, ncol = len(eval_module.plot_p_change_class
 
 # output graph
 print("output graph:", output_filename)
+for o in figure.findobj():
+    o.set_clip_on(False)
+
 figure.savefig(output_filename)
 
 print(".")

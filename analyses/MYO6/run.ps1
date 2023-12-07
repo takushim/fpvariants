@@ -6,7 +6,7 @@ $clv_refseq = 'NM_004999'
 $clv_eval = 'MYO6'
 $clv_orig = '../clvorig/MYO6.txt'
 $clv_variants = ("{0}_clvvariants.csv" -f $clv_base)
-$clv_graph = ("{0}_clvgraph.png" -f $clv_base)
+$clv_graph = ("{0}_clvgraph.pdf" -f $clv_base)
 ../../clvprep.py -o $clv_variants -r $clv_refseq -e $clv_eval $clv_orig
 ../../mapvariants.py -o $clv_graph -e $clv_eval -v $clv_variants -s 0 4500 ("{0}.gb" -f $clv_base)
 

@@ -2,7 +2,7 @@
 
 $basename = 'MYO3A_NM_017433.5'
 $eval = 'MYO3A'
-$output_type = 'png'
+$output_type = 'pdf'
 
 $clv_orig = '../clvorig/MYO3A.txt'
 $clv_variants = ("{0}_clvvariants.csv" -f $basename)

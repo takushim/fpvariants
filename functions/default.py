@@ -4,7 +4,7 @@
 # evaluate phenotype
 condition_classes = ['usher', 'dominant', 'recessive', 'noncat', 'systemic', 'other', 'noinfo']
 
-def count_condition_clinvar (condition_class, condition):
+def count_condition (condition_class, condition):
     condition = condition.lower()
     items = [x.strip() for x in condition.split('|')]
 
@@ -33,7 +33,7 @@ def count_condition_clinvar (condition_class, condition):
 
     return sum([condition_class == identify_condition_class(item) for item in items])
 
-conflict_lookup = [x for x in condition_classes if x != 'noinfo']
+conflict_lookup = [x for x in condition_classes if x != 'noinfo' and x != 'other']
 
 def is_conflict (variant_row):
     return sum([variant_row[x] > 0 for x in conflict_lookup]) > 1
