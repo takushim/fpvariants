@@ -9,6 +9,7 @@ To rerun all procedures, install the following packages and run `run_all.ps1` af
 * `numpy`
 * `pandas`
 * `matplotlib`
+* `Biopython` (https://biopython.org/)
 
 This repository contains two python scripts:
 * `clcprep.py` - pre-processor for the csv files exported from [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/)
