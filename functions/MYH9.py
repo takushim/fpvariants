@@ -4,7 +4,7 @@ from .default import *
 
 #plot_category_classes = ['dominant', 'recessive', 'noncat']
 condition_classes = ['usher', 'dominant', 'recessive', 'noncat', 'eye', 'systemic', 'other', 'noinfo']
-plot_category_classes = ['dominant', 'recessive', 'noncat', 'systemic', 'other']
+plot_category_classes = ['dominant', 'recessive', 'noncat', 'systemic']
 
 def count_condition (condition_class, condition):
     condition = condition.lower()

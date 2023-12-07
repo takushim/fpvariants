@@ -7,7 +7,8 @@ from pathlib import Path
 from importlib import import_module
 from matplotlib import pyplot as plt
 from matplotlib import colors as mcolors
-from matplotlib.patches import Rectangle, Patch
+from matplotlib.lines import Line2D
+from matplotlib.patches import Rectangle
 from Bio import SeqIO
 
 # default values
@@ -185,7 +186,8 @@ draw_bands(y_current, [domain_range(x) for x in domain_table[1].to_list()], doma
 y_current = y_current + band_step
 
 # legend
-legend_handles = [Patch(color = scatter_colors[eval_module.plot_p_change_classes.index(p_change)], label = p_change, linewidth = 0)
+legend_handles = [Line2D([0], [0], color = scatter_colors[eval_module.plot_p_change_classes.index(p_change)],
+                         label = p_change, marker = 'o', linestyle = 'none', linewidth = 0)
                   for p_change in eval_module.plot_p_change_classes]
 axes.legend(handles = legend_handles, ncol = len(eval_module.plot_p_change_classes) // 2)
 
