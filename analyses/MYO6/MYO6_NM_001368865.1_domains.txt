@@ -1,6 +1,0 @@
-SH3-like	236..391  	156 	==	misc_feature
-Motor   	401..2545 	2145	==	misc_feature
-IQ      	2672..2734	63  	==	misc_feature
-THB     	2735..2980	246 	==	misc_feature
-SAH     	2981..3184	204 	==	misc_feature
-CBD     	3335..4018	684 	==	misc_feature
