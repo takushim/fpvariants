@@ -1,8 +1,8 @@
-Kinase                     	265..1065 
-Motor                      	1216..3363
-IQ1                        	3367..3456
-IQ2                        	3448..3537
-IQ3                        	4240..4329
-MORN4     	4405..4641
-THD1	4672..4914
-THD2                      	4987..5052
+Kinase                     	265..1065	XX	==	misc_feature	tab:olive
+Motor                      	1216..3363	XX	==	misc_feature	tab:green
+IQ1                        	3367..3456	XX	==	misc_feature	tab:blue
+IQ2                        	3448..3537	XX	==	misc_feature	tab:cyan
+IQ3                        	4240..4329	XX	==	misc_feature	tab:blue
+MORN4                      	4405..4641	XX	==	misc_feature	tab:pink
+THD1                       	4672..4914	XX	==	misc_feature	tab:purple
+THD2                      	4987..5052	XX	==	misc_feature	tab:pink

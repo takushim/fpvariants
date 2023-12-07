@@ -1,4 +1,4 @@
-SH3-like   	204..356  	153 	==	misc_feature
-Motor      	366..2576 	2211	==	misc_feature
-IQ         	2583..2672	90  	==	misc_feature
-Coiled-coil	2760..6017	3258	==	misc_feature
+SH3-like   	204..356  	XX	==	misc_feature	tab:olive
+Motor      	366..2576 	XX	==	misc_feature	tab:green
+IQ         	2583..2672	XX	==	misc_feature	tab:brownblue
+Coiled-coil	2760..6017	XX	==	misc_feature	tab:brown

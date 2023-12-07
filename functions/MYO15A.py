@@ -2,4 +2,5 @@
 
 from .default import *
 
-plot_category_classes = ['recessive', 'noncat', 'other']
+#plot_category_classes = ['recessive', 'noncat', 'other']
+plot_category_classes = ['recessive', 'noncat']
