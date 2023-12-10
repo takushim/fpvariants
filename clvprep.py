@@ -7,6 +7,7 @@ from importlib import import_module
 
 # default values
 input_filename = None
+addition_filename = None
 output_filename = None
 output_suffix = "_prep.csv"
 refseq_pattern = None
@@ -22,6 +23,8 @@ parser.add_argument('-r', '--refseq-pattern', default = refseq_pattern, \
                     help='pattern for refseq (regex allowed)')
 parser.add_argument('-e', '--eval-module', default = eval_module_name, \
                     help='module containing evaluation methods ({0} if not specified)'.format(eval_module_name))
+parser.add_argument('-a', '--addition-file', default = addition_filename, \
+                    help='a csv file to add variants (if any)')
 parser.add_argument('input_file', default = input_filename, \
                     help='input GenBank file. Needs to include exon information.')
 args = parser.parse_args()
@@ -36,10 +39,14 @@ input_filename = args.input_file
 output_filename = set_default_filename(args.output_file, output_suffix)
 refseq_pattern = args.refseq_pattern
 eval_module_name = args.eval_module
+addition_filename = args.addition_file
 
 # load a clinvar table
 print("loading a variant table:", input_filename)
 variant_table = pd.read_csv(input_filename, sep = '\t')
+if addition_filename is not None:
+    addition_table = pd.read_csv(addition_filename)
+    variant_table = pd.concat((variant_table, addition_table), ignore_index=True)
 variant_table = variant_table[variant_table['Name'].str.match('^NM_')]
 
 # decompose the name column

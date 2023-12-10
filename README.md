@@ -3,7 +3,7 @@
 This repository is prepared as a supplemental material of our [review article for Frontiers in Physiology](https://www.frontiersin.org/journals/physiology).
 
 ## Usage
-No additional procedures are necessary since all result files are output as pdf files in the `analyses` folder.
+No additional procedures are necessary since all result files are output as pdf files and saved with additional data in the `analyses` folder. For MYO3A, a csv file is placed to plot variants associated with the autosomal dominant hearing loss.
 
 To rerun all procedures, install the following packages and run `run_all.ps1` after entering the `analyses` folder. It is highly recommended to install these packages in [a virtual environment of python](https://docs.python.org/3/library/venv.html).
 * `numpy`

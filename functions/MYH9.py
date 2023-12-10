@@ -3,8 +3,8 @@
 from .default import *
 
 #plot_category_classes = ['dominant', 'recessive', 'noncat']
-condition_classes = ['usher', 'dominant', 'recessive', 'noncat', 'eye', 'systemic', 'other', 'noinfo']
-plot_category_classes = ['dominant', 'recessive', 'noncat', 'systemic']
+condition_classes = ['dominant', 'recessive', 'noncat', 'eye', 'platelet', 'facial', 'other', 'noinfo']
+plot_category_classes = ['dominant', 'recessive', 'noncat', 'platelet', 'facial']
 
 def count_condition (condition_class, condition):
     condition = condition.lower()
@@ -16,27 +16,24 @@ def count_condition (condition_class, condition):
             return 'noinfo'
         elif condition == '\\n':
             return 'noinfo'
-        elif 'usher' in condition:
-            return 'usher'
+        elif any(x in condition for x in ['thrombocytopenia', 'platelet', 'may-hegglin', 'epistaxis']):
+            return 'platelet'
+        elif any(x in condition for x in ['facial', 'freckles', 'obesity']):
+            return 'facial'
         elif any(x in condition for x in ['deafness', 'hearing']):
-            if 'retinitis pigmentosa' in condition:
-                return 'usher'
-            elif 'retinal dystrophy' in condition:
-                return 'usher'
-            elif 'dominant' in condition:
+            if 'dominant' in condition:
                 return 'dominant'
             elif 'recessive' in condition:
                 return 'recessive'
             else:
                 return 'noncat'
-        elif any(x in condition for x in ['retinal', 'retinitis']):
-            return 'eye'
-        elif any(x in condition for x in ['thrombocytopenia', 'platelet', 'may-hegglin', 'epistaxis']):
-            return 'systemic'
-        elif any(x in condition for x in ['facial', 'freckles', 'obesity']):
-            return 'systemic'
         else:
             print('classified as other:', condition)
             return 'other'
 
     return sum([condition_class == identify_condition_class(item) for item in items])
+
+conflict_lookup = [x for x in condition_classes if x != 'noinfo' and x != 'other']
+
+def is_conflict (variant_row):
+    return sum([variant_row[x] > 0 for x in conflict_lookup]) > 1

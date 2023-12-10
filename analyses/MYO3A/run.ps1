@@ -6,8 +6,9 @@ $output_type = 'pdf'
 
 $clv_orig = '../clvorig/MYO3A.txt'
 $clv_variants = ("{0}_clvvariants.csv" -f $basename)
+$add_variants = ("{0}_addition.csv" -f $basename)
 $clv_graph = ("{0}_clvgraph.{1}" -f $basename, $output_type)
-../../clvprep.py -o $clv_variants -e $eval $clv_orig
+../../clvprep.py -o $clv_variants -e $eval -a $add_variants $clv_orig
 ../../mapvariants.py -o $clv_graph -e $eval -v $clv_variants ("{0}.gb" -f $basename)
 
 #$dvd_orig = '../dvdorig/MYO3A.gvtable.9.csv'
