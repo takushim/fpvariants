@@ -50,19 +50,19 @@ if addition_filename is not None:
 variant_table = variant_table[variant_table['Name'].str.match('^NM_')]
 
 # decompose the name column
-pattern = re.compile('^(NM_[\d\.]+)\((\w+)\):(c\.[\S]+)\ ?(\((p.\w+)\))?')
+pattern = re.compile(r'^(NM_[\d\.]+)\((\w+)\):(c\.[\S]+)\ ?(\((p.\w+)\))?')
 variant_table['refseq'] = variant_table.apply(lambda row: re.match(pattern, row['Name']).group(1), axis = 1)
 variant_table['variant'] = variant_table.apply(lambda row: re.match(pattern, row['Name']).group(3), axis = 1)
 variant_table['p_change'] = variant_table.apply(lambda row: re.match(pattern, row['Name']).group(5), axis = 1)
 
 # identify the position against the refseq
-pattern = re.compile('^c\.(\-?[\d]+)')
+pattern = re.compile(r'^c\.(\-?[\d]+)')
 def decode_variant (variant):
     match = re.match(pattern, variant)
     if match is None:
-        match = re.match('^c\.(\*[\d]+)', variant)
+        match = re.match(r'^c\.(\*[\d]+)', variant)
     if match is None:
-        match = re.match('^c\.[\D]+([\d]+)', variant)
+        match = re.match(r'^c\.[\D]+([\d]+)', variant)
     if match is None:
         raise Exception('cannot decode:', variant)
     return match.group(1)
@@ -70,7 +70,7 @@ def decode_variant (variant):
 variant_table['v_origin'] = variant_table.apply(lambda row: decode_variant(row['variant']), axis = 1)
 
 # classify protein change
-pattern = re.compile('p\.[\w]{3}[\d]+[\w]{3}')
+pattern = re.compile(r'p\.[\w]{3}[\d]+[\w]{3}')
 def classify_protein_change (p_change):
     if p_change is None or p_change == '':
         return 'noncoding'
@@ -118,7 +118,7 @@ if refseq_pattern is not None:
     variant_table = variant_table[variant_table['refseq'].str.match(pattern)]
 
 print("used refseq:")
-print(pd.value_counts(variant_table['refseq']))
+print(variant_table['refseq'].value_counts())
 
 # output table
 print("output a preprocessed table:", output_filename)
