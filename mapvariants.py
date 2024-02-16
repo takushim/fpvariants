@@ -24,16 +24,17 @@ eval_module_package = "functions"
 eval_module_name = "default"
 
 # graph parameters
-band_step = 0.04
+band_step = 0.05
 exon_width = 0.025
-domain_width = 0.04
-cds_width = 0.04
+domain_width = 0.05
+cds_width = 0.05
 #cds_width = 0.005
 exon_colors = ['black', 'gray']
 cds_colors = ['gray', 'blue'] # the second one will not be used.
 domain_colors = ['pink', 'lightgreen'] # if not specified
-scatter_step = 0.1
-scatter_delta = 0.01
+scatter_step = 0.15
+scatter_delta = 0.008
+scatter_loop = 4
 scatter_colors = list(mcolors.TABLEAU_COLORS)
 scatter_marker_default = 'o'
 scatter_marker_conflict = 'X'
@@ -61,7 +62,7 @@ plt.rcParams['ytick.right'] = False
 plt.rcParams['ytick.labelleft'] = False
 plt.rcParams['ytick.labelright'] = False
 plt.rcParams['lines.linewidth'] = 0.5
-plt.rcParams['lines.markersize'] = 3
+plt.rcParams['lines.markersize'] = 2.5
 plt.rcParams['scatter.edgecolors'] = 'none'
 plt.rcParams['legend.frameon'] = False
 plt.rcParams['legend.fontsize'] = 8
@@ -119,7 +120,7 @@ if invert_yaxis:
 
 # load pathogenic variants and drop duplicated variants
 print("loading variants:", variant_filename)
-variant_table = pd.read_csv(variant_filename)
+variant_table = pd.read_csv(variant_filename).sort_values(by = 'v_origin').reset_index(drop = True)
 variant_table['plot_v_origin'] = variant_table['v_origin'] + cds_offset
 
 # classify phenotype and variants
@@ -150,8 +151,10 @@ for c_index, plot_category in enumerate(eval_module.plot_category_classes):
         plot_p_change_classes = [c for c, s in zip(eval_module.plot_p_change_classes, eval_module.plot_p_change_steps) if s == plot_step]
         plot_p_change_table = plot_category_table[plot_category_table['plot_p_change_class'].isin(plot_p_change_classes)].copy()
         plot_p_change_table['plot_p_change_cum'] = plot_p_change_table.groupby('plot_v_origin').cumcount()
+        plot_p_change_table['plot_p_change_delta'] = np.arange(0, len(plot_p_change_table)) % scatter_loop
         plot_p_change_table['plot_y'] = y_start + plot_step * scatter_step / (max(eval_module.plot_p_change_steps) + 1) \
-                                      + scatter_delta * plot_p_change_table['plot_p_change_cum']
+                                      + scatter_delta * plot_p_change_table['plot_p_change_delta']
+        #print(plot_p_change_table[['plot_v_origin', 'plot_y']])
 
         conflict_mask = plot_p_change_table['conflict']
         axes.scatter(plot_p_change_table['plot_v_origin'][~conflict_mask], plot_p_change_table['plot_y'][~conflict_mask], 
